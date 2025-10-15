@@ -86,6 +86,7 @@
                             </div>
                             <div class="mt-4">
                                 <select class="nice_select" name="service">
+                                    <option>Select Desire Service</option>
                                     <option value="ui">UI/UX Design</option>
                                     <option value="web">Web Development</option>
                                     <option value="app">App Development</option>
