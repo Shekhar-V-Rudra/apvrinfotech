@@ -89,13 +89,13 @@
                                         <li><a href='{{ url('/graphics') }}'>Graphics Design</a></li>
                                         <li><a href='{{ url('/web') }}'>Web Development</a></li>
                                         <li><a href='{{ url('/app') }}'>App Development</a></li>
-                                        <li><a href='#'>E-Commerce Solutions</a></li>
+                                        <li><a href='javascript:void(0)'>E-Commerce Solutions</a></li>
                                         <li><a href='{{ url('/digital') }}'>Digital Marketing</a></li>
-                                        <li><a href="#">AI & ML</a></li>
-                                        <li><a href="#">DevOps Services</a></li>
-                                        <li><a href="#">Cloud Computing</a></li>
-                                        <li><a href="#">Support & Maintenance</a></li>
-                                        <li><a href="#">Staff Augmentation</a></li>
+                                        <li><a href="javascript:void(0)">AI & ML</a></li>
+                                        <li><a href="javascript:void(0)">DevOps Services</a></li>
+                                        <li><a href="javascript:void(0)">Cloud Computing</a></li>
+                                        <li><a href="javascript:void(0)">Support & Maintenance</a></li>
+                                        <li><a href="javascript:void(0)">Staff Augmentation</a></li>
                                     </ul>
                                 </li>
                                 <li><a href='{{ url('/portfolio') }}'>Our Portfolio</a></li>
@@ -132,14 +132,14 @@
                     <li><a href='{{ url('/graphics') }}'>Graphics Design</a></li>
                     <li><a href='{{ url('/web') }}'>Web Development</a></li>
                     <li><a href='{{ url('/app') }}'>App Development</a></li>
-                    <li><a href='#'>E-Commerce Solutions</a></li>
+                    <li><a href='javascript:void(0)'>E-Commerce Solutions</a></li>
                     <li><a href='{{ url('/digital') }}'>Digital Marketing</a></li>
-                    <li><a href="#">AI & ML</a></li>
-                    <li><a href="#">DevOps Services</a></li>
-                    <li><a href="#">Cloud Computing</a></li>
-                    <li><a href="#">QA & Testing</a></li>
-                    <li><a href="#">Support & Maintenance</a></li>
-                    <li><a href="#">Staff Augmentation</a></li>
+                    <li><a href="javascript:void(0)">AI & ML</a></li>
+                    <li><a href="javascript:void(0)">DevOps Services</a></li>
+                    <li><a href="javascript:void(0)">Cloud Computing</a></li>
+                    <li><a href="javascript:void(0)">QA & Testing</a></li>
+                    <li><a href="javascript:void(0)">Support & Maintenance</a></li>
+                    <li><a href="javascript:void(0)">Staff Augmentation</a></li>
                 </ul>
             </li>
             <li><a href='{{ url('/portfolio') }}'>Our Portfolio</a></li>
@@ -191,14 +191,14 @@
                                 <li><a href='{{ url('/graphics') }}'>Graphics Design</a></li>
                                 <li><a href='{{ url('/web') }}'>Web Development</a></li>
                                 <li><a href='{{ url('/app') }}'>App Development</a></li>
-                                <li><a href='#'>E-Commerce Solutions</a></li>
+                                <li><a href='javascript:void(0)'>E-Commerce Solutions</a></li>
                                 <li><a href='{{ url('/digital') }}'>Digital Marketing</a></li>
-                                <li><a href="#">AI & ML</a></li>
-                                <li><a href="#">DevOps Services</a></li>
-                                <li><a href="#">Cloud Computing</a></li>
-                                <li><a href="#">QA & Testing</a></li>
-                                <li><a href="#">Support & Maintenance</a></li>
-                                <li><a href="#">Staff Augmentation</a></li>
+                                <li><a href="javascript:void(0)">AI & ML</a></li>
+                                <li><a href="javascript:void(0)">DevOps Services</a></li>
+                                <li><a href="javascript:void(0)">Cloud Computing</a></li>
+                                <li><a href="javascript:void(0)">QA & Testing</a></li>
+                                <li><a href="javascript:void(0)">Support & Maintenance</a></li>
+                                <li><a href="javascript:void(0)">Staff Augmentation</a></li>
                             </ul>
                         </div>
                     </div>
@@ -206,11 +206,11 @@
                         <div class="footer-widget nav-widget">
                             <h6 class="widget-title">Digital Products</h6>
                             <ul class="footer-links">
-                                <li><a href='#'>Cloud Whatsapp Solutions</a></li>
-                                <li><a href='#'>ERP Solutions</a></li>
-                                <li><a href='#'>CRM Solutions</a></li>
-                                <li><a href='#'>IVR Solutions</a></li>
-                                <li><a href='#'>E-Commerce Solutions</a></li>
+                                <li><a href='javascript:void(0)'>Cloud Whatsapp Solutions</a></li>
+                                <li><a href='javascript:void(0)'>ERP Solutions</a></li>
+                                <li><a href='javascript:void(0)'>CRM Solutions</a></li>
+                                <li><a href='javascript:void(0)'>IVR Solutions</a></li>
+                                <li><a href='javascript:void(0)'>E-Commerce Solutions</a></li>
                             </ul>
                         </div>
                     </div>
@@ -227,9 +227,9 @@
                     </div>
                     <div class="col-md-6">
                         <div class="copyright-links">
-                            <a href='#'>Privacy & Policy</a>
-                            <a href='#'>Terms & Services</a>
-                            <a href='#'>Refund Policy</a>
+                            <a href='javascript:void(0)'>Privacy & Policy</a>
+                            <a href='javascript:void(0)'>Terms & Services</a>
+                            <a href='javascript:void(0)'>Refund Policy</a>
                         </div>
                     </div>
                 </div>

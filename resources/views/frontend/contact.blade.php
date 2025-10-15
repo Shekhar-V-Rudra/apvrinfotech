@@ -24,7 +24,7 @@
 
     <div class="container">
         <h3 class="head02 mt-5 mb-5">Our Office Locations</h3>
-        <div class="row">
+        <div class="row justify-content-md-center">
             <div class="col-12 col-md-4 mb-3">
                 <div class="card carda01 mb-5">
                     <div class="d-flex flex-row justify-content-center">
