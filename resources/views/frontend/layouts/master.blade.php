@@ -80,7 +80,7 @@
                                     <a href='{{ url('/') }}'>Home</a>
                                 </li>
                                 <li>
-                                    <a href='{{ url('/apvr/about.html') }}'>About Us</a>
+                                    <a href='{{ url('/about') }}'>About Us</a>
                                 </li>
                                 <li class="has-submenu">
                                     <a href="javascript:void(0)">Services</a>
@@ -99,14 +99,14 @@
                                         <li><a href="#">Staff Augmentation</a></li>
                                     </ul>
                                 </li>
-                                <li><a href='{{ url('/apvr/projects.html') }}'>Our Portfolio</a></li>
-                                <li><a href='{{ url('/apvr/contact.html') }}'>Contact Us</a></li>
+                                <li><a href='{{ url('/portfolio') }}'>Our Portfolio</a></li>
+                                <li><a href='{{ url('/contact') }}'>Contact Us</a></li>
                             </ul>
                         </nav>
                     </div>
                     <div class="col-xl-3 col-lg-1 col-6">
                         <div class="text-end d-flex align-items-center justify-content-end header-right gap-3">
-                            <a class='template-btn primary-btn d-none d-sm-block d-lg-none d-xl-block text-center' href='{{ url('/apvr/contact.html') }}'>Download Brochure</a>
+                            <a class='template-btn primary-btn d-none d-sm-block d-lg-none d-xl-block text-center' href='{{ url('/brochure') }}'>Download Brochure</a>
                             <button type="button" class="header-toggle mobile-menu-toggle d-lg-none">
                                 <span></span>
                                 <span></span>
@@ -124,7 +124,7 @@
         <a href='{{ url('/') }}'><img src="assets/header-logo.webp" alt="logo" class="img-fluid logo368"></a>
         <ul class="mobile-nav-menu">
             <li><a href='{{ url('/') }}'>Home</a></li>
-            <li><a href='{{ url('/apvr/about.html') }}'>About Us</a></li>
+            <li><a href='{{ url('/about') }}'>About Us</a></li>
             <li class="has-submenu">
                 <a href="javascript:void(0)">Services</a>
                 <i class="fas fa-angle-down"></i>
@@ -143,8 +143,8 @@
                     <li><a href="#">Staff Augmentation</a></li>
                 </ul>
             </li>
-            <li><a href='{{ url('/apvr/projects.html') }}'>Our Portfolio</a></li>
-            <li><a href='{{ url('/apvr/contact.html') }}'>Contact Us</a></li>
+            <li><a href='{{ url('/portfolio') }}'>Our Portfolio</a></li>
+            <li><a href='{{ url('/contact') }}'>Contact Us</a></li>
         </ul>
     </div>
 
@@ -179,7 +179,7 @@
                             <h6 class="widget-title">Quick Links</h6>
                             <ul class="footer-links">
                                 <li><a href='{{ url('/') }}'>Home</a></li>
-                                <li><a href='{{ url('/apvr/about.html') }}'>About Us</a></li>
+                                <li><a href='{{ url('/about') }}'>About Us</a></li>
                                 <li><a href='{{ url('/apvr/contact.html') }}'>Contact Us</a></li>
                             </ul>
                         </div>

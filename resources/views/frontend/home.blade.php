@@ -35,6 +35,905 @@
             </div>
         </div>
     </section>
+
+    <section class="cr2-brand-n-service bg-light-white pt-100 position-relative z-1 overflow-hidden">
+        <span class="circle-shape-1 rounded-circle position-absolute z--1"></span>
+        <span class="circle-shape-2 rounded-circle position-absolute z--1"></span>
+        <div class="cr2-brand-section pb-100">
+            <div class="container">
+                <h2 class="mb-5 mt-4 wow fadeInUp" style="text-align: center !important;">We <span class="primary-bg-light primary-text-color px-2">Work All </span> Technology</h2>
+                <div class="cr2-brand-slider">
+                    <div class="brand-image">
+                        <img src="html.png"  class="img-fluid">
+                    </div>
+                    <div class="brand-image">
+                        <img src="css.png" alt="not found" class="img-fluid">
+                    </div>
+                    <div class="brand-image">
+                        <img src="js.png" alt="not found" class="img-fluid">
+                    </div>
+                    <div class="brand-image">
+                        <img src="04.png" alt="not found" class="img-fluid">
+                    </div>
+                    <div class="brand-image">
+                        <img src="php.png" alt="not found" class="img-fluid">
+                    </div>
+                    <div class="brand-image">
+                        <img src="python.png" alt="not found" class="img-fluid">
+                    </div>
+                    <div class="brand-image">
+                        <img src="django.png" alt="not found" class="img-fluid">
+                    </div>
+                    <div class="brand-image">
+                        <img src="shopify.png" alt="not found" class="img-fluid">
+                    </div>
+                    <div class="brand-image">
+                        <img src="next.png" alt="not found" class="img-fluid">
+                    </div>
+                    <div class="brand-image">
+                        <img src="laravel.png" alt="not found" class="img-fluid">
+                    </div>
+                    <div class="brand-image">
+                        <img src="node.png" alt="not found" class="img-fluid">
+                    </div>
+                    <div class="brand-image">
+                        <img src="word.png" alt="not found" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hm2-service-section pb-100 overflow-hidden">
+            <div class="container pt-100 position-relative z-1">
+                <img src="assets/images/shapes/net-vector.png" class="position-absolute net-vector top-0 end-0 z--1" alt="vector">
+                <div class="row justify-content-center">
+                    <div class="col-xl-5">
+                        <div class="text-center">
+                             
+                            <h2 class="mb-0 mt-4 wow fadeInUp">Our Service <span class="primary-bg-light primary-text-color px-2">Area</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="hm2-service-slider slider-spacing mt-60">
+                    <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/ui.png" alt="icon" class="img-fluid">
+                        </span>
+                        <h6 class="mt-32">UI / UX Design</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                            We provide customized and modernized website solutions that are tailored and designed for your services and products, to suit your needs and fulfil organizational objectives.
+                        </p>
+                        <a class='explore-btn' href='ui.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
+                    <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/web.png" alt="icon" class="img-fluid">
+                        </span>
+                        <h6 class="mt-32">Web Development</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                            With over a decade in providing reliable web Development services, you can trust us to build a comprehensive web solution your business and we offer web application Development services.
+                        </p>
+                        <a class='explore-btn' href='web.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
+
+
+                    <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/app.png" alt="icon" class="img-fluid">
+                        </span>
+                        <h6 class="mt-32">App Development</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                            Be it native or hybrid platform, we are a mobile app Development company that offers a complete cycle of mobile app design, integration, and Development services.
+                        </p>
+                        <a class='explore-btn' href='app.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
+
+
+                    <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/mlm.png" alt="icon" class="img-fluid">
+                        </span>
+                        <h6 class="mt-32">AI & ML</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                            Unlock unlimited earning potential through our innovative multilevel marketing platform, where you can build your own business while promoting high-quality products.
+                        </p>
+                        <a class='explore-btn' href='ai-ml.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
+
+
+                    <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/game.png" alt="icon" class="img-fluid">
+                        </span>
+                        <h6 class="mt-32">Staff Augmentation</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                            Transform your gaming vision into reality with our expert Staff Augmentation services, offering tailored solutions from concept to launch for captivating player experiences.
+                        </p>
+                        <a class='explore-btn' href='staff.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
+
+
+
+                    <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/graphic.png" alt="icon" class="img-fluid">
+                        </span>
+                        <h6 class="mt-32">Graphics Design</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                            Our adept team of graphic designers specializes in crafting innovative and high-performance websites, irrespective of complexity. With a keen eye for design and a commitment to excellence.
+                        </p>
+                        <a class='explore-btn' href='graphics.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/seo.png" alt="icon" class="img-fluid">
+                        </span>
+                        <h6 class="mt-32">SEO Optimization</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                            Supercharge your franchise marketing efforts with Apvr Infotech’s SEO services for multiple-location businesses. We publish geo-specific content, leverage Nextdoor advertising.
+                        </p>
+                        <a class='explore-btn' href='seo.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/digital.png" alt="icon" class="img-fluid">
+                        </span>
+                        <h6 class="mt-32">Digital Marketing</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                            Our team of experienced marketers understands the intricacies of social media algorithms and consumer behavior, allowing us to craft campaigns that resonate with your target audience.
+                        </p>
+                        <a class='explore-btn' href='digital.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
+
+
+                    <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/digital.png" alt="icon" class="img-fluid">
+                        </span>
+                        <h6 class="mt-32">Hosting Services</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                            Our company offers comprehensive server hosting solutions, delivering secure, reliable, and scalable infrastructure tailored to meet the diverse needs of businesses.
+                        </p>
+                        <a class='explore-btn' href='server.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/cloud.png" alt="icon" class="img-fluid">
+                        </span>
+                        <h6 class="mt-32">Cloud Whatsapp Solutions</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                            Ready to revolutionize your business communication with WhatsApp? We offer comprehensive WhatsApp solutions tailored to help your business thrive in the digital age.
+                        </p>
+                        <a class='explore-btn' href='cloud.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/erp.png" alt="icon" class="img-fluid">
+                        </span>
+                        <h6 class="mt-32">ERP Solutions</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                            Ready to optimize your business processes with ERP solutions? We offer comprehensive Enterprise Resource Planning (ERP) solutions tailored to meet the unique needs of your organization.
+                        </p>
+                        <a class='explore-btn' href='erp.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
+
+
+                    <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/crm.png" alt="icon" class="img-fluid">
+                        </span>
+                        <h6 class="mt-32">CRM Solutions</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                            We offer comprehensive Customer Relationship Management (CRM) solutions tailored to meet the unique needs of your organization. From managing leads and contacts.
+                        </p>
+                        <a class='explore-btn' href='crm.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/ivr.png" alt="icon" class="img-fluid">
+                        </span>
+                        <h6 class="mt-32">IVR Solutions</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                            Whether you operate in healthcare, finance, retail, or any other industry, our IVR solutions can help you reduce wait times, increase first-call resolution rates, and improve customer satisfaction.
+                        </p>
+                        <a class='explore-btn' href='ivr.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/ecom.png" alt="icon" class="img-fluid">
+                        </span>
+                        <h6 class="mt-32">E-Commerce Solutions</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                            With a focus on usability and performance, our ecommerce solutions are designed to deliver seamless shopping experiences across desktop and mobile devices. 
+                        </p>
+                        <a class='explore-btn' href='ecom.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="hm3-ticker-section position-relative overflow-hidden z-1 hm3-light-bg">
+        <span class="ticker-shape"></span>
+        <div class="ur-ticker-box overflow-hidden">
+            <div class="ur-ticker-wrapper primary-bg-color">
+                <div class="ur-ticker">
+                    <span class="text-white text-uppercase"><i class="fas fa-star me-2"></i>WHAT WE PROVIDE</span>
+                    <span class="text-white text-uppercase"><i class="fas fa-star me-2"></i>UI/UX DESIGN</span>
+                    <span class="text-white text-uppercase"><i class="fas fa-star me-2"></i>WEB Development</span>
+                    <span class="text-white text-uppercase"><i class="fas fa-star me-2"></i>APP Development</span>
+                    <span class="text-white text-uppercase"><i class="fas fa-star me-2"></i>AI & ML</span>
+                    <span class="text-white text-uppercase"><i class="fas fa-star me-2"></i>Staff Augmentation</span>
+                    <span class="text-white text-uppercase"><i class="fas fa-star me-2"></i>GRAPHICS DESIGN</span>
+                    <span class="text-white text-uppercase"><i class="fas fa-star me-2"></i>SEO OPTIMIZATION</span>
+                    <span class="text-white text-uppercase"><i class="fas fa-star me-2"></i>DIGITAL MARKETING</span>
+                    <span class="text-white text-uppercase"><i class="fas fa-star me-2"></i>Hosting Services</span>
+                    <span class="text-white text-uppercase"><i class="fas fa-star me-2"></i>CLOUD WHATSAPP SOLUTIONS</span>
+                    <span class="text-white text-uppercase"><i class="fas fa-star me-2"></i>ERP SOLUTIONS</span>
+                    <span class="text-white text-uppercase"><i class="fas fa-star me-2"></i>CRM SOLUTIONS</span>
+                    <span class="text-white text-uppercase"><i class="fas fa-star me-2"></i>IVR SOLUTIONS</span>
+                    <span class="text-white text-uppercase"><i class="fas fa-star me-2"></i>E-COMMERCE SOLUTIONS</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="hm2-cta-section bg-white ptb-100 overflow-hidden">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-xl-6">
+                    <div class="hm2-cta-content ps-xl-5">
+                        <div class="section-title">
+                            <span class="cr-subtitle position-relative primary-text-color fw-semibold">INDUSTRIES WE WORK FOR</span>
+                            <h2 class="mt-4 mb-60">Empowering <span class="primary-text-color primary-bg-light px-2">Businesses</span> Across Industries</h2>
+                        </div>
+                        <p class="mb-5 wow fadeInUp" data-wow-delay="0.3s">
+                           
+We create digital experiences that drive business success! We understand that every business is unique, and a one-size-fits-all approach doesn’t work in web development. Each project requires a customized strategy to meet specific goals and deliver real impact. Our skilled UI/UX designers and full-stack development team bring your ideas to life with precision and creativity.
+<br>
+As a trusted web development partner, we’ve helped numerous companies worldwide enhance their digital presence, boost growth, and delight their customers. From front-end to back-end, startups to enterprise-level solutions, we handle it all. Leverage our tailored web development services to create a powerful and engaging online presence for your business.
+                        </p>
+                       
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="hm2-cta-left position-relative z-1">
+                    
+                        <span class="circle-shape position-absolute z--1"></span>
+                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                            <div>
+                                <div class="book-container d-flex flex-column justify-content-center mb-3">
+                                    <div class="text-center">
+                                        <i class="fa-solid fa-people-group icon01 pt-3"></i>
+                                        <p class="service-name">Social <br> Networking</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div>
+                                <div class="book-container01 d-flex flex-column justify-content-center mb-3">
+                                    <div class="text-center">
+                                        <i class="fa-solid fa-bullhorn icon01 pt-3"></i>
+                                        <p class="service-name">Digital <br> Marketing</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div>
+                                <div class="book-container02 d-flex flex-column justify-content-center mb-3">
+                                    <div class="text-center">
+                                        <i class="fa-solid fa-shop icon01 pt-3"></i>
+                                        <p class="service-name">Ecommerce <br> Development</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="book-container03 d-flex flex-column justify-content-center mb-3">
+                                    <div class="text-center">
+                                        <i class="fa-solid fa-video icon01 pt-3"></i>
+                                        <p class="service-name">Video <br> Service</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                            <div>
+                                <div class="book-container04 d-flex flex-column justify-content-center mb-3">
+                                    <div class="text-center">
+                                        <i class="fa-solid fa-building-columns icon01 pt-3"></i>
+                                        <p class="service-name">Banking <br> Service</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div>
+                                <div class="book-container05 d-flex flex-column justify-content-center mb-3">
+                                    <div class="text-center">
+                                        <i class="fa-solid fa-building icon01 pt-3"></i>
+                                        <p class="service-name">Enterprise <br> Service</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div>
+                                <div class="book-container06 d-flex flex-column justify-content-center mb-3">
+                                    <div class="text-center">
+                                        <i class="fa-solid fa-school icon01 pt-3"></i>
+                                        <p class="service-name">Education <br> Service</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="book-container07 d-flex flex-column justify-content-center mb-3">
+                                    <div class="text-center">
+                                        <i class="fa-solid fa-route icon01 pt-3"></i>
+                                        <p class="service-name">Tour and <br> Travels</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div>
+                                <div class="book-container08 d-flex flex-column justify-content-center mb-3">
+                                    <div class="text-center">
+                                        <i class="fa-solid fa-notes-medical icon01 pt-3"></i>
+                                        <p class="service-name">Health <br> Service</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div>
+                                <div class="book-container09 d-flex flex-column justify-content-center mb-3">
+                                    <div class="text-center">
+                                        <i class="fa-solid fa-ticket icon01 pt-3"></i>
+                                        <p class="service-name">Event &  <br> Ticket</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div>
+                                <div class="book-container10 d-flex flex-column justify-content-center mb-3">
+                                    <div class="text-center">
+                                        <i class="fa-solid fa-utensils icon01 pt-3"></i>
+                                        <p class="service-name">Restaurant <br> Service</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="book-container11 d-flex flex-column justify-content-center mb-3">
+                                    <div class="text-center">
+                                        <i class="fa-solid fa-business-time icon01 pt-3"></i>
+                                        <p class="service-name">Busines <br> Consultant</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section class="cr-about-section ptb-100 overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="section-title">
+                        <span class="cr-subtitle position-relative primary-text-color fw-semibold">About Us</span>
+                        <h2 class="mt-4 mb-60">About  <span class="primary-text-color primary-bg-light px-2">Apvr Infotech</span></h2>
+                    </div>
+                </div>
+            </div>
+            <ul class="nav nav-tabs cr-about-tab-control">
+                <li><a href="#about" class="active" data-bs-toggle="tab">About Company</a></li>
+                <li><a href="#mission" data-bs-toggle="tab">Our Mission</a></li>
+                <li><a href="#vission" data-bs-toggle="tab">Our Vision</a></li>
+               
+            </ul>
+            <div class="tab-content mt-5">
+                <div class="tab-pane fade show active" id="about">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-xl-6">
+                            <div class="img-left">
+                                <img src="assets/images/home-2/ab-1.webp" alt="not found" class="img-fluid rounded-4">
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="tab-content-right mx-532">
+                                <span class="cr-subtitle position-relative primary-text-color fw-semibold">More About Our Company</span>
+                                <h3 class="mb-32 mt-4">Achieve Excellence with Our End-to-End 360° Solutions</h3>
+                                <p class="mb-5">
+                                    At Apvr Infotech, we believe in driving excellence through innovation and technology. With our end-to-end 360° solutions, we help businesses build a strong digital presence, streamline operations, and achieve sustainable growth. Our focus is on delivering value-driven results and long-term success for our clients.
+                                </p>
+                                <div class="d-flex align-items-center gap-4 flex-wrap flex-sm-nowrap">
+                                    <a class='template-btn primary-btn' href='about.html'>Lear More</a>
+                                    <a href="tel:+91 99099971138" class="phone-btn">
+                                        <span class="icon">
+                                            <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.4985 12.1221C14.0014 12.1774 13.6423 12.6469 13.6699 13.1717C13.7251 13.6689 14.1671 14.0556 14.7195 14.0004C15.2719 13.9451 15.8244 14.1109 16.2111 14.4975C16.6254 14.9119 16.7911 15.4643 16.7359 16.0167C16.6806 16.5692 17.0673 17.0111 17.5645 17.0663C17.8683 17.094 18.1446 16.9835 18.3379 16.7901C18.476 16.652 18.5865 16.431 18.6141 16.2377C18.7246 15.0776 18.3379 13.9727 17.5369 13.1717C16.7635 12.3983 15.6586 12.0116 14.4985 12.1221ZM14.1395 8.39323C13.587 8.44847 13.228 8.91803 13.2832 9.41522C13.3108 9.94003 13.7804 10.2991 14.3052 10.2715C16.0177 10.1058 17.6474 10.6858 18.8351 11.8735C19.9952 13.0336 20.6029 14.6909 20.4371 16.4034C20.3819 16.9006 20.741 17.3702 21.2658 17.3978C21.5696 17.4254 21.8182 17.3425 22.0116 17.1492C22.1773 16.9835 22.2601 16.7901 22.3154 16.5692C22.564 14.3318 21.7906 12.1221 20.1885 10.5201C18.5865 8.91803 16.4044 8.17226 14.1395 8.39323ZM13.7804 4.66435C13.2556 4.69197 12.8965 5.16153 12.9241 5.68634C12.9794 6.18352 13.4213 6.57022 13.9461 6.5426C16.7635 6.26638 19.5256 7.20551 21.5144 9.19425C23.4755 11.1554 24.4422 13.9451 24.166 16.7625C24.1384 17.2873 24.5251 17.7292 25.0223 17.7845C25.3261 17.8121 25.6023 17.7016 25.7957 17.5083C25.9338 17.3702 26.0167 17.1768 26.0443 16.9282C26.4033 13.586 25.2433 10.2715 22.8402 7.86842C20.4095 5.43774 17.1502 4.33289 13.7804 4.66435ZM10.6316 15.6024C10.9354 15.3538 11.0735 14.8842 10.9078 14.4975L9.49908 11.2659C9.33335 10.8239 8.83617 10.6029 8.42184 10.6858L5.3835 11.404C4.96918 11.4868 4.66534 11.9011 4.66534 12.3431C4.66534 19.9113 10.8249 26.0709 18.3932 26.0709C18.8351 26.0709 19.2494 25.7671 19.3323 25.3527L20.0504 22.3144C20.1333 21.9001 19.9123 21.4029 19.4704 21.2372L16.2387 19.8285C15.852 19.6627 15.3824 19.8008 15.1338 20.1047L13.808 21.7067C11.7088 20.7124 10.0239 19.0275 9.02951 16.9282L10.6316 15.6024Z" fill="#1F1F1F"/>
+                                            </svg>
+                                        </span>
+                                        <div>
+                                            <h5 class="mb-1 fw-semibold fs-20">+91 99099971138</h5>
+                                            <span>For Any Question</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="d-flex align-items-center cr-tab-counter mt-40 flex-wrap flex-sm-nowrap">
+                                    <div class="cr-tab-counter-single">
+                                        <h3 class="fw-semibold primary-text-color mb-0"><span class="counter">6</span><span>+</span></h3>
+                                        <h6 class="fw-medium mb-0 fs-20">Years on the market</h6>    
+                                    </div>
+                                    <div class="cr-tab-counter-single">
+                                        <h3 class="fw-semibold primary-text-color mb-0"><span class="counter">150</span><span>+</span></h3>
+                                        <h6 class="fw-medium mb-0 fs-20">Projects delivered so far</h6>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="mission">
+                    <div class="row g-5">
+                        <div class="col-xl-6">
+                            <div class="img-left">
+                                <img src="assets/images/home-2/ab-01.webp" alt="not found" class="img-fluid rounded-4">
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="tab-content-right mx-532">
+                                <span class="cr-subtitle position-relative primary-text-color fw-semibold">Our Mission</span>
+                                <h3 class="mb-32 mt-4">Empowering Growth Through Innovation</h3>
+                                <p class="mb-5">
+                                    Our mission is to deliver innovative and reliable solutions that address real-world challenges while creating long-term value. By combining creativity, technology, and strategic insight, the focus is on helping businesses grow, adapt, and succeed in a rapidly evolving digital era.
+                                </p>
+                                <div class="d-flex align-items-center gap-4 flex-wrap flex-sm-nowrap">
+                                    <a class='template-btn primary-btn' href='about.html'>More About Us</a>
+                                   
+                                </div>
+                                <div class="d-flex align-items-center cr-tab-counter mt-40 flex-wrap flex-sm-nowrap">
+                                    <div class="cr-tab-counter-single">
+                                        <h3 class="fw-semibold primary-text-color mb-0"><span class="counter">500</span><span>+</span></h3>
+                                        <h6 class="fw-medium mb-0 fs-20">Active Clients</h6>    
+                                    </div>
+                                    <div class="cr-tab-counter-single">
+                                        <h3 class="fw-semibold primary-text-color mb-0"><span class="counter">25</span><span>+</span></h3>
+                                        <h6 class="fw-medium mb-0 fs-20">Team Members</h6>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="vission">
+                    <div class="row g-5">
+                        <div class="col-xl-6">
+                            <div class="img-left">
+                                <img src="assets/images/home-2/ab-02.webp" alt="not found" class="img-fluid rounded-4">
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="tab-content-right mx-532">
+                                <span class="cr-subtitle position-relative primary-text-color fw-semibold">Our Vision</span>
+                                <h3 class="mb-32 mt-4">Inspiring Growth Through Vision</h3>
+                                <p class="mb-5">
+                                    We are committed to foresight, innovation, and purposeful action. Our aim is to empower individuals and organizations to reach their full potential by anticipating change, embracing new opportunities, and shaping strategies that drive sustainable growth. With clarity of purpose and a forward-thinking mindset, we strive to create impactful solutions that inspire progress today and build a better tomorrow.
+                                </p>
+                                
+                                <div class="d-flex align-items-center cr-tab-counter mt-40 flex-wrap flex-sm-nowrap">
+                                    <div class="cr-tab-counter-single">
+                                        <h3 class="fw-semibold primary-text-color mb-0"><span class="counter">90</span><span>%</span></h3>
+                                        <h6 class="fw-medium mb-0 fs-20">Customer Satisfaction Rate</h6>    
+                                    </div>
+                                    <div class="cr-tab-counter-single">
+                                        <h3 class="fw-semibold primary-text-color mb-0"><span class="counter">92</span><span>%</span></h3>
+                                        <h6 class="fw-medium mb-0 fs-20">Employee Satisfaction Rate</h6>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    
+
+    
+    <section class="hm2-cta-section bg-white ptb-100 overflow-hidden">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-xl-6">
+                    <div class="hm2-cta-left position-relative z-1">
+                        <img src="assets/images/home-2/double-image.png" alt="double image" class="img-fluid d-xl-none">
+                        <span class="circle-shape position-absolute z--1"></span>
+                        <img src="assets/images/home-2/cta-1.webp" alt="not found" class="img-fluid cta-1 wow fadeInLeft">
+                        
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="hm2-cta-content ps-xl-5">
+                        
+                        <h2 class="mt-32 mb-40 wow fadeInUp" data-wow-delay="0.2s">We create <br> exceptional  <span class="primary-bg-light primary-text-color px-2">customer</span> experiences</h2>
+                        <p class="mb-5 wow fadeInUp" data-wow-delay="0.3s">
+                            We focus on designing remarkable customer experiences by combining cutting-edge technology with a personalized approach. Our skilled team ensures every interaction is smooth, meaningful, and impactful, leaving a lasting impression. By prioritizing satisfaction and loyalty, we help businesses connect better with their customers and achieve sustained growth.
+                        </p>
+                        <div class="d-flex align-items-center gap-3 gap-sm-4 flex-wrap">
+                            <a class='template-btn outline-secondary wow fadeInUp' data-wow-delay='0.5s' href='contact.html'>Get Started <span class="ms-2"><i class="fas fa-arrow-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="hm2-video-section pb-100">
+        <div class="container">
+            <div class="hm2-video-box d-flex align-items-center justify-content-between theme-shadow position-relative z-1 overflow-hidden gap-5 flex-wrap">
+                <img src="assets/images/shapes/curve-shape.png" alt="curve shape" class="position-absolute curve-shape z--1">
+                <div class="content-left d-flex align-items-center gap-4 flex-wrap flex-md-nowrap">
+                    
+                    <div>
+                        <h3 class="mb-2">Have a Project in Mind?</h3>
+                        <p class="mb-0 lead">Have a project idea? Let's make it happen together! Reach out to us today.</p>
+                    </div>
+                </div>
+                <a class='template-btn primary-btn' href='appointment.html'>Make an Appointment</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class=" overflow-hidden">
+        
+        
+        <div class="cr-service-section pt-100">
+            <div class="container-1660">
+                <div class="cr-service-box bg-white rounded-top position-relative z-1">
+                    <div class="row">
+                        <div class="col-xl-6 align-self-end order-2 order-xl-1">
+                            <div class="position-relative z-1">
+                                <img src="assets/images/home-2/girl.png" alt="girl" class="img-fluid">
+                                <img src="assets/images/shapes/cr-shape.png" alt="shape-image" class="position-absolute start-50 bottom-0 translate-middle-x z--1 img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 order-1 order-xl-2">
+                            <div class="cr-content-right ps-xl-4">
+                                <span class="cr-subtitle position-relative fw-semibold primary-text-color wow fadeInUp">Our Team Mates</span>
+                                <h2 class="mt-4 mb-32 wow fadeInUp" data-wow-delay="0.1s">Our Team Delivers Excellent <span class="primary-bg-light primary-text-color">Service</span></h2>
+                                <p class="mb-5 wow fadeInUp" data-wow-delay="0.3s">
+                                    Our team is focused on delivering top-quality service with every interaction. By understanding and exceeding customer expectations, we create meaningful experiences that foster trust and long-term loyalty. With expertise, dedication, and a passion for excellence, we aim to set the benchmark for outstanding service delivery.
+                                </p>
+                                <div class="cr-icon-box d-flex gap-3 flex-wrap flex-sm-nowrap wow fadeInUp" data-wow-delay="0.1s">
+                                    <span class="icon-wrapper d-inline-flex align-items-center justify-content-center primary-text-color rounded-circle flex-shrink-0">
+                                        <i class="fa-solid fa-book-open"></i>
+                                    </span>
+                                    <div>
+                                        <h6 class="mb-3">Innovation & Development</h6>
+                                        <p class="mb-0">
+                                            Creating innovative solutions through research and development.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="cr-icon-box d-flex gap-3 flex-wrap flex-sm-nowrap mt-32 wow fadeInUp" data-wow-delay="0.2s">
+                                    <span class="icon-wrapper d-inline-flex align-items-center justify-content-center primary-text-color rounded-circle flex-shrink-0">
+                                        <i class="fa-solid fa-people-group"></i>
+                                    </span>
+                                    <div>
+                                        <h6 class="mb-3">Expert Team Members</h6>
+                                        <p class="mb-0">
+                                            Delivering excellence with skilled and dedicated teammates.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>      
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+    <section class="dreamer-section ptb-100 overflow-hidden">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-8">
+                    <div class="text-center mb-5">
+                       
+                        <h2 class="mt-4 wow fadeInUp" data-wow-delay="0.2s">An original team of creators designers & <span class="primary-text-color primary-bg-light px-2">dreamers.</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center g-4">
+                <div class="col-xl-4 col-md-6">
+                    <div class="cr-counter-column text-center primary wow fadeInUp">
+                        <span class="icon-wrapper d-inline-flex align-items-center justify-content-center">
+                            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M54 32.9999V30.9999C54.552 30.9999 55 30.5523 55 29.9999V24C55 23.4476 54.552 23 54 23H48.6L48.4062 22.2488C47.9641 20.5308 47.2773 18.8851 46.366 17.3629L45.966 16.6937L49.8 12.8531C50.1859 12.4664 50.1859 11.8398 49.8 11.4531L45.5531 7.19998C45.1609 6.82616 44.5449 6.82616 44.1527 7.19998L40.3117 11.041L39.643 10.641C38.1184 9.72928 36.4711 9.04256 34.7508 8.59998L34 8.40467V2.99999C34 2.44765 33.5523 2 33 2H27C26.4477 2 26 2.44765 26 2.99999V8.39998L25.2488 8.59412C23.5309 9.03592 21.8852 9.72264 20.3621 10.6328L19.693 11.0332L15.8531 7.19998C15.4605 6.82303 14.8406 6.82303 14.448 7.19998L10.2 11.4469C10.0133 11.6332 9.9082 11.8863 9.9082 12.15C9.9082 12.414 10.0133 12.6668 10.2 12.8531L14.041 16.6937L13.641 17.3629C12.7301 18.8851 12.043 20.5308 11.6012 22.2488L11.4051 23H6C5.44766 23 5 23.4476 5 24V29.9999C5 30.5523 5.44766 30.9999 6 30.9999V32.9999C4.34336 32.9999 3 31.6566 3 29.9999V24C3 22.3433 4.34336 21 6 21H9.86914C10.2816 19.6171 10.8395 18.282 11.5332 17.0172L8.7832 14.2672C8.2207 13.7058 7.90469 12.9441 7.90469 12.15C7.90469 11.3558 8.2207 10.5941 8.7832 10.0332L13.0332 5.78319C14.2172 4.64999 16.084 4.64999 17.268 5.78319L20.0172 8.53201C21.282 7.83865 22.6176 7.28202 24 6.86991V2.99999C24 1.34336 25.3434 0 27 0H33C34.6566 0 36 1.34336 36 2.99999V6.86991C37.3828 7.28202 38.7176 7.83983 39.9828 8.53319L42.7328 5.78319C43.9172 4.64999 45.7836 4.64999 46.968 5.78319L51.2172 10.032C51.7793 10.5933 52.0949 11.3543 52.0949 12.1488C52.0949 12.9433 51.7793 13.705 51.2172 14.266L48.4672 17.016C49.1605 18.2816 49.718 19.6171 50.1309 21H54C55.6566 21 57 22.3433 57 24V29.9999C57 31.6566 55.6566 32.9999 54 32.9999Z" fill="white"/>
+                                <path d="M44 26.9999H42C42 20.3726 36.6273 15 30 15C23.3727 15 18 20.3726 18 26.9999H16C16 19.2679 22.268 13 30 13C37.7316 13 44 19.2679 44 26.9999Z" fill="white"/>
+                                <path d="M30 34.9999C26.6863 34.9999 24 32.3132 24 28.9999C24 25.6863 26.6863 23 30 23C33.3141 23 36 25.6863 36 28.9999C35.9965 32.3124 33.3125 34.9964 30 34.9999ZM30 24.9999C27.791 24.9999 26 26.791 26 28.9999C26 31.2089 27.791 32.9999 30 32.9999C32.209 32.9999 34 31.2089 34 28.9999C34 26.791 32.209 24.9999 30 24.9999Z" fill="white"/>
+                                <path d="M47 38.9999C43.6863 38.9999 41 36.3132 41 32.9999C41 29.6863 43.6863 26.9999 47 26.9999C50.3137 26.9999 53 29.6863 53 32.9999C52.9965 36.3124 50.3125 38.9964 47 38.9999ZM47 28.9999C44.791 28.9999 43 30.791 43 32.9999C43 35.2089 44.791 36.9999 47 36.9999C49.209 36.9999 51 35.2089 51 32.9999C51 30.791 49.209 28.9999 47 28.9999Z" fill="white"/>
+                                <path d="M13 38.9999C9.68633 38.9999 7 36.3132 7 32.9999C7 29.6863 9.68633 26.9999 13 26.9999C16.3141 26.9999 19 29.6863 19 32.9999C18.9965 36.3124 16.3125 38.9964 13 38.9999ZM13 28.9999C10.791 28.9999 9 30.791 9 32.9999C9 35.2089 10.791 36.9999 13 36.9999C15.209 36.9999 17 35.2089 17 32.9999C17 30.791 15.209 28.9999 13 28.9999Z" fill="white"/>
+                                <path d="M56.0656 41.5655C54.5754 40.5413 52.8086 39.9948 51 39.9999H43C42.5137 40.0042 42.0281 40.0484 41.5488 40.1316C40.909 39.1308 40.0766 38.2675 39.1 37.5905C38.9535 37.48 38.7996 37.3796 38.6391 37.2909C37.2402 36.4437 35.6352 35.9976 34 35.9999H26C22.9418 35.989 20.0922 37.5495 18.4539 40.1316C17.9734 40.0484 17.4871 40.0042 17 39.9999H9C7.19297 39.9948 5.42656 40.5405 3.93711 41.5636C1.47539 43.2386 0.0015625 46.0226 0 48.9999V52.9999C0.0035156 55.7304 1.59219 58.21 4.07227 59.3538C4.98789 59.785 5.98828 60.0057 7 59.9999H17V57.9999H8V46.9999H6V57.8995C5.62344 57.8241 5.25781 57.7022 4.91094 57.5378C3.13945 56.721 2.00391 54.9503 2 52.9999V48.9999C2.00234 46.6827 3.15039 44.5167 5.06602 43.2136C6.22344 42.4191 7.5957 41.996 9 41.9999H17C17.1762 41.9999 17.3461 42.0187 17.518 42.0304C17.1797 42.9843 17.0043 43.9882 17 44.9999V54.9999C17.0035 57.76 19.2402 59.9964 22 59.9999H25V43.9999H23V57.9999H22C20.3434 57.9999 19 56.6565 19 54.9999V44.9999C19 41.1335 22.1344 37.9999 26 37.9999H34C35.2867 38.0007 36.5477 38.3569 37.6449 39.0288C37.7465 39.0843 37.8441 39.1468 37.9367 39.2155C38.8738 39.8573 39.643 40.7148 40.1789 41.7155C40.7176 42.7265 41 43.8542 41 44.9999V54.9999C41 56.6565 39.6566 57.9999 38 57.9999H37V43.9999H35V59.9999H38C40.7602 59.9964 42.9965 57.76 43 54.9999V44.9999C42.9953 43.9882 42.8207 42.9847 42.4828 42.0304C42.6551 42.0187 42.825 41.9999 43 41.9999H51C52.4051 41.996 53.7785 42.4202 54.9367 43.2155C56.8508 44.5194 57.9973 46.6839 58 48.9999V52.9999C57.9965 54.9573 56.8523 56.7331 55.0723 57.5456C54.7305 57.7073 54.3703 57.826 54 57.8995V46.9999H52V57.9999H43V59.9999H53C54.0059 60.0061 55.0004 59.7882 55.9109 59.3616C58.3992 58.2214 59.9961 55.737 60 52.9999V48.9999C59.9984 46.0237 58.5258 43.2409 56.0656 41.5655Z" fill="white"/>
+                                <path d="M26 57.9999H34V59.9999H26V57.9999Z" fill="white"/>
+                            </svg>    
+                        </span>
+                        <div class="cr-counter-circle">
+                            <h2 class="mb-3"><span class="counter">500</span>+</h2>
+                            <p class="mb-0">Active Clients</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="cr-counter-column text-center sea-color mt-4 mt-sm-0 wow fadeInUp" data-wow-delay="0.2s">
+                        <span class="icon-wrapper d-inline-flex align-items-center justify-content-center">
+                            <svg width="44" height="60" viewBox="0 0 44 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M41.7869 18.5203C41.3985 17.9682 41.0882 17.363 40.8652 16.7225C40.736 16.0259 40.7042 15.314 40.7705 14.6083C40.9321 13.3774 40.7476 12.125 40.2383 10.997C39.5287 9.97392 38.5478 9.1785 37.4108 8.70401C36.7882 8.41635 36.2088 8.03986 35.69 7.58582C35.2453 7.05622 34.8763 6.46506 34.594 5.82994C34.129 4.66956 33.3494 3.6685 32.3466 2.94417C31.2414 2.42577 30.0148 2.23783 28.8091 2.40218C28.117 2.46986 27.419 2.43734 26.7358 2.30558C26.1078 2.07841 25.5142 1.76196 24.9728 1.36559C23.9877 0.586452 22.804 0.112457 21.5625 0C20.3209 0.112247 19.137 0.586107 18.1517 1.36519C17.6105 1.76134 17.0173 2.07778 16.3897 2.30518C15.7067 2.43589 15.0092 2.4684 14.3174 2.40178C13.111 2.2372 11.8836 2.4255 10.7779 2.94477C9.77531 3.66896 8.99587 4.66981 8.53101 5.82994C8.24906 6.46522 7.88005 7.0564 7.43504 7.58572C6.91597 8.03946 6.33656 8.41596 5.71406 8.70401C4.57674 9.1784 3.59558 9.97382 2.88565 10.997C2.37762 12.1246 2.19342 13.3761 2.35443 14.6063C2.42079 15.3124 2.38892 16.0245 2.25975 16.7215C2.03695 17.3624 1.72662 17.9679 1.33795 18.5203C0.574481 19.5254 0.110079 20.7331 0 21.9998C0.110016 23.2666 0.574457 24.4745 1.33805 25.4797C1.7265 26.0319 2.03681 26.6371 2.25985 27.2775C2.38896 27.9742 2.42084 28.686 2.35453 29.3918C2.19287 30.6227 2.37745 31.8751 2.88673 33.0031C3.59635 34.0261 4.57717 34.8216 5.71416 35.296C6.33681 35.5837 6.91624 35.9602 7.43504 36.4142C7.87969 36.9437 8.24867 37.5347 8.53101 38.1696C8.80752 38.7404 9.12578 39.2892 9.48309 39.8112L3.97975 55.2379C3.91668 55.4149 3.9039 55.6065 3.94286 55.7906C3.98183 55.9747 4.07097 56.1438 4.20001 56.2785C4.32905 56.4132 4.49275 56.508 4.67227 56.5519C4.85178 56.5958 5.03981 56.5871 5.21469 56.5268L10.4167 54.734L13.2729 59.52C13.3604 59.6666 13.4834 59.7877 13.6301 59.8718C13.7768 59.9559 13.9422 60 14.1104 60C14.142 60 14.1745 59.998 14.207 59.9951C14.3908 59.9766 14.5657 59.9054 14.7115 59.7898C14.8573 59.6742 14.9681 59.5189 15.0311 59.3418L20.5556 43.8579C21.2141 44.0476 21.9113 44.0476 22.5698 43.8579L28.0943 59.3418C28.1573 59.5189 28.2681 59.6742 28.4139 59.7898C28.5597 59.9054 28.7346 59.9766 28.9184 59.9951C28.9509 59.998 28.9834 60 29.015 60C29.1832 60 29.3486 59.9559 29.4953 59.8718C29.642 59.7877 29.765 59.6666 29.8525 59.52L32.7086 54.734L37.9108 56.5267C38.0857 56.587 38.2737 56.5957 38.4532 56.5518C38.6327 56.5079 38.7964 56.4131 38.9255 56.2784C39.0545 56.1437 39.1437 55.9746 39.1826 55.7905C39.2216 55.6064 39.2088 55.4148 39.1457 55.2378L33.642 39.8104C33.999 39.2885 34.3172 38.74 34.594 38.1695C34.8759 37.5342 35.245 36.9431 35.69 36.4137C36.209 35.96 36.7884 35.5836 37.4109 35.2955C38.5483 34.8212 39.5294 34.0257 40.2393 33.0026C40.7474 31.8749 40.9316 30.6234 40.7706 29.3933C40.7042 28.6872 40.7361 27.975 40.8652 27.278C41.0881 26.6372 41.3984 26.0316 41.787 25.4792C42.5505 24.4741 43.0149 23.2664 43.125 21.9998C43.0149 20.7331 42.5505 19.5254 41.7869 18.5203ZM13.8871 56.7025L11.6838 53.0102C11.568 52.8162 11.3908 52.6682 11.1815 52.5907C10.9722 52.5131 10.7433 52.5106 10.5324 52.5835L6.51913 53.9663L11.0721 41.2027C12.1084 41.5912 13.2196 41.7264 14.3163 41.5973C15.0084 41.5301 15.7063 41.5627 16.3896 41.6939C17.0177 41.9212 17.6112 42.2378 18.1526 42.6344C18.3515 42.7635 18.5573 42.8954 18.7674 43.0244L13.8871 56.7025ZM32.5926 52.5835C32.3817 52.5106 32.1528 52.5131 31.9435 52.5907C31.7342 52.6682 31.557 52.8162 31.4412 53.0102L29.2379 56.7025L24.358 43.0249C24.5681 42.8949 24.7739 42.7635 24.9728 42.6344C25.514 42.238 26.1072 41.9214 26.7349 41.6939C27.4177 41.5626 28.1153 41.5301 28.8071 41.5973C29.9045 41.727 31.0163 41.5915 32.0529 41.2018L36.6059 53.9663L32.5926 52.5835ZM40.133 24.4051C39.6312 25.1259 39.2397 25.9205 38.972 26.7614C38.7849 27.652 38.7307 28.5662 38.8111 29.4733C38.935 30.3257 38.8424 31.1962 38.5422 32.0017C38.0029 32.6796 37.3009 33.2037 36.5044 33.5231C35.7017 33.8984 34.9597 34.3963 34.304 34.9997C33.712 35.6684 33.2236 36.4255 32.8559 37.2447C32.5428 38.0574 32.0291 38.7736 31.3646 39.3238C30.5751 39.6293 29.722 39.7238 28.8866 39.5982C27.9975 39.5167 27.1015 39.572 26.2285 39.7623C25.4047 40.0357 24.6263 40.4351 23.92 40.9469C23.2382 41.5026 22.4252 41.8656 21.5625 41.9996C20.6998 41.8656 19.8868 41.5026 19.205 40.9469C18.4985 40.4349 17.7197 40.0354 16.8955 39.7623C16.3455 39.6243 15.7801 39.5604 15.2138 39.5723C14.8865 39.5723 14.5601 39.5859 14.2375 39.5986C13.4021 39.7245 12.5489 39.63 11.7594 39.3242C11.0949 38.774 10.5812 38.0578 10.2683 37.2451C9.90043 36.426 9.41242 35.6688 8.82102 34.9997C8.1656 34.3957 7.42354 33.8974 6.62057 33.5222C5.82407 33.2028 5.12209 32.6787 4.58282 32.0007C4.28269 31.1953 4.19009 30.3248 4.31387 29.4724C4.39429 28.5653 4.34007 27.651 4.15304 26.7604C3.88512 25.9199 3.49364 25.1257 2.99199 24.4051C2.44737 23.7094 2.09156 22.88 1.96023 21.9998C2.09156 21.1196 2.44737 20.2901 2.99199 19.5945C3.49384 18.8736 3.88533 18.0791 4.15304 17.2381C4.34009 16.3476 4.39431 15.4333 4.31387 14.5263C4.19001 13.6739 4.28262 12.8033 4.58282 11.9979C5.1221 11.3199 5.82408 10.7958 6.62057 10.4765C7.42329 10.1012 8.16529 9.60326 8.82102 8.99991C9.41301 8.33119 9.90135 7.57409 10.2691 6.75483C10.5822 5.94218 11.0959 5.22596 11.7604 4.67575C12.5498 4.36972 13.403 4.27525 14.2384 4.40136C15.1275 4.48287 16.0235 4.42756 16.8965 4.23726C17.7203 3.9639 18.4987 3.56449 19.205 3.05267C19.8868 2.49701 20.6998 2.13398 21.5625 1.99998C22.4252 2.13398 23.2382 2.49701 23.92 3.05267C24.6265 3.56469 25.4053 3.96412 26.2295 4.23726C27.1024 4.42756 27.9984 4.48287 28.8875 4.40136C29.7229 4.27505 30.5762 4.36952 31.3656 4.67575C32.0301 5.22597 32.5438 5.94219 32.8567 6.75483C33.2246 7.57384 33.7126 8.33088 34.304 8.99991C34.9594 9.6039 35.7015 10.1022 36.5044 10.4774C37.3009 10.7968 38.0029 11.3209 38.5422 11.9989C38.8423 12.8043 38.9349 13.6748 38.8111 14.5272C38.7307 15.4343 38.7849 16.3485 38.972 17.2391C39.2399 18.0797 39.6314 18.8739 40.133 19.5945C40.6776 20.2901 41.0334 21.1196 41.1648 21.9998C41.0334 22.88 40.6776 23.7094 40.133 24.4051Z" fill="white"/>
+                                <path d="M21.5625 5.99994C18.4609 5.99994 15.429 6.93831 12.8501 8.6964C10.2713 10.4545 8.26131 12.9533 7.07439 15.8769C5.88747 18.8005 5.57692 22.0175 6.182 25.1212C6.78709 28.2249 8.28064 31.0758 10.4738 33.3134C12.6669 35.551 15.4612 37.0748 18.5031 37.6922C21.5451 38.3095 24.6982 37.9927 27.5637 36.7817C30.4292 35.5707 32.8783 33.52 34.6015 30.8888C36.3246 28.2577 37.2443 25.1643 37.2443 21.9998C37.2396 17.7578 35.5859 13.691 32.646 10.6915C29.7061 7.69203 25.7201 6.00478 21.5625 5.99994ZM21.5625 35.9996C18.8486 35.9996 16.1957 35.1786 13.9392 33.6402C11.6827 32.1019 9.92396 29.9154 8.8854 27.3573C7.84685 24.7992 7.57512 21.9843 8.10457 19.2685C8.63402 16.5528 9.94087 14.0583 11.8599 12.1004C13.7789 10.1425 16.2238 8.80911 18.8856 8.26892C21.5473 7.72874 24.3062 8.00598 26.8135 9.0656C29.3208 10.1252 31.4638 11.9196 32.9716 14.2219C34.4793 16.5241 35.2841 19.2309 35.2841 21.9998C35.28 25.7115 33.833 29.27 31.2606 31.8946C28.6882 34.5191 25.2004 35.9955 21.5625 35.9996Z" fill="white"/>
+                                <path d="M25.079 17.0105L22.4412 11.5575C22.3512 11.4013 22.2228 11.2719 22.0686 11.1819C21.9145 11.092 21.7401 11.0446 21.5625 11.0446C21.3849 11.0446 21.2105 11.092 21.0564 11.1819C20.9022 11.2719 20.7738 11.4013 20.6838 11.5575L18.0459 17.0105L12.1471 17.8855C11.9662 17.9124 11.7963 17.9903 11.6565 18.1105C11.5167 18.2307 11.4127 18.3884 11.3561 18.5657C11.2996 18.7431 11.2928 18.9331 11.3365 19.1142C11.3802 19.2953 11.4727 19.4603 11.6035 19.5906L15.8723 23.8357L14.8644 29.8308C14.8336 30.0147 14.8538 30.2037 14.9227 30.3766C14.9917 30.5494 15.1066 30.699 15.2546 30.8086C15.4026 30.9183 15.5777 30.9835 15.7601 30.9969C15.9425 31.0103 16.1249 30.9713 16.2867 30.8845L21.5625 28.0544L26.8383 30.8844C27.0001 30.9713 27.1825 31.0102 27.3649 30.9968C27.5473 30.9834 27.7224 30.9182 27.8704 30.8085C28.0184 30.6989 28.1333 30.5493 28.2023 30.3765C28.2712 30.2036 28.2914 30.0146 28.2606 29.8307L27.2527 23.8356L31.5215 19.5905C31.6523 19.4602 31.7448 19.2952 31.7885 19.1141C31.8322 18.933 31.8254 18.743 31.7689 18.5656C31.7123 18.3883 31.6083 18.2306 31.4685 18.1104C31.3287 17.9902 31.1588 17.9123 30.9779 17.8854L25.079 17.0105ZM25.5155 22.7713C25.4019 22.8844 25.3169 23.0241 25.2679 23.1782C25.2188 23.3323 25.2073 23.4963 25.2341 23.656L25.9931 28.1716L22.019 26.0397C21.8783 25.9641 21.7216 25.9245 21.5625 25.9245C21.4034 25.9245 21.2467 25.9641 21.106 26.0397L17.1324 28.1716L17.8914 23.656C17.9182 23.4963 17.9067 23.3323 17.8576 23.1782C17.8086 23.0241 17.7236 22.8844 17.61 22.7713L14.3939 19.573L18.838 18.9139C18.9953 18.8907 19.1447 18.8288 19.2733 18.7335C19.4018 18.6383 19.5058 18.5125 19.576 18.367L21.5625 14.2599L23.5495 18.3672C23.6197 18.5127 23.7237 18.6385 23.8522 18.7337C23.9808 18.829 24.1302 18.8909 24.2875 18.9141L28.7315 19.5732L25.5155 22.7713Z" fill="white"/>
+                            </svg>  
+                        </span>
+                        <div class="cr-counter-circle">
+                            <h2 class="mb-3"><span class="counter">150</span>+</h2>
+                            <p class="mb-0">Projects Completed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="cr-counter-column text-center primary mt-4 mt-sm-0 wow fadeInUp" data-wow-delay="0.3s">
+                        <span class="icon-wrapper d-inline-flex align-items-center justify-content-center">
+                            <svg width="44" height="60" viewBox="0 0 44 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M37.207 44.1797H33.3284C32.9057 41.5266 30.6022 39.4922 27.832 39.4922H26.8069L26.0566 35.3906H26.1744C26.6598 35.3906 27.0533 34.9971 27.0533 34.5117C27.0533 34.0263 26.6598 33.6328 26.1744 33.6328H25.7352L25.3402 31.473C26.6167 31.0441 27.5392 29.8372 27.5392 28.418C27.5392 27.8709 27.4037 27.3466 27.1516 26.8832C29.9371 25.4593 32.0495 22.9179 32.9348 19.9206C39.735 15.9984 43.9453 8.73855 43.9453 0.878906C43.9453 0.393516 43.5518 0 43.0664 0H35.7318C35.7293 0 8.21684 0 8.21684 0C8.21227 0 0.878906 0 0.878906 0C0.393516 0 0 0.393516 0 0.878906C0 8.73855 4.21031 15.9983 11.0105 19.9205C11.8956 22.9174 14.0081 25.4591 16.7938 26.8832C16.5417 27.3466 16.4062 27.8709 16.4062 28.418C16.4062 29.8371 17.3288 31.0441 18.6053 31.473L18.2102 33.6328H17.7711C17.2857 33.6328 16.8922 34.0263 16.8922 34.5117C16.8922 34.9971 17.2857 35.3906 17.7711 35.3906H17.8888L17.1386 39.4922H16.1133C13.3431 39.4922 11.0396 41.5266 10.617 44.1797H6.73828C6.25289 44.1797 5.85938 44.5732 5.85938 45.0586V59.1211C5.85938 59.6065 6.25289 60 6.73828 60H37.207C37.6924 60 38.0859 59.6065 38.0859 59.1211V45.0586C38.0859 44.5732 37.6924 44.1797 37.207 44.1797ZM36.4688 1.75781H42.1684C41.8924 8.09906 38.6449 13.9323 33.45 17.5204L36.4688 1.75781ZM1.77691 1.75781H7.47656L10.4953 17.5204C5.30039 13.9324 2.05289 8.09918 1.77691 1.75781ZM18.1641 28.418C18.1641 27.9586 18.3757 27.5341 18.7446 27.2532C18.9984 27.0601 19.1277 26.7445 19.0822 26.4287C19.0368 26.113 18.8238 25.8466 18.5258 25.7329C15.424 24.5483 13.1075 21.7927 12.4808 18.5423L9.26637 1.75781H34.6791L31.4648 18.5412C30.8476 21.7418 28.5928 24.4609 25.5639 25.675H21.728C21.2426 25.675 20.8491 26.0685 20.8491 26.5539C20.8491 27.0393 21.2426 27.4328 21.728 27.4328H25.3946C25.6416 27.7009 25.7812 28.0473 25.7812 28.418C25.7812 29.2257 25.1242 29.8828 24.3164 29.8828H19.6289C18.8211 29.8828 18.1641 29.2257 18.1641 28.418ZM24.2698 35.3906L25.02 39.4922H18.9254L19.6757 35.3906H24.2698ZM19.9971 33.6328L20.3616 31.6406H23.5836L23.9481 33.6328H19.9971ZM16.1133 41.25H17.8684C17.876 41.25 26.0694 41.25 26.0694 41.25C26.077 41.25 27.8321 41.25 27.8321 41.25C29.6297 41.25 31.1393 42.5021 31.5373 44.1797H12.4082C12.8061 42.5021 14.3157 41.25 16.1133 41.25ZM36.3281 58.2422H7.61719V45.9375H36.3281V58.2422Z" fill="white"/>
+                                <path d="M33.6914 47.6953H10.2539C9.76852 47.6953 9.375 48.0888 9.375 48.5742V55.6055C9.375 56.0909 9.76852 56.4844 10.2539 56.4844H33.6914C34.1768 56.4844 34.5703 56.0909 34.5703 55.6055V48.5742C34.5703 48.0888 34.1768 47.6953 33.6914 47.6953ZM32.8125 54.7266H11.1328V49.4531H32.8125V54.7266Z" fill="white"/>
+                            </svg>  
+                        </span>
+                        <div class="cr-counter-circle">
+                            <h2 class="mb-3"><span class="counter">6</span>+</h2>
+                            <p class="mb-0">Years on the Market</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="cr2-feedback-section overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="cr2-feedback-left ptb-100">
+                        <span class="cr-subtitle position-relative text-white fw-semibold">Customer Testimonial</span>
+                         <h2 class="mt-4 mb-32 text-white">What our customers have to say</h2>
+                         <p class="mb-60 text-white mx-470 fw-medium">
+                            Here's what our satisfied customers have shared about their experiences.
+                        </p>
+                        <div class="d-flex align-items-center cr2-feedback-counter">
+                            <div>
+                                <h3 class="mb-1 text-white fs-40"><span class="counter">1200</span><span>+</span></h3>
+                                <span class="text-white fw-medium">Full 5 Star review</span>
+                            </div>
+                            <div>
+                                <h3 class="mb-1 text-white fs-40">4.8</h3>
+                                <span class="text-white fw-medium">Out of 5 average rating</span>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="cr2-feedback-vertical-slider">
+                        <div class="cr2-feedback-slider">
+                            <div class="cr2-feedback-single">
+                                <p class="mb-0 fw-medium">“
+                                    The team was clear about how the system worked, Apvr Infotech team did what was agreed. Completing agreed work on time and within budget can definitely attest to. Very professional and courteous and responsive nevertheless.”</p>
+                                <span class="spacer"></span>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="clients_info d-flex align-items-center gap-4 flex-wrap">
+                                        <img src="assets/pr01.png" alt="client" class="img-fluid rounded-circle" style="width:60px !important;">
+                                        <div>
+                                            <h5 class="mb-0 fw-semibold">Sahil Khanna</h5>
+                                            <span class="fw-medium fs-sm">Founder of Lapaas</span>
+                                        </div> 
+                                    </div>
+                                    <img src="assets/images/icons/quote.svg" alt="quote" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="cr2-feedback-single">
+                                <p class="mb-0 fw-medium">“Thanks to Apvr Infotech efforts, the application's users doubled because of the Android version. The team primarily communicates through Slack and manages the process using the Kanban board. Moreover, they are efficient in producing a high-quality product and responsive in fixing bugs.”</p>
+                                <span class="spacer"></span>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="clients_info d-flex align-items-center gap-4 flex-wrap">
+                                        <img src="assets/pr02.png" alt="client" class="img-fluid rounded-circle" style="width:60px !important;">
+                                        <div>
+                                            <h5 class="mb-0 fw-semibold">Adil Qadri</h5>
+                                            <span class="fw-medium fs-sm">Founder & CEO of adilqadri Luxury perfume Brand</span>
+                                        </div> 
+                                    </div>
+                                    <img src="assets/images/icons/quote.svg" alt="quote" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="cr2-feedback-single">
+                                <p class="mb-0 fw-medium">“
+                                    Apvr Infotech was clear with their offering. They delivered their work in a structured format. They worked well together with impressive skills in backend Development, which resulted in a high-performing iOS app. Most of all, delays were worth the wait for the quality they were able to provide.
+                                    ”</p>
+                                <span class="spacer"></span>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="clients_info d-flex align-items-center gap-4 flex-wrap">
+                                        <img src="assets/images/client/client-1.png" alt="client" class="img-fluid rounded-circle">
+                                        <div>
+                                            <h5 class="mb-0 fw-semibold">Ravi Kumar</h5>
+                                            <span class="fw-medium fs-sm">Customer</span>
+                                        </div> 
+                                    </div>
+                                    <img src="assets/images/icons/quote.svg" alt="quote" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="cr2-feedback-single">
+                                <p class="mb-0 fw-medium">“Apvr Infotech created an app for a sports social networking platform. The platform aimed to have the sports community come together and track their training.”</p>
+                                <span class="spacer"></span>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="clients_info d-flex align-items-center gap-4 flex-wrap">
+                                        <img src="assets/images/client/client-1.png" alt="client" class="img-fluid rounded-circle">
+                                        <div>
+                                            <h5 class="mb-0 fw-semibold">Nandha Kumar</h5>
+                                            <span class="fw-medium fs-sm">Businessman</span>
+                                        </div> 
+                                    </div>
+                                    <img src="assets/images/icons/quote.svg" alt="quote" class="img-fluid">
+                                </div>
+                            </div>
+                           
+                            <div class="cr2-feedback-single">
+                                <p class="mb-0 fw-medium">“Apvr Infotech developed an Android app for an AI/ML robotics company. The team was tasked with delivering a platform that's compatible with handheld devices such as a tablet and an Envipro Mini.”</p>
+                                <span class="spacer"></span>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="clients_info d-flex align-items-center gap-4 flex-wrap">
+                                        <img src="assets/images/client/client-1.png" alt="client" class="img-fluid rounded-circle">
+                                        <div>
+                                            <h5 class="mb-0 fw-semibold">Sai Kumar</h5>
+                                            <span class="fw-medium fs-sm">ActivScout</span>
+                                        </div> 
+                                    </div>
+                                    <img src="assets/images/icons/quote.svg" alt="quote" class="img-fluid">
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <div class="d-block d-lg-none">
+        <div class="brands-container pt-5 pb-5">
+            <div class="container">
+                <h4 class="mt-4 mb-32" style="text-align: center !important; color: #13114c !important;">Our Global Achievments</h4>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <img src="assets/c01.png" class="mb-3 w-100" />
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="assets/c02.png" class="mb-3 w-100" />
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="assets/c04.png" class="mb-3 w-100" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <div class="d-lg-block d-none">
+            <div class="brands-container pt-5 pb-5">
+                <div class="container">
+                    <h4 class="mt-4 mb-32" style="text-align: center !important; color: #13114C !important;">Our Global Achievments</h4>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <img src="assets/c01.png" class="mb-3 imas02">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="assets/c02.png" class="mb-3 imas02">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="assets/c04.png" class="mb-3 imas02">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection
 
 
