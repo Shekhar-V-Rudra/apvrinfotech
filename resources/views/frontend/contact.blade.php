@@ -74,7 +74,19 @@
                     <div class="ct-left">
                         <span class="cr-subtitle position-relative fw-semibold primary-text-color">Get In Touch</span>
                         <h2 class="mt-4 mb-5">You can connect with us when need help!</h2>
-                        <form class="ct-contact-form" action="#" method="post">
+                        @if(session('success'))
+                            <div class="alert alert-success">{{ session('success') }}</div>
+                        @endif
+                        @if ($errors->any())
+                            <div class="alert alert-danger">
+                                <ul class="mb-0">
+                                    @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endif
+                        <form class="ct-contact-form" action="{{ route('contact.submit') }}" method="post">
                             @csrf
                             <div class="d-flex align-items-center gap-3">
                                 <div class="input-field position-relative width-half">
