@@ -19,5 +19,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Test User',
             'email' => 'test@example.com',
         ]);
+
+        // rakeshApvr@183   // adm 'admin@apvrinfotech.com
     }
 }

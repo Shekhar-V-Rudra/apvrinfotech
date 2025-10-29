@@ -74,19 +74,37 @@
                     <div class="ct-left">
                         <span class="cr-subtitle position-relative fw-semibold primary-text-color">Get In Touch</span>
                         <h2 class="mt-4 mb-5">You can connect with us when need help!</h2>
-                        <form class="ct-contact-form" action="#" method="post">
+                        <form class="ct-contact-form" action="{{ route('contact.submit') }}" method="post">
                             @csrf
+                            
+                            @if(session('success'))
+                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                    {{ session('success') }}
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                </div>
+                            @endif
+                            
+                            @if ($errors->any())
+                                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                    <ul class="mb-0">
+                                        @foreach ($errors->all() as $error)
+                                            <li>{{ $error }}</li>
+                                        @endforeach
+                                    </ul>
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                </div>
+                            @endif
                             <div class="d-flex align-items-center gap-3">
                                 <div class="input-field position-relative width-half">
-                                    <input type="text" name="name" placeholder="Your Name" class="theme-input" required>
+                                    <input type="text" name="name" placeholder="Your Name" class="theme-input" value="{{ old('name') }}" required>
                                 </div>
                                 <div class="input-field position-relative width-half">
-                                    <input type="email" name="email" placeholder="Email Address" class="theme-input" required>
+                                    <input type="email" name="email" placeholder="Email Address" class="theme-input" value="{{ old('email') }}" required>
                                 </div>
                             </div>
                             <div class="mt-4">
-                                <select class="nice_select" name="service">
-                                    <option>Select Desire Service</option>
+                                <select class="nice_select" name="service" required>
+                                    <option value="">Select Desire Service</option>
                                     <option value="ui">UI/UX Design</option>
                                     <option value="web">Web Development</option>
                                     <option value="app">App Development</option>
@@ -102,7 +120,7 @@
                                     <option value="ecom">E-Commerce Solutions</option>
                                 </select>
                             </div>
-                            <textarea class="theme-input mt-4" name="comment" placeholder="Type Your Message" rows="5"></textarea>
+                            <textarea class="theme-input mt-4" name="comment" placeholder="Type Your Message" rows="5">{{ old('comment') }}</textarea>
                             <button type="submit" class="template-btn primary-btn mt-4">Send Message Now</button>
                         </form>
                     </div>
