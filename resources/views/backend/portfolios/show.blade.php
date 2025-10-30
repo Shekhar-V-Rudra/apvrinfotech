@@ -19,8 +19,8 @@
                 <div class="text-lg font-medium text-gray-900">{{ $portfolio->title }}</div>
             </div>
             <div>
-                <div class="text-sm text-gray-500">Category</div>
-                <div class="text-gray-900">{{ ucwords(str_replace('-', ' ', $portfolio->category)) }}</div>
+                <div class="text-sm text-gray-500">Short Details</div>
+                <div class="text-gray-900">{{ $portfolio->short_details ?: '—' }}</div>
             </div>
             <div>
                 <div class="text-sm text-gray-500">Project URL</div>

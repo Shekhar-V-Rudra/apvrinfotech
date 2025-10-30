@@ -34,6 +34,7 @@ class PortfolioController extends Controller
             'title' => 'required|string|max:255',
             'category' => 'required|string|max:50',
             'image' => 'required|string|max:255', // URL or path
+            'short_details' => 'nullable|string|max:255',
             'description' => 'nullable|string',
             'project_url' => 'nullable|url',
             'is_active' => 'nullable|boolean',
@@ -77,6 +78,7 @@ class PortfolioController extends Controller
             'title' => 'required|string|max:255',
             'category' => 'required|string|max:50',
             'image' => 'required|string|max:255',
+            'short_details' => 'nullable|string|max:255',
             'description' => 'nullable|string',
             'project_url' => 'nullable|url',
             'is_active' => 'nullable|boolean',

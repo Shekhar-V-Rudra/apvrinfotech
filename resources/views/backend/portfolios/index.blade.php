@@ -17,7 +17,7 @@
                 <tr>
                     <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">ID</th>
                     <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Title</th>
-                    <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Category</th>
+                    <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Short Details</th>
                     <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Image</th>
                     <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Active</th>
                     <th class="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Actions</th>
@@ -28,7 +28,7 @@
                     <tr>
                         <td class="px-4 py-3 text-sm text-gray-700">{{ $item->id }}</td>
                         <td class="px-4 py-3 text-sm text-gray-900 font-medium">{{ $item->title }}</td>
-                        <td class="px-4 py-3 text-sm text-gray-700">{{ ucwords(str_replace('-', ' ', $item->category)) }}</td>
+                        <td class="px-4 py-3 text-sm text-gray-700">{{ $item->short_details ?: '—' }}</td>
                         <td class="px-4 py-3">
                             <img src="{{ $item->image }}" alt="img" class="h-10 w-16 object-cover rounded border" />
                         </td>

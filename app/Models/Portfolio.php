@@ -10,6 +10,7 @@ class Portfolio extends Model
         'title',
         'category',
         'image',
+        'short_details',
         'description',
         'project_url',
         'is_active',

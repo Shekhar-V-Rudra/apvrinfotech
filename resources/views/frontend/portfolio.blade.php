@@ -49,7 +49,7 @@
                                     @endif
                                     <div class="project-content">
                                         <h6 class="mb-2 text-white">{{ $project->title }}</h6>
-                                        <span class="fw-semibold text-uppercase text-white fs-sm">{{ ucwords(str_replace('-', ' ', $project->category)) }}</span>
+                                        <span class="fw-semibold text-uppercase text-white fs-sm">{{ $project->short_details ?: ucwords(str_replace('-', ' ', $project->category)) }}</span>
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@
                                     @endif
                                     <div class="project-content">
                                         <h6 class="mb-2 text-white">{{ $project->title }}</h6>
-                                        <span class="fw-semibold text-uppercase text-white fs-sm">{{ ucwords(str_replace('-', ' ', $project->category)) }}</span>
+                                        <span class="fw-semibold text-uppercase text-white fs-sm">{{ $project->short_details ?: ucwords(str_replace('-', ' ', $project->category)) }}</span>
                                     </div>
                                 </div>
                             </div>
@@ -87,7 +87,7 @@
                                     @endif
                                     <div class="project-content">
                                         <h6 class="mb-2 text-white">{{ $project->title }}</h6>
-                                        <span class="fw-semibold text-uppercase text-white fs-sm">{{ ucwords(str_replace('-', ' ', $project->category)) }}</span>
+                                        <span class="fw-semibold text-uppercase text-white fs-sm">{{ $project->short_details ?: ucwords(str_replace('-', ' ', $project->category)) }}</span>
                                     </div>
                                 </div>
                             </div>
@@ -106,7 +106,7 @@
                                     @endif
                                     <div class="project-content">
                                         <h6 class="mb-2 text-white">{{ $project->title }}</h6>
-                                        <span class="fw-semibold text-uppercase text-white fs-sm">{{ ucwords(str_replace('-', ' ', $project->category)) }}</span>
+                                        <span class="fw-semibold text-uppercase text-white fs-sm">{{ $project->short_details ?: ucwords(str_replace('-', ' ', $project->category)) }}</span>
                                     </div>
                                 </div>
                             </div>

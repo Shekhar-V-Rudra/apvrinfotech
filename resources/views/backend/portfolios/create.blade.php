@@ -33,6 +33,12 @@
         </div>
 
         <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Short Product Details</label>
+            <input name="short_details" value="{{ old('short_details') }}" class="w-full rounded border-gray-300 focus:ring-indigo-500 focus:border-indigo-500" placeholder="e.g., React, Laravel, Figma" />
+            @error('short_details')<p class="text-red-600 text-sm mt-1">{{ $message }}</p>@enderror
+        </div>
+
+        <div>
             <label class="block text-sm font-medium text-gray-700 mb-1">Project URL (optional)</label>
             <input name="project_url" value="{{ old('project_url') }}" class="w-full rounded border-gray-300 focus:ring-indigo-500 focus:border-indigo-500" placeholder="https://example.com" />
             @error('project_url')<p class="text-red-600 text-sm mt-1">{{ $message }}</p>@enderror
