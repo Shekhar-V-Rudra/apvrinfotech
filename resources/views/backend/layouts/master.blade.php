@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('title', 'Admin Panel') - Apvr Infotech</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         body {
@@ -40,57 +39,55 @@
     @stack('styles')
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
+    <div class="min-h-screen bg-gray-100">
+        <div class="flex">
             <!-- Sidebar -->
-            <div class="col-md-2 sidebar">
-                <div class="text-center mb-4">
-                    <h4>Apvr Infotech</h4>
-                    <p class="text-muted small">Admin Panel</p>
+            <aside class="sidebar w-64 bg-[#13114C] text-white p-5 hidden md:block">
+                <div class="text-center mb-6">
+                    <h4 class="text-xl font-semibold">Apvr Infotech</h4>
+                    <p class="text-xs text-white/70">Admin Panel</p>
                 </div>
-                <nav class="nav flex-column">
-                    <a class="nav-link {{ request()->routeIs('admin.contacts.*') ? 'active' : '' }}" href="{{ route('admin.contacts.index') }}">
-                        <i class="fas fa-envelope me-2"></i> Contacts
+                <nav class="flex flex-col gap-2">
+                    <a class="px-4 py-2 rounded hover:bg-white/10 transition {{ request()->routeIs('admin.contacts.*') ? 'bg-white/10' : '' }}" href="{{ route('admin.contacts.index') }}">
+                        <i class="fas fa-envelope mr-2"></i> Contacts
                     </a>
-                    <a class="nav-link" href="{{ url('/') }}" target="_blank">
-                        <i class="fas fa-home me-2"></i> View Site
+                    <a class="px-4 py-2 rounded hover:bg-white/10 transition {{ request()->routeIs('admin.portfolios.*') ? 'bg-white/10' : '' }}" href="{{ route('admin.portfolios.index') }}">
+                        <i class="fas fa-briefcase mr-2"></i> Portfolio
                     </a>
-                    <div class="mt-auto">
+                    <a class="px-4 py-2 rounded hover:bg-white/10 transition" href="{{ url('/') }}" target="_blank">
+                        <i class="fas fa-home mr-2"></i> View Site
+                    </a>
+                    <div class="mt-6 pt-6 border-t border-white/10">
                         <form action="{{ route('admin.logout') }}" method="POST">
                             @csrf
-                            <button type="submit" class="nav-link border-0 bg-transparent w-100 text-start" style="color: rgba(255, 255, 255, 0.8) !important;">
-                                <i class="fas fa-sign-out-alt me-2"></i> Logout
+                            <button type="submit" class="w-full text-left px-4 py-2 rounded hover:bg-white/10 transition">
+                                <i class="fas fa-sign-out-alt mr-2"></i> Logout
                             </button>
                         </form>
                     </div>
                 </nav>
-            </div>
+            </aside>
 
             <!-- Main Content -->
-            <div class="col-md-10 main-content">
+            <main class="flex-1 p-6">
                 @if(session('success'))
-                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <div class="mb-4 rounded border border-green-300 bg-green-50 text-green-800 px-4 py-3">
                         {{ session('success') }}
-                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
                 @endif
 
                 @if(session('error'))
-                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <div class="mb-4 rounded border border-red-300 bg-red-50 text-red-800 px-4 py-3">
                         {{ session('error') }}
-                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
                 @endif
 
                 @yield('content')
-            </div>
+            </main>
         </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
     @stack('scripts')
 </body>
 </html>

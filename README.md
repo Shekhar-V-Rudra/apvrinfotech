@@ -59,3 +59,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+<!-- Convert admin panel layout from Bootstrap to Tailwind CSS CDN
+Create Portfolio migration, model, and seeder
+Create PortfolioController with CRUD operations
+Create backend portfolio views (index, create, edit) with Tailwind
+Update frontend portfolio view to display dynamic data
+Update backend contact views to use Tailwind CSS -->

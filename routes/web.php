@@ -3,11 +3,13 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\ContactController;
+use App\Http\Controllers\Frontend\PortfolioController as FrontendPortfolioController;
 use App\Http\Controllers\Backend\ContactController as BackendContactController;
+use App\Http\Controllers\Backend\PortfolioController as BackendPortfolioController;
 use App\Http\Controllers\Backend\AuthController;
 
 Route::get('/', HomeController::class);
-Route::view('/portfolio', 'frontend.portfolio')->name('portfolio');
+Route::get('/portfolio', FrontendPortfolioController::class)->name('portfolio');
 Route::get('/contact', [ContactController::class, 'show'])->name('contact');
 Route::post('/contact/submit', [ContactController::class, 'store'])->name('contact.submit');
 Route::view('/brochure', 'frontend.brochure')->name('brochure');
@@ -32,6 +34,7 @@ Route::prefix('admin')->name('admin.')->group(function () {
         })->name('dashboard');
         Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
         Route::resource('contacts', BackendContactController::class)->except(['create', 'edit', 'update']);
+        Route::resource('portfolios', BackendPortfolioController::class);
     });
 });
  

@@ -37,44 +37,19 @@
                 </ul>
             </div>
             <div class="tab-content mt-5">
-                @php
-                    $projectsAll = [
-                        ['img' => 'assets/portfolio01.png', 'title' => 'Product Website', 'cat' => 'Product Services'],
-                        ['img' => 'assets/portfolio02.png', 'title' => 'EvrinOcean Website', 'cat' => 'ERP Services'],
-                        ['img' => 'assets/portfolio03.png', 'title' => 'Ecommerce Website', 'cat' => 'Product Services'],
-                        ['img' => 'assets/portfolio04.png', 'title' => 'Gaming Website', 'cat' => 'Gaming Services'],
-                        ['img' => 'assets/portfolio05.png', 'title' => 'Chat Website', 'cat' => 'Communication Services'],
-                        ['img' => 'assets/portfolio06.png', 'title' => 'Shopping Website', 'cat' => 'Product Services'],
-                        ['img' => 'assets/portfolio07.png', 'title' => 'ECommerce Website', 'cat' => 'Product Services'],
-                        ['img' => 'assets/portfolio08.png', 'title' => 'Vedvidyarthi Website', 'cat' => 'Educational Services'],
-                        ['img' => 'assets/portfolio09.png', 'title' => 'Anaj Bank App', 'cat' => 'Mobile Application'],
-                        ['img' => 'assets/portfolio10.png', 'title' => 'Nexatel Website', 'cat' => 'Internet Services'],
-                        ['img' => 'assets/portfolio11.png', 'title' => 'UGOCash Website', 'cat' => 'Business Services'],
-                        ['img' => 'assets/portfolio12.png', 'title' => 'WhatsappStore', 'cat' => 'Ecommerce Services'],
-                        ['img' => 'assets/portfolio13.png', 'title' => 'Yamikart Mobile App', 'cat' => 'Online Book Store'],
-                        ['img' => 'assets/portfolio14.png', 'title' => 'FirstBazaar Mobile App', 'cat' => 'Ecommerce Services'],
-                        ['img' => 'assets/portfolio15.png', 'title' => 'Hospital Website', 'cat' => 'Health Services'],
-                        ['img' => 'assets/portfolio16.png', 'title' => 'Advertisement Website', 'cat' => 'Digital Marketing'],
-                        ['img' => 'assets/portfolio17.png', 'title' => 'Academy Website', 'cat' => 'Educational Services'],
-                        ['img' => 'assets/portfolio18.png', 'title' => 'Arion Healthcare', 'cat' => 'Health Services'],
-                        ['img' => 'assets/portfolio19.png', 'title' => 'Ashirwad Plastics', 'cat' => 'Business Services'],
-                        ['img' => 'assets/portfolio20.png', 'title' => 'VickyFinance Mobile App', 'cat' => 'Finance Services'],
-                    ];
-                    $projectsWeb = array_filter($projectsAll, fn($p) => str_contains(strtolower($p['title']), 'website'));
-                    $projectsApp = array_filter($projectsAll, fn($p) => str_contains(strtolower($p['title']), 'app'));
-                    $projectsGraphics = array_filter($projectsAll, fn($p) => in_array($p['title'], ['Product Website','EvrinOcean Website','Ecommerce Website','Gaming Website','Chat Website','IVR Website','Evrinocean Website','Vedvidyarthi Website','BDGGAME Website','Nexatel Website','UGOCash Website','WhatsappStore']));
-                @endphp
 
                 <div class="tab-pane fade show active" id="about">
                     <div class="row g-4">
                         @foreach($projectsAll as $project)
                             <div class="col-lg-3 col-sm-6">
                                 <div class="pp-project-card rounded-3 overflow-hidden position-relative z-1">
-                                    <img src="{{ $project['img'] }}" alt="project" class="img-fluid">
-                                    <a href="{{ url('/apvr/project-details.html') }}" class="explore-btn"><i class="fas fa-eye"></i></a>
+                                    <img src="{{ $project->image }}" alt="project" class="img-fluid">
+                                    @if($project->project_url)
+                                        <a href="{{ $project->project_url }}" target="_blank" class="explore-btn"><i class="fas fa-eye"></i></a>
+                                    @endif
                                     <div class="project-content">
-                                        <h6 class="mb-2 text-white">{{ $project['title'] }}</h6>
-                                        <span class="fw-semibold text-uppercase text-white fs-sm">{{ $project['cat'] }}</span>
+                                        <h6 class="mb-2 text-white">{{ $project->title }}</h6>
+                                        <span class="fw-semibold text-uppercase text-white fs-sm">{{ ucwords(str_replace('-', ' ', $project->category)) }}</span>
                                     </div>
                                 </div>
                             </div>
@@ -87,11 +62,13 @@
                         @foreach($projectsWeb as $project)
                             <div class="col-lg-3 col-sm-6">
                                 <div class="pp-project-card rounded-3 overflow-hidden position-relative z-1">
-                                    <img src="{{ $project['img'] }}" alt="project" class="img-fluid">
-                                    <a href="{{ url('/apvr/project-details.html') }}" class="explore-btn"><i class="fas fa-eye"></i></a>
+                                    <img src="{{ $project->image }}" alt="project" class="img-fluid">
+                                    @if($project->project_url)
+                                        <a href="{{ $project->project_url }}" target="_blank" class="explore-btn"><i class="fas fa-eye"></i></a>
+                                    @endif
                                     <div class="project-content">
-                                        <h6 class="mb-2 text-white">{{ $project['title'] }}</h6>
-                                        <span class="fw-semibold text-uppercase text-white fs-sm">{{ $project['cat'] }}</span>
+                                        <h6 class="mb-2 text-white">{{ $project->title }}</h6>
+                                        <span class="fw-semibold text-uppercase text-white fs-sm">{{ ucwords(str_replace('-', ' ', $project->category)) }}</span>
                                     </div>
                                 </div>
                             </div>
@@ -104,11 +81,13 @@
                         @foreach($projectsApp as $project)
                             <div class="col-lg-3 col-sm-6">
                                 <div class="pp-project-card rounded-3 overflow-hidden position-relative z-1">
-                                    <img src="{{ $project['img'] }}" alt="project" class="img-fluid">
-                                    <a href="{{ url('/apvr/project-details.html') }}" class="explore-btn"><i class="fas fa-eye"></i></a>
+                                    <img src="{{ $project->image }}" alt="project" class="img-fluid">
+                                    @if($project->project_url)
+                                        <a href="{{ $project->project_url }}" target="_blank" class="explore-btn"><i class="fas fa-eye"></i></a>
+                                    @endif
                                     <div class="project-content">
-                                        <h6 class="mb-2 text-white">{{ $project['title'] }}</h6>
-                                        <span class="fw-semibold text-uppercase text-white fs-sm">{{ $project['cat'] }}</span>
+                                        <h6 class="mb-2 text-white">{{ $project->title }}</h6>
+                                        <span class="fw-semibold text-uppercase text-white fs-sm">{{ ucwords(str_replace('-', ' ', $project->category)) }}</span>
                                     </div>
                                 </div>
                             </div>
@@ -121,11 +100,13 @@
                         @foreach($projectsGraphics as $project)
                             <div class="col-lg-3 col-sm-6">
                                 <div class="pp-project-card rounded-3 overflow-hidden position-relative z-1">
-                                    <img src="{{ $project['img'] }}" alt="project" class="img-fluid">
-                                    <a href="{{ url('/apvr/project-details.html') }}" class="explore-btn"><i class="fas fa-eye"></i></a>
+                                    <img src="{{ $project->image }}" alt="project" class="img-fluid">
+                                    @if($project->project_url)
+                                        <a href="{{ $project->project_url }}" target="_blank" class="explore-btn"><i class="fas fa-eye"></i></a>
+                                    @endif
                                     <div class="project-content">
-                                        <h6 class="mb-2 text-white">{{ $project['title'] }}</h6>
-                                        <span class="fw-semibold text-uppercase text-white fs-sm">{{ $project['cat'] }}</span>
+                                        <h6 class="mb-2 text-white">{{ $project->title }}</h6>
+                                        <span class="fw-semibold text-uppercase text-white fs-sm">{{ ucwords(str_replace('-', ' ', $project->category)) }}</span>
                                     </div>
                                 </div>
                             </div>
