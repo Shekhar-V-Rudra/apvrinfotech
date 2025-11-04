@@ -13,6 +13,7 @@ class Contact extends Model
         'name',
         'email',
         'service',
+        'others_service',
         'message',
         'file_path',
     ];
