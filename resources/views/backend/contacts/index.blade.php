@@ -29,7 +29,9 @@
                             <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Name</th>
                             <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Email</th>
                             <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Service</th>
+                            <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Others Service</th>
                             <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Message</th>
+                            <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Attachment</th>
                             <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Date</th>
                             <th class="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Actions</th>
                         </tr>
@@ -40,12 +42,41 @@
                                 <td class="px-4 py-3 text-sm text-gray-700">{{ $contact->id }}</td>
                                 <td class="px-4 py-3 text-sm text-gray-900 font-medium">{{ $contact->name }}</td>
                                 <td class="px-4 py-3 text-sm text-indigo-700"><a href="mailto:{{ $contact->email }}">{{ $contact->email }}</a></td>
-                                <td class="px-4 py-3"><span class="inline-flex items-center px-2 py-1 rounded text-xs bg-blue-100 text-blue-800">{{ ucfirst(str_replace('-', ' ', $contact->service)) }}</span></td>
+                                <td class="px-4 py-3">
+                                    @php
+                                        $serviceDisplay = ucfirst(str_replace('-', ' ', $contact->service));
+                                    @endphp
+                                    <span class="inline-flex items-center px-2 py-1 rounded text-xs bg-blue-100 text-blue-800">{{ $serviceDisplay }}</span>
+                                </td>
+                                <td class="px-4 py-3 text-sm text-gray-700">
+                                    @if($contact->others_service)
+                                        <span class="inline-flex items-center px-2 py-1 rounded text-xs bg-purple-100 text-purple-800" title="{{ $contact->others_service }}">
+                                            {{ Str::limit($contact->others_service, 40) }}
+                                        </span>
+                                    @else
+                                        <span class="text-gray-400">-</span>
+                                    @endif
+                                </td>
                                 <td class="px-4 py-3 text-sm text-gray-700">
                                     @if($contact->message)
                                         <span class="inline-block max-w-[220px] truncate" title="{{ $contact->message }}">{{ Str::limit($contact->message, 50) }}</span>
                                     @else
                                         <span class="text-gray-400">No message</span>
+                                    @endif
+                                </td>
+                                <td class="px-4 py-3 text-sm text-gray-700">
+                                    @if($contact->file_path)
+                                        <div class="flex items-center gap-2">
+                                            <a href="{{ route('admin.contacts.file.view', $contact->id) }}" target="_blank" class="text-indigo-600 hover:text-indigo-800" title="View File">
+                                                <i class="fas fa-eye"></i>
+                                            </a>
+                                            <a href="{{ route('admin.contacts.file.download', $contact->id) }}" class="text-green-600 hover:text-green-800" title="Download File">
+                                                <i class="fas fa-download"></i>
+                                            </a>
+                                            <span class="text-xs text-gray-500">{{ strtoupper(pathinfo($contact->file_path, PATHINFO_EXTENSION)) }}</span>
+                                        </div>
+                                    @else
+                                        <span class="text-gray-400">No attachment</span>
                                     @endif
                                 </td>
                                 <td class="px-4 py-3 text-sm text-gray-700">{{ $contact->created_at->format('M d, Y h:i A') }}</td>

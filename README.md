@@ -66,4 +66,13 @@ Create Portfolio migration, model, and seeder
 Create PortfolioController with CRUD operations
 Create backend portfolio views (index, create, edit) with Tailwind
 Update frontend portfolio view to display dynamic data
-Update backend contact views to use Tailwind CSS -->
+Update backend contact views to use Tailwind CSS 
+
+
+Create migration to add file_path column to contacts table
+Update Contact model to include file_path in fillable
+Update frontend contact form to add PDF file upload field
+Update frontend ContactController with PDF validation and file upload handling
+Add route for viewing/downloading PDF files
+Update backend contact index view to show PDF attachment column
+Update backend contact show view to display and allow viewing PDF   -->

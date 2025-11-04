@@ -29,12 +29,71 @@
         </div>
         <div class="grid grid-cols-12 gap-4">
             <div class="col-span-12 md:col-span-2 font-medium text-gray-600">Service:</div>
-            <div class="col-span-12 md:col-span-10"><span class="inline-flex items-center px-2 py-1 rounded text-xs bg-blue-100 text-blue-800">{{ ucfirst(str_replace('-', ' ', $contact->service)) }}</span></div>
+            <div class="col-span-12 md:col-span-10">
+                @php
+                    $serviceDisplay = ucfirst(str_replace('-', ' ', $contact->service));
+                @endphp
+                <span class="inline-flex items-center px-2 py-1 rounded text-xs bg-blue-100 text-blue-800">{{ $serviceDisplay }}</span>
+            </div>
         </div>
+        @if($contact->others_service)
+        <div class="grid grid-cols-12 gap-4">
+            <div class="col-span-12 md:col-span-2 font-medium text-gray-600">Others Service:</div>
+            <div class="col-span-12 md:col-span-10">
+                <div class="border p-3 rounded bg-gray-50">
+                    <span class="inline-flex items-center px-2 py-1 rounded text-xs bg-purple-100 text-purple-800 mb-2">Custom Service</span>
+                    <p class="mt-2">{{ $contact->others_service }}</p>
+                </div>
+            </div>
+        </div>
+        @endif
         <div class="grid grid-cols-12 gap-4">
             <div class="col-span-12 md:col-span-2 font-medium text-gray-600">Message:</div>
             <div class="col-span-12 md:col-span-10">
                 <div class="border p-3 rounded bg-gray-50">{{ $contact->message ?: 'No message provided.' }}</div>
+            </div>
+        </div>
+        <div class="grid grid-cols-12 gap-4">
+            <div class="col-span-12 md:col-span-2 font-medium text-gray-600">Attachment:</div>
+            <div class="col-span-12 md:col-span-10">
+                @if($contact->file_path)
+                    @php
+                        $extension = strtolower(pathinfo($contact->file_path, PATHINFO_EXTENSION));
+                        $isViewable = in_array($extension, ['pdf', 'jpg', 'jpeg', 'png', 'gif', 'webp']);
+                    @endphp
+                    <div class="space-y-3">
+                        <div class="flex items-center gap-3">
+                            <span class="inline-flex items-center px-3 py-2 rounded text-sm bg-blue-100 text-blue-800">
+                                <i class="fas fa-file mr-2"></i> {{ strtoupper($extension) }} File
+                            </span>
+                            @if($isViewable)
+                                <a href="{{ route('admin.contacts.file.view', $contact->id) }}" target="_blank" class="inline-flex items-center px-4 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-700">
+                                    <i class="fas fa-eye mr-2"></i> View File
+                                </a>
+                            @endif
+                            <a href="{{ route('admin.contacts.file.download', $contact->id) }}" class="inline-flex items-center px-4 py-2 rounded bg-green-600 text-white hover:bg-green-700">
+                                <i class="fas fa-download mr-2"></i> Download File
+                            </a>
+                        </div>
+                        @if($isViewable)
+                            <div class="border rounded-lg overflow-hidden bg-gray-50" style="height: 600px;">
+                                <iframe src="{{ route('admin.contacts.file.view', $contact->id) }}" class="w-full h-full" frameborder="0">
+                                    <p>Your browser does not support viewing this file. <a href="{{ route('admin.contacts.file.view', $contact->id) }}" target="_blank">Click here to open the file in a new tab</a> or <a href="{{ route('admin.contacts.file.download', $contact->id) }}">download it</a>.</p>
+                                </iframe>
+                            </div>
+                        @else
+                            <div class="border rounded-lg p-6 bg-gray-50 text-center">
+                                <i class="fas fa-file fa-3x text-gray-400 mb-3"></i>
+                                <p class="text-gray-600 mb-3">This file type cannot be previewed in the browser.</p>
+                                <a href="{{ route('admin.contacts.file.download', $contact->id) }}" class="inline-flex items-center px-4 py-2 rounded bg-green-600 text-white hover:bg-green-700">
+                                    <i class="fas fa-download mr-2"></i> Download File
+                                </a>
+                            </div>
+                        @endif
+                    </div>
+                @else
+                    <span class="text-gray-400">No attachment provided.</span>
+                @endif
             </div>
         </div>
         <div class="grid grid-cols-12 gap-4">

@@ -74,54 +74,77 @@
                     <div class="ct-left">
                         <span class="cr-subtitle position-relative fw-semibold primary-text-color">Get In Touch</span>
                         <h2 class="mt-4 mb-5">You can connect with us when need help!</h2>
-                        <form class="ct-contact-form" action="{{ route('contact.submit') }}" method="post">
+                        <form id="contactForm" class="ct-contact-form" action="{{ route('contact.submit') }}" method="post" enctype="multipart/form-data">
                             @csrf
                             
-                            @if(session('success'))
-                                <div class="alert alert-success alert-dismissible fade show" role="alert">
-                                    {{ session('success') }}
-                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                                </div>
-                            @endif
-                            
-                            @if ($errors->any())
-                                <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                                    <ul class="mb-0">
-                                        @foreach ($errors->all() as $error)
-                                            <li>{{ $error }}</li>
-                                        @endforeach
-                                    </ul>
-                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                                </div>
-                            @endif
+                            <div id="formMessages"></div>
                             <div class="d-flex align-items-center gap-3">
                                 <div class="input-field position-relative width-half">
-                                    <input type="text" name="name" placeholder="Your Name" class="theme-input" value="{{ old('name') }}" required>
+                                    <label for="name" class="d-block mb-2 text-sm fw-semibold" style="color: #333;">
+                                        Your Name <span class="text-danger">*</span>
+                                    </label>
+                                    <input type="text" id="name" name="name" placeholder="Enter your name" class="theme-input" value="{{ old('name') }}" required>
+                                    <small id="name_error" class="text-danger d-block mt-1" style="display: none;"></small>
                                 </div>
                                 <div class="input-field position-relative width-half">
-                                    <input type="email" name="email" placeholder="Email Address" class="theme-input" value="{{ old('email') }}" required>
+                                    <label for="email" class="d-block mb-2 text-sm fw-semibold" style="color: #333;">
+                                        Email Address <span class="text-danger">*</span>
+                                    </label>
+                                    <input type="email" id="email" name="email" placeholder="Enter your email" class="theme-input" value="{{ old('email') }}" required>
+                                    <small id="email_error" class="text-danger d-block mt-1" style="display: none;"></small>
                                 </div>
                             </div>
                             <div class="mt-4">
-                                <select class="nice_select" name="service" required>
-                                    <option value="">Select Desire Service</option>
-                                    <option value="ui">UI/UX Design</option>
-                                    <option value="web">Web Development</option>
-                                    <option value="app">App Development</option>
-                                    <option value="mlm">MLM Development</option>
-                                    <option value="game">Game Development</option>
-                                    <option value="graphics">Graphics Design</option>
-                                    <option value="seo">SEO Optimization</option>
-                                    <option value="digital">Digital Marketing</option>
-                                    <option value="cloud">Cloud Whatsapp Solutions</option>
-                                    <option value="erp">ERP Solutions</option>
-                                    <option value="crm">CRM Solutions</option>
-                                    <option value="ivr">IVR Solutions</option>
-                                    <option value="ecom">E-Commerce Solutions</option>
+                                <label for="service" class="d-block mb-2 text-sm fw-semibold" style="color: #333;">
+                                    Select Desire Service <span class="text-danger">*</span>
+                                </label>
+                                <select id="service" class="nice_select" name="service" required>
+                                    <option value="others" {{ old('service') == 'others' ? 'selected' : '' }}>Others</option>
+                                    <option value="ui" {{ old('service') == 'ui' ? 'selected' : '' }}>UI/UX Design</option>
+                                    <option value="web" {{ old('service') == 'web' ? 'selected' : '' }}>Web Development</option>
+                                    <option value="app" {{ old('service') == 'app' ? 'selected' : '' }}>App Development</option>
+                                    <option value="mlm" {{ old('service') == 'mlm' ? 'selected' : '' }}>MLM Development</option>
+                                    <option value="game" {{ old('service') == 'game' ? 'selected' : '' }}>Game Development</option>
+                                    <option value="graphics" {{ old('service') == 'graphics' ? 'selected' : '' }}>Graphics Design</option>
+                                    <option value="seo" {{ old('service') == 'seo' ? 'selected' : '' }}>SEO Optimization</option>
+                                    <option value="digital" {{ old('service') == 'digital' ? 'selected' : '' }}>Digital Marketing</option>
+                                    <option value="cloud" {{ old('service') == 'cloud' ? 'selected' : '' }}>Cloud Whatsapp Solutions</option>
+                                    <option value="erp" {{ old('service') == 'erp' ? 'selected' : '' }}>ERP Solutions</option>
+                                    <option value="crm" {{ old('service') == 'crm' ? 'selected' : '' }}>CRM Solutions</option>
+                                    <option value="ivr" {{ old('service') == 'ivr' ? 'selected' : '' }}>IVR Solutions</option>
+                                    <option value="ecom" {{ old('service') == 'ecom' ? 'selected' : '' }}>E-Commerce Solutions</option>
+                                   
                                 </select>
+                                <small id="service_error" class="text-danger d-block mt-1" style="display: none;"></small>
                             </div>
-                            <textarea class="theme-input mt-4" name="comment" placeholder="Type Your Message" rows="5">{{ old('comment') }}</textarea>
-                            <button type="submit" class="template-btn primary-btn mt-4">Send Message Now</button>
+                            <div id="othersServiceContainer" class="mt-4" style="display: none;">
+                                <label for="others_service" class="d-block mb-2 text-sm fw-semibold" style="color: #333;">
+                                    Please Specify Your Service <span class="text-danger">*</span>
+                                </label>
+                                <input type="text" id="others_service" name="others_service" placeholder="Enter your service" class="theme-input" value="{{ old('others_service') }}">
+                                <small id="others_service_error" class="text-danger d-block mt-1" style="display: none;"></small>
+                            </div>
+                            <div class="mt-4">
+                                <label for="comment" class="d-block mb-2 text-sm fw-semibold" style="color: #333;">
+                                    Type Your Message <span class="text-danger">*</span>
+                                </label>
+                                <textarea id="comment" name="comment" placeholder="Enter your message" class="theme-input" rows="5" required>{{ old('comment') }}</textarea>
+                                <small id="comment_error" class="text-danger d-block mt-1" style="display: none;"></small>
+                            </div>
+                            <div class="mt-4">
+                                <label for="attachment" class="d-block mb-2 text-sm text-gray-700">
+                                    <i class="fas fa-paperclip me-2 text-primary"></i>Attach File (Optional)
+                                </label>
+                                <input type="file" name="attachment" id="attachment" class="theme-input">
+                                <small class="d-block mt-1 text-muted">All file types allowed. Maximum size: 10MB</small>
+                                <small id="attachment_error" class="text-danger d-block mt-1" style="display: none;"></small>
+                            </div>
+                            <button type="submit" id="submitBtn" class="template-btn primary-btn mt-4">
+                                <span id="submitText">Send Message Now</span>
+                                <span id="submitLoader" style="display: none;">
+                                    <i class="fas fa-spinner fa-spin"></i> Sending...
+                                </span>
+                            </button>
                         </form>
                     </div>
                 </div>
@@ -170,5 +193,229 @@
         </div>
     </div>
 @endsection
+
+@push('scripts')
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('contactForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const submitText = document.getElementById('submitText');
+    const submitLoader = document.getElementById('submitLoader');
+    const formMessages = document.getElementById('formMessages');
+    const serviceSelect = document.getElementById('service');
+    const othersServiceContainer = document.getElementById('othersServiceContainer');
+    const othersServiceInput = document.getElementById('others_service');
+
+    // Show/hide others service input based on selection
+    function toggleOthersService() {
+        if (serviceSelect.value === 'others') {
+            othersServiceContainer.style.display = 'block';
+            othersServiceInput.setAttribute('required', 'required');
+        } else {
+            othersServiceContainer.style.display = 'none';
+            othersServiceInput.removeAttribute('required');
+            othersServiceInput.value = '';
+            // Clear error for others_service when hidden
+            const errorElement = document.getElementById('others_service_error');
+            if (errorElement) {
+                errorElement.style.display = 'none';
+                errorElement.textContent = '';
+            }
+            othersServiceInput.style.borderColor = '';
+            othersServiceInput.style.borderWidth = '';
+        }
+    }
+
+    // Initialize on page load
+    toggleOthersService();
+
+    // Listen for service select changes
+    serviceSelect.addEventListener('change', function() {
+        toggleOthersService();
+        // Clear service error when user selects a service
+        if (serviceSelect.value && serviceSelect.value !== '') {
+            const errorElement = document.getElementById('service_error');
+            const wrapper = serviceSelect.closest('.nice-select') || serviceSelect.parentElement;
+            
+            if (errorElement) {
+                errorElement.style.display = 'none';
+                errorElement.textContent = '';
+            }
+            
+            if (serviceSelect) {
+                serviceSelect.style.borderColor = '';
+                serviceSelect.style.borderWidth = '';
+            }
+            
+            if (wrapper && wrapper.classList.contains('nice-select')) {
+                wrapper.style.borderColor = '';
+                wrapper.style.borderWidth = '';
+            }
+        }
+    });
+
+    // Clear previous validation errors
+    function clearErrors() {
+        const errorElements = document.querySelectorAll('[id$="_error"]');
+        errorElements.forEach(el => {
+            el.style.display = 'none';
+            el.textContent = '';
+        });
+        
+        const inputs = document.querySelectorAll('.theme-input, .nice_select');
+        inputs.forEach(input => {
+            input.style.borderColor = '';
+            input.style.borderWidth = '';
+        });
+        
+        // Also clear errors from nice-select wrappers
+        const niceSelectWrappers = document.querySelectorAll('.nice-select');
+        niceSelectWrappers.forEach(wrapper => {
+            wrapper.style.borderColor = '';
+            wrapper.style.borderWidth = '';
+        });
+    }
+
+    // Show error message for a specific field
+    function showError(fieldName, message) {
+        const errorElement = document.getElementById(fieldName + '_error');
+        const inputElement = document.getElementById(fieldName);
+        
+        if (errorElement) {
+            errorElement.textContent = message;
+            errorElement.style.display = 'block';
+        }
+        
+        if (inputElement) {
+            // Apply red border to the input/select element
+            inputElement.style.borderColor = '#dc3545';
+            inputElement.style.borderWidth = '2px';
+            
+            // For select fields, also try to style the wrapper if it exists (for nice_select plugin)
+            if (inputElement.tagName === 'SELECT') {
+                // Try to find the wrapper element
+                const wrapper = inputElement.closest('.nice-select') || inputElement.parentElement;
+                if (wrapper && wrapper.classList.contains('nice-select')) {
+                    wrapper.style.borderColor = '#dc3545';
+                    wrapper.style.borderWidth = '2px';
+                }
+            }
+        }
+    }
+
+    // Show success/error message
+    function showMessage(message, type) {
+        formMessages.innerHTML = `
+            <div class="alert alert-${type} alert-dismissible fade show" role="alert">
+                ${message}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        `;
+        
+        // Auto hide after 5 seconds for success
+        if (type === 'success') {
+            setTimeout(() => {
+                const alert = formMessages.querySelector('.alert');
+                if (alert) {
+                    alert.remove();
+                }
+            }, 5000);
+        }
+    }
+
+    // Form submission handler
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        // Clear previous errors
+        clearErrors();
+        formMessages.innerHTML = '';
+        
+        // Validate service field before submission
+        if (!serviceSelect.value || serviceSelect.value === '' || serviceSelect.value === null) {
+            showError('service', 'Please select a service.');
+            submitBtn.disabled = false;
+            submitText.style.display = 'inline-block';
+            submitLoader.style.display = 'none';
+            return;
+        }
+        
+        // Disable submit button and show loading
+        submitBtn.disabled = true;
+        submitText.style.display = 'none';
+        submitLoader.style.display = 'inline-block';
+        
+        // Create FormData object
+        const formData = new FormData(form);
+        
+        // AJAX request
+        fetch(form.action, {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'X-Requested-With': 'XMLHttpRequest',
+                'Accept': 'application/json',
+            }
+        })
+        .then(response => {
+            // Check if response is JSON
+            const contentType = response.headers.get('content-type');
+            if (contentType && contentType.includes('application/json')) {
+                return response.json().catch(() => {
+                    throw new Error('Invalid JSON response');
+                });
+            }
+            // If not JSON, throw error
+            throw new Error('Unexpected response format');
+        })
+        .then(data => {
+            // Re-enable submit button and restore text
+            submitBtn.disabled = false;
+            submitText.style.display = 'inline-block';
+            submitLoader.style.display = 'none';
+            
+            if (data.success) {
+                // Show success message
+                showMessage(data.message || 'Thank you for contacting us! We have received your message and will get back to you soon.', 'success');
+                
+                // Reset form
+                form.reset();
+                // Reset others service container visibility
+                toggleOthersService();
+            } else if (data.errors) {
+                // Show validation errors
+                Object.keys(data.errors).forEach(field => {
+                    const errorMessages = Array.isArray(data.errors[field]) 
+                        ? data.errors[field].join(', ') 
+                        : data.errors[field];
+                    showError(field, errorMessages);
+                    
+                    // If others_service has error, show the container
+                    if (field === 'others_service') {
+                        othersServiceContainer.style.display = 'block';
+                    }
+                });
+                
+                // Show general error message if any
+                if (data.message) {
+                    showMessage(data.message, 'danger');
+                }
+            } else if (data.message) {
+                showMessage(data.message, 'danger');
+            }
+        })
+        .catch(error => {
+            // Re-enable submit button and restore text after error
+            submitBtn.disabled = false;
+            submitText.style.display = 'inline-block';
+            submitLoader.style.display = 'none';
+            
+            console.error('Error:', error);
+            showMessage('An error occurred. Please try again later.', 'danger');
+        });
+    });
+});
+</script>
+@endpush
 
 

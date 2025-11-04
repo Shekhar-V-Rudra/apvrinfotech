@@ -60,6 +60,6 @@ class DatabaseSeeder extends Seeder
             ],
         ]);
 
-        // rakeshApvr@183   // admin@apvrinfotech.com
+        // rakeshApvr@183   //  admin@apvrinfotech.com
     }
-}
+}       

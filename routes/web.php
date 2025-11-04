@@ -34,6 +34,8 @@ Route::prefix('admin')->name('admin.')->group(function () {
         })->name('dashboard');
         Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
         Route::resource('contacts', BackendContactController::class)->except(['create', 'edit', 'update']);
+        Route::get('contacts/{contact}/file/view', [BackendContactController::class, 'viewFile'])->name('contacts.file.view');
+        Route::get('contacts/{contact}/file/download', [BackendContactController::class, 'downloadFile'])->name('contacts.file.download');
         Route::resource('portfolios', BackendPortfolioController::class);
     });
 });
