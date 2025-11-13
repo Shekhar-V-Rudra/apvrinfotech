@@ -20,6 +20,7 @@ Route::view('/graphics', 'frontend.graphics')->name('graphics');
 Route::view('/web', 'frontend.web')->name('web');
 Route::view('/app', 'frontend.app')->name('app');
 Route::view('/digital', 'frontend.digital')->name('digital');
+Route::view('/career', 'frontend.career')->name('career');
 
 // Admin Routes - Authentication
 Route::prefix('admin')->name('admin.')->group(function () {
