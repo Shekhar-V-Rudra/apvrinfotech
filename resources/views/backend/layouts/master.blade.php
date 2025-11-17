@@ -54,6 +54,9 @@
                     <a class="px-4 py-2 rounded hover:bg-white/10 transition {{ request()->routeIs('admin.portfolios.*') ? 'bg-white/10' : '' }}" href="{{ route('admin.portfolios.index') }}">
                         <i class="fas fa-briefcase mr-2"></i> Portfolio
                     </a>
+                    <a class="px-4 py-2 rounded hover:bg-white/10 transition {{ request()->routeIs('admin.careers.*') ? 'bg-white/10' : '' }}" href="{{ route('admin.careers.index') }}">
+                        <i class="fas fa-user-tie mr-2"></i> Career
+                    </a>
                     <a class="px-4 py-2 rounded hover:bg-white/10 transition" href="{{ url('/') }}" target="_blank">
                         <i class="fas fa-home mr-2"></i> View Site
                     </a>

@@ -4,8 +4,10 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\ContactController;
 use App\Http\Controllers\Frontend\PortfolioController as FrontendPortfolioController;
+use App\Http\Controllers\Frontend\CareerController as FrontendCareerController;
 use App\Http\Controllers\Backend\ContactController as BackendContactController;
 use App\Http\Controllers\Backend\PortfolioController as BackendPortfolioController;
+use App\Http\Controllers\Backend\CareerController as BackendCareerController;
 use App\Http\Controllers\Backend\AuthController;
 
 Route::get('/', HomeController::class);
@@ -20,7 +22,7 @@ Route::view('/graphics', 'frontend.graphics')->name('graphics');
 Route::view('/web', 'frontend.web')->name('web');
 Route::view('/app', 'frontend.app')->name('app');
 Route::view('/digital', 'frontend.digital')->name('digital');
-Route::view('/career', 'frontend.career')->name('career');
+Route::get('/career', [FrontendCareerController::class, 'index'])->name('career');
 
 // Admin Routes - Authentication
 Route::prefix('admin')->name('admin.')->group(function () {
@@ -38,6 +40,7 @@ Route::prefix('admin')->name('admin.')->group(function () {
         Route::get('contacts/{contact}/file/view', [BackendContactController::class, 'viewFile'])->name('contacts.file.view');
         Route::get('contacts/{contact}/file/download', [BackendContactController::class, 'downloadFile'])->name('contacts.file.download');
         Route::resource('portfolios', BackendPortfolioController::class);
+        Route::resource('careers', BackendCareerController::class);
     });
 });
  

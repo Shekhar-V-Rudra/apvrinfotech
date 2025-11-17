@@ -65,137 +65,38 @@
                 <h2 class="mt-4 mb-5">Current Openings</h2>
             </div>
             <div class="row g-4">
-                <!-- Job Listing 1 -->
-                <div class="col-lg-6 col-md-6">
-                    <div class="job-card bg-white p-4 rounded-3 h-100">
-                        <h4 class="job-title mb-3 fw-bold">Business Development Executive</h4>
-                        <div class="job-details mb-3">
-                            <span class="job-badge me-2 mb-2 d-inline-block">
-                                <i class="fa-solid fa-users me-1"></i> Vacancy: 3
-                            </span>
-                            <span class="job-badge me-2 mb-2 d-inline-block">
-                                <i class="fa-solid fa-briefcase me-1"></i> Full time
-                            </span>
-                            <span class="job-badge me-2 mb-2 d-inline-block">
-                                <i class="fa-solid fa-calendar-days me-1"></i> Exp. 0-2 Years
-                            </span>
-                            <span class="job-badge me-2 mb-2 d-inline-block">
-                                <i class="fa-solid fa-location-dot me-1"></i> Surat
-                            </span>
+                @forelse($careers as $career)
+                    <div class="col-lg-6 col-md-6">
+                        <div class="job-card bg-white p-4 rounded-3 h-100">
+                            <h4 class="job-title mb-3 fw-bold">{{ $career->job_title }}</h4>
+                            <div class="job-details mb-3">
+                                <span class="job-badge me-2 mb-2 d-inline-block">
+                                    <i class="fa-solid fa-users me-1"></i> Vacancy: {{ $career->vacancy }}
+                                </span>
+                                <span class="job-badge me-2 mb-2 d-inline-block">
+                                    <i class="fa-solid fa-briefcase me-1"></i> {{ $career->job_type }}
+                                </span>
+                                @if($career->experience)
+                                    <span class="job-badge me-2 mb-2 d-inline-block">
+                                        <i class="fa-solid fa-calendar-days me-1"></i> Exp. {{ $career->experience }}
+                                    </span>
+                                @endif
+                                @if($career->location)
+                                    <span class="job-badge me-2 mb-2 d-inline-block">
+                                        <i class="fa-solid fa-location-dot me-1"></i> {{ $career->location }}
+                                    </span>
+                                @endif
+                            </div>
+                            <a href="javascript:void(0)" class="template-btn primary-btn w-100 text-center">Apply Now</a>
                         </div>
-                        <a href="javascript:void(0)" class="template-btn primary-btn w-100 text-center">Apply Now</a>
                     </div>
-                </div>
-                
-                <!-- Job Listing 2 -->
-                <div class="col-lg-6 col-md-6">
-                    <div class="job-card bg-white p-4 rounded-3 h-100">
-                        <h4 class="job-title mb-3 fw-bold">UI/UX Designer</h4>
-                        <div class="job-details mb-3">
-                            <span class="job-badge me-2 mb-2 d-inline-block">
-                                <i class="fa-solid fa-users me-1"></i> Vacancy: 2
-                            </span>
-                            <span class="job-badge me-2 mb-2 d-inline-block">
-                                <i class="fa-solid fa-briefcase me-1"></i> Full time
-                            </span>
-                            <span class="job-badge me-2 mb-2 d-inline-block">
-                                <i class="fa-solid fa-calendar-days me-1"></i> Exp. 1-3 Years
-                            </span>
-                            <span class="job-badge me-2 mb-2 d-inline-block">
-                                <i class="fa-solid fa-location-dot me-1"></i> Surat
-                            </span>
+                @empty
+                    <div class="col-12">
+                        <div class="text-center py-5">
+                            <p class="text-muted">No job openings available at the moment. Please check back later.</p>
                         </div>
-                        <a href="javascript:void(0)" class="template-btn primary-btn w-100 text-center">Apply Now</a>
                     </div>
-                </div>
-                
-                <!-- Job Listing 3 -->
-                <div class="col-lg-6 col-md-6">
-                    <div class="job-card bg-white p-4 rounded-3 h-100">
-                        <h4 class="job-title mb-3 fw-bold">PHP Laravel Developer</h4>
-                        <div class="job-details mb-3">
-                            <span class="job-badge me-2 mb-2 d-inline-block">
-                                <i class="fa-solid fa-users me-1"></i> Vacancy: 3
-                            </span>
-                            <span class="job-badge me-2 mb-2 d-inline-block">
-                                <i class="fa-solid fa-briefcase me-1"></i> Full time
-                            </span>
-                            <span class="job-badge me-2 mb-2 d-inline-block">
-                                <i class="fa-solid fa-calendar-days me-1"></i> Exp. 0-1 Year
-                            </span>
-                            <span class="job-badge me-2 mb-2 d-inline-block">
-                                <i class="fa-solid fa-location-dot me-1"></i> Surat
-                            </span>
-                        </div>
-                        <a href="javascript:void(0)" class="template-btn primary-btn w-100 text-center">Apply Now</a>
-                    </div>
-                </div>
-                
-                <!-- Job Listing 4 -->
-                <div class="col-lg-6 col-md-6">
-                    <div class="job-card bg-white p-4 rounded-3 h-100">
-                        <h4 class="job-title mb-3 fw-bold">WordPress Developer</h4>
-                        <div class="job-details mb-3">
-                            <span class="job-badge me-2 mb-2 d-inline-block">
-                                <i class="fa-solid fa-users me-1"></i> Vacancy: 2
-                            </span>
-                            <span class="job-badge me-2 mb-2 d-inline-block">
-                                <i class="fa-solid fa-briefcase me-1"></i> Full time
-                            </span>
-                            <span class="job-badge me-2 mb-2 d-inline-block">
-                                <i class="fa-solid fa-calendar-days me-1"></i> Exp. 0-2 Years
-                            </span>
-                            <span class="job-badge me-2 mb-2 d-inline-block">
-                                <i class="fa-solid fa-location-dot me-1"></i> Surat
-                            </span>
-                        </div>
-                        <a href="javascript:void(0)" class="template-btn primary-btn w-100 text-center">Apply Now</a>
-                    </div>
-                </div>
-                
-                <!-- Job Listing 5 -->
-                <div class="col-lg-6 col-md-6">
-                    <div class="job-card bg-white p-4 rounded-3 h-100">
-                        <h4 class="job-title mb-3 fw-bold">React JS Developer</h4>
-                        <div class="job-details mb-3">
-                            <span class="job-badge me-2 mb-2 d-inline-block">
-                                <i class="fa-solid fa-users me-1"></i> Vacancy: 2
-                            </span>
-                            <span class="job-badge me-2 mb-2 d-inline-block">
-                                <i class="fa-solid fa-briefcase me-1"></i> Full time
-                            </span>
-                            <span class="job-badge me-2 mb-2 d-inline-block">
-                                <i class="fa-solid fa-calendar-days me-1"></i> Exp. 0-2 Years
-                            </span>
-                            <span class="job-badge me-2 mb-2 d-inline-block">
-                                <i class="fa-solid fa-location-dot me-1"></i> Surat
-                            </span>
-                        </div>
-                        <a href="javascript:void(0)" class="template-btn primary-btn w-100 text-center">Apply Now</a>
-                    </div>
-                </div>
-                
-                <!-- Job Listing 6 -->
-                <div class="col-lg-6 col-md-6">
-                    <div class="job-card bg-white p-4 rounded-3 h-100">
-                        <h4 class="job-title mb-3 fw-bold">Digital Marketing Executive</h4>
-                        <div class="job-details mb-3">
-                            <span class="job-badge me-2 mb-2 d-inline-block">
-                                <i class="fa-solid fa-users me-1"></i> Vacancy: 2
-                            </span>
-                            <span class="job-badge me-2 mb-2 d-inline-block">
-                                <i class="fa-solid fa-briefcase me-1"></i> Full time
-                            </span>
-                            <span class="job-badge me-2 mb-2 d-inline-block">
-                                <i class="fa-solid fa-calendar-days me-1"></i> Exp. 1-3 Years
-                            </span>
-                            <span class="job-badge me-2 mb-2 d-inline-block">
-                                <i class="fa-solid fa-location-dot me-1"></i> Surat
-                            </span>
-                        </div>
-                        <a href="javascript:void(0)" class="template-btn primary-btn w-100 text-center">Apply Now</a>
-                    </div>
-                </div>
+                @endforelse
             </div>
         </div>
     </section>

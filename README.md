@@ -75,4 +75,15 @@ Update frontend contact form to add PDF file upload field
 Update frontend ContactController with PDF validation and file upload handling
 Add route for viewing/downloading PDF files
 Update backend contact index view to show PDF attachment column
-Update backend contact show view to display and allow viewing PDF   -->
+Update backend contact show view to display and allow viewing PDF  
+
+# Career Page dynamic added
+Create migration for careers table with enable/disable flag
+Create Career model
+Create CareerController for backend
+Create backend views (index, create, edit)
+Add career routes to web.php
+Add career menu to admin sidebar
+Update frontend career page to fetch data dynamically
+
+ -->
