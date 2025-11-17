@@ -23,48 +23,42 @@
     </div>
 
     <div class="container">
-        <h3 class="head02 mt-5 mb-5">Our Office Locations</h3>
-        <div class="row justify-content-md-center">
-            <div class="col-12 col-md-4 mb-3">
-                <div class="card carda01 mb-5">
-                    <div class="d-flex flex-row justify-content-center">
-                        <img src="assets/surat.png" class="card-ima" alt="Surat">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title card-title01">Surat</h5>
-                        <h6 class="card-title card-title02">Office Address</h6>
-                        <p class="card-text card-text01">Surat (Regd.Office): J-162, Japan Market, Near Delhi Gate, Surat., Gujarat - 395003</p>
-                        <p class="card-text01"><i class="fa-solid fa-envelope pe-2"></i>info@apvrinfotech.com</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 mb-3 d-none">
-                <div class="card carda01 mb-5">
-                    <div class="d-flex flex-row justify-content-center">
-                        <img src="assets/mumbai.png" class="card-ima" alt="Mumbai">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title card-title01">Mumbai</h5>
-                        <h6 class="card-title card-title02">Office Address</h6>
-                        <p class="card-text card-text01">Mumbai (Sales.Office): 205, Parikh Commercial Centre, Agashi Rd, Gokul Twp, Virar East, Virar, Maharashtra - 401303</p>
-                        <p class="card-text01"><i class="fa-solid fa-envelope pe-2"></i>info@apvrinfotech.com</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 mb-3 d-none">
-                <div class="card carda01 mb-5">
-                    <div class="d-flex flex-row justify-content-center">
-                        <img src="assets/mathura.png" class="card-ima mt-1" alt="Mathura">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title card-title01">Mathura</h5>
-                        <h6 class="card-title card-title02">Office Address</h6>
-                        <p class="card-text card-text01">Mathura (Regd.Office): C3 moholi pura in behind of BSA Engineering College, Mathura, Uttar Predesh-281001</p>
-                        <p class="card-text01"><i class="fa-solid fa-envelope pe-2"></i>info@apvrinfotech.com</p>
+        <h3 class="head02 mt-5 mb-5">Connect With Us</h3>
+        <!-- Career Header Section -->
+            <!-- Career Header Section -->
+            <section class="career-header-section position-relative pb-5">
+                <div class="container">
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="career-feature-box text-center p-5 h-100 d-flex flex-column justify-content-center">
+                                <div class="career-icon mb-4">
+                                    <i class="fa-regular fa-map fa-3x primary-text-color"></i>
+                                </div>
+                                <h3 class="mb-4 fw-bold">Location</h3>
+                                <p class="mb-0">J-162, Japan Market, Near Delhi Gate, Surat., Gujarat - 395003</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="career-feature-box text-center p-5 h-100 d-flex flex-column justify-content-center">
+                                <div class="career-icon mb-4">
+                                    <i class="fa-regular fa-address-book fa-3x primary-text-color"></i>
+                                </div>
+                                <h3 class="mb-4 fw-bold">Contact Number</h3>
+                                <p class="mb-0">+91 99099971138</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="career-feature-box text-center p-5 h-100 d-flex flex-column justify-content-center">
+                                <div class="career-icon mb-4">
+                                    <i class="fa-regular fa-envelope fa-3x primary-text-color"></i>
+                                </div>
+                                <h3 class="mb-4 fw-bold">Email</h3>
+                                <p class="mb-0">info@apvrinfotech.com</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </section>
     </div>
 
     <section class="contact-form-area ptb-100 bg-light-white position-relative">
