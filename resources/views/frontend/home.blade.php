@@ -377,7 +377,7 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
                         <span class="circle-shape position-absolute z--1"></span>
                         <div class="d-flex flex-row justify-content-between flex-wrap">
                             <div>
-                                <div class="book-container d-flex flex-column justify-content-center mb-3">
+                                <div class="book-container b01 d-flex flex-column justify-content-center mb-3">
                                     <div class="text-center">
                                         <i class="fa-solid fa-people-group icon01 pt-3"></i>
                                         <p class="service-name">Social <br> Networking</p>
@@ -387,7 +387,7 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
 
 
                             <div>
-                                <div class="book-container01 d-flex flex-column justify-content-center mb-3">
+                                <div class="book-container01 b01 d-flex flex-column justify-content-center mb-3">
                                     <div class="text-center">
                                         <i class="fa-solid fa-bullhorn icon01 pt-3"></i>
                                         <p class="service-name">Digital <br> Marketing</p>
@@ -397,7 +397,7 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
 
 
                             <div>
-                                <div class="book-container02 d-flex flex-column justify-content-center mb-3">
+                                <div class="book-container02 b01 d-flex flex-column justify-content-center mb-3">
                                     <div class="text-center">
                                         <i class="fa-solid fa-shop icon01 pt-3"></i>
                                         <p class="service-name">Ecommerce <br> Development</p>
@@ -406,7 +406,7 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
                             </div>
 
                             <div>
-                                <div class="book-container03 d-flex flex-column justify-content-center mb-3">
+                                <div class="book-container03 b01 d-flex flex-column justify-content-center mb-3">
                                     <div class="text-center">
                                         <i class="fa-solid fa-video icon01 pt-3"></i>
                                         <p class="service-name">Video <br> Service</p>
@@ -418,7 +418,7 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
 
 
                             <div>
-                                <div class="book-container04 d-flex flex-column justify-content-center mb-3">
+                                <div class="book-container04 b01 d-flex flex-column justify-content-center mb-3">
                                     <div class="text-center">
                                         <i class="fa-solid fa-building-columns icon01 pt-3"></i>
                                         <p class="service-name">Banking <br> Service</p>
@@ -428,7 +428,7 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
 
 
                             <div>
-                                <div class="book-container05 d-flex flex-column justify-content-center mb-3">
+                                <div class="book-container05 b01 d-flex flex-column justify-content-center mb-3">
                                     <div class="text-center">
                                         <i class="fa-solid fa-building icon01 pt-3"></i>
                                         <p class="service-name">Enterprise <br> Service</p>
@@ -438,7 +438,7 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
 
 
                             <div>
-                                <div class="book-container06 d-flex flex-column justify-content-center mb-3">
+                                <div class="book-container06 b01 d-flex flex-column justify-content-center mb-3">
                                     <div class="text-center">
                                         <i class="fa-solid fa-school icon01 pt-3"></i>
                                         <p class="service-name">Education <br> Service</p>
@@ -447,7 +447,7 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
                             </div>
 
                             <div>
-                                <div class="book-container07 d-flex flex-column justify-content-center mb-3">
+                                <div class="book-container07 b01 d-flex flex-column justify-content-center mb-3">
                                     <div class="text-center">
                                         <i class="fa-solid fa-route icon01 pt-3"></i>
                                         <p class="service-name">Tour and <br> Travels</p>
@@ -457,7 +457,7 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
 
 
                             <div>
-                                <div class="book-container08 d-flex flex-column justify-content-center mb-3">
+                                <div class="book-container08 b01 d-flex flex-column justify-content-center mb-3">
                                     <div class="text-center">
                                         <i class="fa-solid fa-notes-medical icon01 pt-3"></i>
                                         <p class="service-name">Health <br> Service</p>
@@ -467,7 +467,7 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
 
 
                             <div>
-                                <div class="book-container09 d-flex flex-column justify-content-center mb-3">
+                                <div class="book-container09 b01 d-flex flex-column justify-content-center mb-3">
                                     <div class="text-center">
                                         <i class="fa-solid fa-ticket icon01 pt-3"></i>
                                         <p class="service-name">Event &  <br> Ticket</p>
@@ -477,7 +477,7 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
 
 
                             <div>
-                                <div class="book-container10 d-flex flex-column justify-content-center mb-3">
+                                <div class="book-container10 b01 d-flex flex-column justify-content-center mb-3">
                                     <div class="text-center">
                                         <i class="fa-solid fa-utensils icon01 pt-3"></i>
                                         <p class="service-name">Restaurant <br> Service</p>
@@ -486,7 +486,7 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
                             </div>
 
                             <div>
-                                <div class="book-container11 d-flex flex-column justify-content-center mb-3">
+                                <div class="book-container11 b01 d-flex flex-column justify-content-center mb-3">
                                     <div class="text-center">
                                         <i class="fa-solid fa-business-time icon01 pt-3"></i>
                                         <p class="service-name">Busines <br> Consultant</p>

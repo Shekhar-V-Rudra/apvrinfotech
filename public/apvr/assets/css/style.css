@@ -7998,3 +7998,16 @@ green .hm5-counter-column .icon-wrapper {
       opacity: 1;
     }
   }
+
+  .b01:hover {
+    background-color: var(--white-color);
+    border: 1px solid var(--border-color);
+    transform: scale(1.05);
+  }
+  .b01:hover .icon01,
+  .b01:hover .service-name {
+    color: var(--primary-color);
+  }
+  .b01 {
+    transition: all 1s ease;
+  }

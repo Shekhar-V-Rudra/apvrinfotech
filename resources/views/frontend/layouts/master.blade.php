@@ -43,10 +43,10 @@
                 <div class="row g-4 align-items-center justify-content-between">
                     <div class="col-xl-6 col-lg-7">
                         <div class="infobar-content d-flex align-items-center">
-                            <a href="tel:+91 99099971138" class="mb-0 fs-sm fw-semibold"><span class="me-2"><i class="fa-solid fa-phone"></i></span>+91 99099971138</a>
-                            <p class="fs-sm mb-0 fw-semibold"><span class="me-2"><i class="fa-solid fa-location-dot"></i></span>
+                            <a href="tel:+91 99099971138" class="mb-0 fs-sm fw-semibold {{ request()->is('/') ? '' : 'text-white' }}"><span class="me-2"><i class="fa-solid fa-phone"></i></span>+91 99099971138</a>
+                            <p class="fs-sm mb-0 fw-semibold {{ request()->is('/') ? '' : 'text-white' }}"><span class="me-2"><i class="fa-solid fa-location-dot"></i></span>
                                  Surat</p>
-                            <a href="mailto:info@apvrinfotech.com" class="fw-semibold fs-sm"><span class="me-2"><i class="fa-solid fa-envelope"></i></span>info@apvrinfotech.com</a>
+                            <a href="mailto:info@apvrinfotech.com" class="fw-semibold fs-sm {{ request()->is('/') ? '' : 'text-white' }}"><span class="me-2"><i class="fa-solid fa-envelope"></i></span>info@apvrinfotech.com</a>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-5">
