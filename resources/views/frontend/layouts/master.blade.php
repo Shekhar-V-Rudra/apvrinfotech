@@ -190,29 +190,23 @@
                             <h6 class="widget-title">Services</h6>
                             <ul class="footer-links">
                                 <li><a href='{{ url('/ui') }}'>UI/UX Design</a></li>
-                                <li><a href='{{ url('/graphics') }}'>Graphics Design</a></li>
                                 <li><a href='{{ url('/web') }}'>Web Development</a></li>
                                 <li><a href='{{ url('/app') }}'>App Development</a></li>
-                                <li><a href='javascript:void(0)'>E-Commerce Solutions</a></li>
+                                <li><a href='javascript:void(0)'>E-Commerce</a></li>
                                 <li><a href='{{ url('/digital') }}'>Digital Marketing</a></li>
-                                <li><a href="javascript:void(0)">AI & ML</a></li>
-                                <li><a href="javascript:void(0)">DevOps Services</a></li>
-                                <li><a href="javascript:void(0)">Cloud Computing</a></li>
-                                <li><a href="javascript:void(0)">QA & Testing</a></li>
-                                <li><a href="javascript:void(0)">Support & Maintenance</a></li>
                                 <li><a href="javascript:void(0)">Staff Augmentation</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6">
                         <div class="footer-widget nav-widget">
-                            <h6 class="widget-title">Digital Products</h6>
+                            <h6 class="widget-title">Industries</h6>
                             <ul class="footer-links">
-                                <li><a href='javascript:void(0)'>Cloud Whatsapp Solutions</a></li>
-                                <li><a href='javascript:void(0)'>ERP Solutions</a></li>
-                                <li><a href='javascript:void(0)'>CRM Solutions</a></li>
+                                <li><a href='javascript:void(0)'>Eduction</a></li>
+                                <li><a href='javascript:void(0)'>Healthcare</a></li>
+                                <li><a href='javascript:void(0)'>Membership</a></li>
                                 <li><a href='javascript:void(0)'>IVR Solutions</a></li>
-                                <li><a href='javascript:void(0)'>E-Commerce Solutions</a></li>
+                                <li><a href='javascript:void(0)'>Social Networking</a></li>
                             </ul>
                         </div>
                     </div>
