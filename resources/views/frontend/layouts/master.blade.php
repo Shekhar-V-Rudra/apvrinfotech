@@ -106,7 +106,7 @@
                     </div>
                     <div class="col-xl-3 col-lg-1 col-6">
                         <div class="text-end d-flex align-items-center justify-content-end header-right gap-3">
-                            <a class='template-btn primary-btn d-none d-sm-block d-lg-none d-xl-block text-center' href='{{ url('/brochure') }}'>Download Brochure</a>
+                            <a class='template-btn primary-btn d-none d-sm-block d-lg-none d-xl-block text-center' href='{{ url('/brochure') }}'>Download Brochure <i class="fa-solid fa-download download-icon"></i></a>
                             <button type="button" class="header-toggle mobile-menu-toggle d-lg-none">
                                 <span></span>
                                 <span></span>
