@@ -10,7 +10,7 @@ use App\Http\Controllers\Backend\PortfolioController as BackendPortfolioControll
 use App\Http\Controllers\Backend\CareerController as BackendCareerController;
 use App\Http\Controllers\Backend\AuthController;
 
-Route::get('/', HomeController::class);
+Route::get('/', HomeController::class)->name('home');
 Route::get('/portfolio', FrontendPortfolioController::class)->name('portfolio');
 Route::get('/contact', [ContactController::class, 'show'])->name('contact');
 Route::post('/contact/submit', [ContactController::class, 'store'])->name('contact.submit');
@@ -23,6 +23,11 @@ Route::view('/web', 'frontend.web')->name('web');
 Route::view('/app', 'frontend.app')->name('app');
 Route::view('/digital', 'frontend.digital')->name('digital');
 Route::get('/career', [FrontendCareerController::class, 'index'])->name('career');
+
+// Route alias for login (redirects to admin login)
+Route::get('/login', function () {
+    return redirect()->route('admin.login');
+})->name('login');
 
 // Admin Routes - Authentication
 Route::prefix('admin')->name('admin.')->group(function () {
