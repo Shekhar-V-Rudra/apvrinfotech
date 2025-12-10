@@ -14,7 +14,9 @@ Route::get('/', HomeController::class)->name('home');
 Route::get('/portfolio', FrontendPortfolioController::class)->name('portfolio');
 Route::get('/contact', [ContactController::class, 'show'])->name('contact');
 Route::post('/contact/submit', [ContactController::class, 'store'])->name('contact.submit');
-Route::view('/brochure', 'frontend.brochure')->name('brochure');
+Route::get('/brochure', function () {
+    return redirect(asset('apvr/assets/doc/Apvr-Infotech-Brochure.pdf'));
+})->name('brochure');
 Route::view('/about', 'frontend.about')->name('about');
 Route::view('/appointment', 'frontend.appointment')->name('appointment');
 Route::view('/ui', 'frontend.ui')->name('ui');

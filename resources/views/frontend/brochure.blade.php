@@ -28,7 +28,7 @@
                 <div class="col-lg-8 text-center">
                     <h2 class="mb-4">Get Our Company Profile</h2>
                     <p class="mb-5">Download our latest brochure to explore our services, expertise, and case studies.</p>
-                    <a class='template-btn primary-btn' href='{{ asset('apvr/assets/Apvr-Infotech-Brochure.pdf') }}' target="_blank">Download PDF</a>
+                    <a class='template-btn primary-btn' href='{{ asset('apvr/assets/doc/Apvr-Infotech-Brochure.pdf') }}' target="_blank">Download PDF</a>
                 </div>
             </div>
         </div>
