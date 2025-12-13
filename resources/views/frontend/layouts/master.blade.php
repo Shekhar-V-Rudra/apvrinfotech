@@ -89,13 +89,13 @@
                                         <li><a href='{{ url('/graphics') }}'>Graphics Design</a></li>
                                         <li><a href='{{ url('/web') }}'>Web Development</a></li>
                                         <li><a href='{{ url('/app') }}'>App Development</a></li>
-                                        <li><a href='javascript:void(0)'>E-Commerce Solutions</a></li>
+                                        <li><a href='{{ url('/ecommerce') }}'>E-Commerce Solutions</a></li>
                                         <li><a href='{{ url('/digital') }}'>Digital Marketing</a></li>
-                                        <li><a href="javascript:void(0)">AI & ML</a></li>
-                                        <li><a href="javascript:void(0)">DevOps Services</a></li>
-                                        <li><a href="javascript:void(0)">Cloud Computing</a></li>
-                                        <li><a href="javascript:void(0)">Support & Maintenance</a></li>
-                                        <li><a href="javascript:void(0)">Staff Augmentation</a></li>
+                                        <li><a href='{{ url('/ai-ml') }}'>AI & ML</a></li>
+                                        <li><a href='{{ url('/devops') }}'>DevOps Services</a></li>
+                                        <li><a href='{{ url('/cloud') }}'>Cloud Computing</a></li>
+                                        <li><a href='{{ url('/qa-testing') }}'>QA & Testing</a></li>
+                                        <li><a href='{{ url('/support') }}'>Support & Maintenance</a></li>
                                     </ul>
                                 </li>
                                 <li><a href='{{ url('/portfolio') }}'>Our Portfolio</a></li>
@@ -125,7 +125,7 @@
         <ul class="mobile-nav-menu">
             <li><a href='{{ url('/') }}'>Home</a></li>
             <li><a href='{{ url('/about') }}'>About Us</a></li>
-            <li class="has-submenu">
+                    <li class="has-submenu">
                 <a href="javascript:void(0)">Services</a>
                 <i class="fas fa-angle-down"></i>
                 <ul class="submenu-wrapper">
@@ -133,13 +133,13 @@
                     <li><a href='{{ url('/graphics') }}'>Graphics Design</a></li>
                     <li><a href='{{ url('/web') }}'>Web Development</a></li>
                     <li><a href='{{ url('/app') }}'>App Development</a></li>
-                    <li><a href='javascript:void(0)'>E-Commerce Solutions</a></li>
+                    <li><a href='{{ url('/services/ecommerce') }}'>E-Commerce Solutions</a></li>
                     <li><a href='{{ url('/digital') }}'>Digital Marketing</a></li>
-                    <li><a href="javascript:void(0)">AI & ML</a></li>
-                    <li><a href="javascript:void(0)">DevOps Services</a></li>
-                    <li><a href="javascript:void(0)">Cloud Computing</a></li>
-                    <li><a href="javascript:void(0)">QA & Testing</a></li>
-                    <li><a href="javascript:void(0)">Support & Maintenance</a></li>
+                    <li><a href='{{ url('/ai-ml') }}'>AI & ML</a></li>
+                    <li><a href='{{ url('/devops') }}'>DevOps Services</a></li>
+                    <li><a href='{{ url('/cloud') }}'>Cloud Computing</a></li>
+                    <li><a href='{{ url('/qa-testing') }}'>QA & Testing</a></li>
+                    <li><a href='{{ url('/support') }}'>Support & Maintenance</a></li>
                     <li><a href="javascript:void(0)">Staff Augmentation</a></li>
                 </ul>
             </li>

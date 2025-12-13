@@ -24,6 +24,12 @@ Route::view('/graphics', 'frontend.graphics')->name('graphics');
 Route::view('/web', 'frontend.web')->name('web');
 Route::view('/app', 'frontend.app')->name('app');
 Route::view('/digital', 'frontend.digital')->name('digital');
+Route::view('/ecommerce', 'frontend.ecom')->name('ecommerce');
+Route::view('/ai-ml', 'frontend.ai-ml')->name('ai-ml');
+Route::view('/devops', 'frontend.devops')->name('devops');
+Route::view('/cloud', 'frontend.cloud')->name('cloud');
+Route::view('/qa-testing', 'frontend.qa-testing')->name('qa-testing');
+Route::view('/support', 'frontend.support')->name('support');
 Route::get('/career', [FrontendCareerController::class, 'index'])->name('career');
 
 // Route alias for login (redirects to admin login)
