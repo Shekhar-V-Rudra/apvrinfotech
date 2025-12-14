@@ -96,8 +96,8 @@
                                         <li><a href='{{ url('/cloud') }}'>Cloud Computing</a></li>
                                         <li><a href='{{ url('/qa-testing') }}'>QA & Testing</a></li>
                                         <li><a href='{{ url('/support') }}'>Support & Maintenance</a></li>
+                                        <li><a href='{{ url('/staff-augmentation') }}'>Staff Augmentation</a></li>  
                                     </ul>
-                                </li>
                                 <li><a href='{{ url('/portfolio') }}'>Our Portfolio</a></li>
                                 <li><a href='{{ url('/career') }}'>Career</a></li>
                                 <li><a href='{{ url('/contact') }}'>Contact Us</a></li>

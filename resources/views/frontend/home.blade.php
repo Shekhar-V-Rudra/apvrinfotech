@@ -83,7 +83,7 @@
             </div>
         </div>
         <div class="hm2-service-section pb-100 overflow-hidden">
-            <div class="container pt-100 position-relative z-1">
+                <div class="container pt-100 position-relative z-1">
                 <img src="assets/images/shapes/net-vector.png" class="position-absolute net-vector top-0 end-0 z--1" alt="vector">
                 <div class="row justify-content-center">
                     <div class="col-xl-5">
@@ -93,7 +93,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="hm2-service-slider slider-spacing mt-60">
+                {{-- <div class="hm2-service-slider slider-spacing mt-60">
                     <div class="hm2-service-box">
                         <span class="icon-wrapper"> 
                             <img src="assets/ui.png" alt="icon" class="img-fluid">
@@ -324,7 +324,208 @@
                         </a>
                     </div>
 
+                </div> --}}
+                <div class="hm2-service-slider slider-spacing mt-60">
+                    <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/ui.png" alt="icon" class="img-fluid">
+                        </span>
+                        <h6 class="mt-32">UI / UX Design</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                            We provide customized and modernized website solutions that are tailored and designed for your services and products, to suit your needs and fulfil organizational objectives.
+                        </p>
+                        <a class='explore-btn' href='ui.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
+                    <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/web.png" alt="icon" class="img-fluid">
+                        </span>
+                        <h6 class="mt-32">Web Development</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                            With over a decade in providing reliable web Development services, you can trust us to build a comprehensive web solution your business and we offer web application Development services.
+                        </p>
+                        <a class='explore-btn' href='web.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
+
+
+                    <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/app.png" alt="icon" class="img-fluid">
+                        </span>
+                        <h6 class="mt-32">App Development</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                            Be it native or hybrid platform, we are a mobile app Development company that offers a complete cycle of mobile app design, integration, and Development services.
+                        </p>
+                        <a class='explore-btn' href='app.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
+
+
+                    <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/ai.png" alt="icon" class="img-fluid">
+                        </span>
+                        <h6 class="mt-32">AI & ML</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                            We leverage cutting-edge AI and machine learning technologies to automate processes, enhance decision-making, and deliver smarter digital experiences.
+                        </p>
+                        <a class='explore-btn' href='ai-ml.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
+
+
+                    <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/staff-aug.png" alt="icon" class="img-fluid">
+                        </span>
+                        <h6 class="mt-32">Staff Augmentation</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                            Our staff augmentation service provides highly skilled professionals who seamlessly integrate with your team to accelerate projects and boost productivity.
+                        </p>
+                        <a class='explore-btn' href='staff.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
+
+
+
+                    <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/graphic.png" alt="icon" class="img-fluid">
+                        </span>
+                        <h6 class="mt-32">Graphics Design</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                            Our adept team of graphic designers specializes in crafting innovative and high-performance websites, irrespective of complexity. With a keen eye for design and a commitment to excellence.
+                        </p>
+                        <a class='explore-btn' href='graphics.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
+
+                  
+
+                    <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/digital.png" alt="icon" class="img-fluid">
+                        </span>
+                        <h6 class="mt-32">Digital Marketing</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                            Our team of experienced marketers understands the intricacies of social media algorithms and consumer behavior, allowing us to craft campaigns that resonate with your target audience.
+                        </p>
+                        <a class='explore-btn' href='digital.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
+                    
+                     <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/ecom.png" alt="icon" class="img-fluid">
+                        </span>
+                        <h6 class="mt-32">E-Commerce Solutions</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                             Our tailored e-commerce solutions create seamless shopping experiences designed to boost conversions, improve engagement, and increase overall revenue.
+                        </p>
+                        <a class='explore-btn' href='ecom.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
+                    
+                     <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/devops.png" alt="icon" class="img-fluid">
+                        </span>
+                        <h6 class="mt-32">DevOps Services</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                            Our comprehensive DevOps services integrate automation, proactive monitoring, and continuous deployment to improve reliability, boost performance, and reduce costly downtime.
+                        </p>
+                        <a class='explore-btn' href='devops.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
+                    
+                    
+                     <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/cloud.png" alt="icon" class="img-fluid">
+                        </span>
+                        <h6 class="mt-32">Cloud Computing</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                            We offer secure and highly scalable cloud computing solutions that enhance flexibility, reduce infrastructure costs, and improve overall business efficiency and performance.
+                        </p>
+                        <a class='explore-btn' href='cloud.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
+                    
+                     <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/support.png" alt="icon" class="img-fluid">
+                        </span>
+                        <h6 class="mt-32">Support & Maintenance</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                            Our comprehensive support & maintenance assistance delivers ongoing monitoring, effective troubleshooting, and consistent improvement for your business systems.
+                        </p>
+                        <a class='explore-btn' href='support.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
+                    
+                     <div class="hm2-service-box">
+                        <span class="icon-wrapper"> 
+                            <img src="assets/quality.png" alt="icon" class="img-fluid">
+                        </span>     
+                        <h6 class="mt-32">Quality Assurance & Testing</h6>
+                        <p class="mb-32 mt-4 fw-medium">
+                            OOur comprehensive QA & testing solutions identify issues early, enhance product stability, and guarantee a smooth, error-free user experience.
+                        </p>
+                        <a class='explore-btn' href='support.html'>
+                            Get Started 
+                            <span class="ms-2">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                            </span>
+                        </a>
+                    </div>
                 </div>
+                            
             </div>
         </div>
     </section>
