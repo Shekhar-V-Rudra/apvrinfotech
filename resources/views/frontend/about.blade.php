@@ -101,6 +101,44 @@
             </div>
         </div>
     </section>
+    <!-- Global Achievements Section - Mobile -->
+    <div class="d-block d-lg-none">
+        <div class="brands-container pt-5 pb-5">
+            <div class="container">
+                <h4 class="mt-4 mb-32" style="text-align: center !important; color: #13114c !important;">Our Global Achievments</h4>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <img src="assets/c01.png" class="mb-3 w-100" />
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="assets/c02.png" class="mb-3 w-100" />
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="assets/c04.png" class="mb-3 w-100" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Global Achievements Section - Desktop -->
+    <div class="d-lg-block d-none">
+            <div class="brands-container pt-5 pb-5">
+                <div class="container">
+                    <h4 class="mt-4 mb-32" style="text-align: center !important; color: #13114C !important;">Our Global Achievments</h4>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <img src="assets/c01.png" class="mb-3 imas02">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="assets/c02.png" class="mb-3 imas02">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="assets/c04.png" class="mb-3 imas02">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection
 
 
