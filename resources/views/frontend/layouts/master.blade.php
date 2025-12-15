@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Transform your ideas into powerful digital experiences with our expert IT team. We build high-performance websites, intuitive mobile apps, and result-driven digital marketing solutions to accelerate your business growth.">
     <title>@yield('title', 'Apvr Infotech')</title>
     <base href="{{ asset('apvr') }}/">
     <link rel="stylesheet" href="assets/css/all.css">
@@ -152,7 +153,7 @@
     @yield('content')
 
     <a href="https://wa.me/message/KAWLLL72YC5EM1" target="_blank">
-        <img src="assets/whatsapp.png" class="whatsapp01">
+        <img src="assets/whatsapp.png" class="whatsapp01" alt="whatsapp-icon">
     </a>
 
     <footer class="footer-style-2 overflow-hidden position-relative z-1">
@@ -192,9 +193,9 @@
                                 <li><a href='{{ url('/ui') }}'>UI/UX Design</a></li>
                                 <li><a href='{{ url('/web') }}'>Web Development</a></li>
                                 <li><a href='{{ url('/app') }}'>App Development</a></li>
-                                <li><a href='javascript:void(0)'>E-Commerce</a></li>
+                                <li><a href='{{ url('/digital') }}'>E-Commerce</a></li>
                                 <li><a href='{{ url('/digital') }}'>Digital Marketing</a></li>
-                                <li><a href="javascript:void(0)">Staff Augmentation</a></li>
+                                <li><a href='{{ url('/staff-augmentation') }}'>Staff Augmentation</a></li>
                             </ul>
                         </div>
                     </div>
@@ -202,11 +203,11 @@
                         <div class="footer-widget nav-widget">
                             <h6 class="widget-title">Industries</h6>
                             <ul class="footer-links">
-                                <li><a href='javascript:void(0)'>Eduction</a></li>
-                                <li><a href='javascript:void(0)'>Healthcare</a></li>
-                                <li><a href='javascript:void(0)'>Membership</a></li>
-                                <li><a href='javascript:void(0)'>IVR Solutions</a></li>
-                                <li><a href='javascript:void(0)'>Social Networking</a></li>
+                                <li class="industry-link">Eduction</li>
+                                <li class="industry-link">Healthcare</li>
+                                <li class="industry-link">Membership</li>
+                                <li class="industry-link">IVR Solutions</li>
+                                <li class="industry-link">Social Networking</li>
                             </ul>
                         </div>
                     </div>
@@ -223,9 +224,9 @@
                     </div>
                     <div class="col-md-6">
                         <div class="copyright-links">
-                            <a href='javascript:void(0)'>Privacy & Policy</a>
-                            <a href='javascript:void(0)'>Terms & Services</a>
-                            <a href='javascript:void(0)'>Refund Policy</a>
+                            <a href='{{ url('/privacy') }}'>Privacy & Policy</a>
+                            <a href='{{ url('/terms') }}'>Terms & Services</a>
+                            <a href='{{ url('/refund') }}'>Refund Policy</a>
                         </div>
                     </div>
                 </div>
