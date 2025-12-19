@@ -28,10 +28,6 @@
                 <div class="col-xl-6">
                     <div class="about-content-left position-relative">
                         <img src="assets/images/about/ab-2.png" alt="feature-image" class="img-fluid">
-                        <div class="position-absolute ab-years-box wow fadeInUp">
-                            <h3 class="mb-0">6+</h3>
-                            <p class="mb-0">Years<br>Of Experince</p>
-                        </div>
                     </div>
                 </div>
                 <div class="col-xl-6">
@@ -56,8 +52,8 @@
                                 </div>
                             </div>
                             <div class="d-flex align-items-center gap-4 mt-40 flex-wrap">
-                                <a class='template-btn primary-btn' href='{{ url('/appointment') }}'>Meet with Us</a>
-                                <a href="tel:+9199099971138">
+                                <a class='template-btn primary-btn' href='{{ url('/contact') }}'>Meet with Us</a>
+                                <a href="tel:+918866848430">
                                     <div class="cta-call-btn d-flex align-items-center gap-2">
                                         <span class="icon-tel rounded-circle">
                                             <span class="primary-bg-color rounded-circle w-100 h-100 d-inline-flex align-items-center justify-content-center text-white">
@@ -66,7 +62,7 @@
                                         </span>
                                         <div>
                                             <span class="fs-sm fw-medium mb-2 d-block text-color">Call Us 24/7</span>
-                                            <h5 class="mb-0 fs-20">+91 99099971138</h5>
+                                            <h5 class="mb-0 fs-20">+91 8866848430</h5>
                                         </div>
                                     </div>
                                 </a>
@@ -94,7 +90,7 @@
                             Our dedication to quality ensures that every client experiences outstanding service, with their needs fulfilled and expectations surpassed in every engagement.
                         </p>
                         <div class="d-flex align-items-center gap-3 gap-sm-4 flex-wrap">
-                            <a class='template-btn primary-btn' href='{{ url('/contact') }}'>Contact Us</a>
+                            <a class='template-btn primary-btn' href='{{ url('/portfolio') }}'>View our works</a>
                         </div>
                     </div>
                 </div>
@@ -127,13 +123,19 @@
                     <h4 class="mt-4 mb-32" style="text-align: center !important; color: #13114C !important;">Our Global Achievments</h4>
                 <div class="row">
                     <div class="col-12 col-md-4">
-                        <img src="assets/c01.png" class="mb-3 imas02">
+                        <div class="d-flex flex-row justify-content-center">
+                            <img src="assets/c01.png" class="mb-3 imas02" alt="achivement-image">
+                        </div>
                     </div>
                     <div class="col-12 col-md-4">
-                        <img src="assets/c02.png" class="mb-3 imas02">
+                         <div class="d-flex flex-row justify-content-center">
+                            <img src="assets/c02.png" class="mb-3 imas02" alt="achivement-image">
+                        </div>
                     </div>
                     <div class="col-12 col-md-4">
-                        <img src="assets/c04.png" class="mb-3 imas02">
+                         <div class="d-flex flex-row justify-content-center">
+                            <img src="assets/c04.png" class="mb-3 imas02" alt="achivement-image">
+                        </div>
                     </div>
                 </div>
             </div>

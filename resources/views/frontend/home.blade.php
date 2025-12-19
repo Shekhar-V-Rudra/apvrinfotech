@@ -23,13 +23,13 @@
                             Transform your ideas into powerful digital experiences with our expert team. We craft high-performance websites, intuitive mobile apps, and result-driven marketing strategies to help your business grow faster
                         </p>
                         <div class="d-flex align-items-center gap-4 flex-wrap">
-                            <a class='template-btn primary-btn wow fadeInUp' data-wow-delay='0.3s' href='#'>Start Now</a>
+                            <a class='template-btn primary-btn wow fadeInUp' data-wow-delay='0.3s' href='{{ url('/contact')}}'>Get Started</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-6">
                     <div class="hero-image">
-                        <img src="assets/images/home-2/hero-man.png" alt="hero man" class="hero-man">
+                        <img src="assets/images/home-2/hero-man.webp" alt="hero man" class="hero-man">
                     </div>
                 </div>
             </div>
@@ -44,40 +44,55 @@
                 <h2 class="mb-5 mt-4 wow fadeInUp" style="text-align: center !important;">We <span class="primary-bg-light primary-text-color px-2">Work All </span> Technology</h2>
                 <div class="cr2-brand-slider">
                     <div class="brand-image">
-                        <img src="html.png"  class="img-fluid">
+                        <img src="html.webp"  class="img-fluid" alt="html-logo">
                     </div>
                     <div class="brand-image">
-                        <img src="css.png" alt="not found" class="img-fluid">
+                        <img src="css.webp" alt="css-logo" class="img-fluid">
                     </div>
                     <div class="brand-image">
-                        <img src="js.png" alt="not found" class="img-fluid">
+                        <img src="js.webp" alt="js-logo" class="img-fluid">
                     </div>
                     <div class="brand-image">
-                        <img src="04.png" alt="not found" class="img-fluid">
+                        <img src="react.webp" alt="react-logo" class="img-fluid">
                     </div>
                     <div class="brand-image">
-                        <img src="php.png" alt="not found" class="img-fluid">
+                        <img src="php.webp" alt="php-logo" class="img-fluid">
                     </div>
                     <div class="brand-image">
-                        <img src="python.png" alt="not found" class="img-fluid">
+                        <img src="python.webp" alt="python-logo" class="img-fluid">
                     </div>
                     <div class="brand-image">
-                        <img src="django.png" alt="not found" class="img-fluid">
+                        <img src="django.webp" alt="django-logo" class="img-fluid">
                     </div>
                     <div class="brand-image">
-                        <img src="shopify.png" alt="not found" class="img-fluid">
+                        <img src="shopify.webp" alt="shopify-logo" class="img-fluid">
                     </div>
                     <div class="brand-image">
-                        <img src="next.png" alt="not found" class="img-fluid">
+                        <img src="next.webp" alt="nextjs-logo" class="img-fluid">
                     </div>
                     <div class="brand-image">
-                        <img src="laravel.png" alt="not found" class="img-fluid">
+                        <img src="laravel.webp" alt="laravel-logo" class="img-fluid">
                     </div>
                     <div class="brand-image">
-                        <img src="node.png" alt="not found" class="img-fluid">
+                        <img src="node.webp" alt="node-logo" class="img-fluid">
                     </div>
                     <div class="brand-image">
-                        <img src="word.png" alt="not found" class="img-fluid">
+                        <img src="word.webp" alt="wordpress-logo" class="img-fluid">
+                    </div>
+                     <div class="brand-image">
+                        <img src="android.webp" alt="android-logo" class="img-fluid">
+                    </div>
+                     <div class="brand-image">
+                        <img src="ios.webp" alt="ios-logo" class="img-fluid">
+                    </div>
+                     <div class="brand-image">
+                        <img src="react-native.webp" alt="react-native-logo" class="img-fluid">
+                    </div>
+                     <div class="brand-image">
+                        <img src="flutter.webp" alt="flutter-logo" class="img-fluid">
+                    </div>
+                     <div class="brand-image">
+                        <img src="magento.webp" alt="magento-logo" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -102,7 +117,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             We provide customized and modernized website solutions that are tailored and designed for your services and products, to suit your needs and fulfil organizational objectives.
                         </p>
-                        <a class='explore-btn' href='ui.html'>
+                        <a class='explore-btn' href='{{ url('/ui') }}'>
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -117,7 +132,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             With over a decade in providing reliable web Development services, you can trust us to build a comprehensive web solution your business and we offer web application Development services.
                         </p>
-                        <a class='explore-btn' href='web.html'>
+                        <a class='explore-btn' href='{{ url('/web') }}'>
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -134,7 +149,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             Be it native or hybrid platform, we are a mobile app Development company that offers a complete cycle of mobile app design, integration, and Development services.
                         </p>
-                        <a class='explore-btn' href='app.html'>
+                        <a class='explore-btn' href='{{ url('/app') }}'>
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -151,7 +166,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             Unlock unlimited earning potential through our innovative multilevel marketing platform, where you can build your own business while promoting high-quality products.
                         </p>
-                        <a class='explore-btn' href='ai-ml.html'>
+                        <a class='explore-btn' href='{{ url('/ai-ml') }}'>
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -168,7 +183,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             Transform your gaming vision into reality with our expert Staff Augmentation services, offering tailored solutions from concept to launch for captivating player experiences.
                         </p>
-                        <a class='explore-btn' href='staff.html'>
+                        <a class='explore-btn' href='{{ url('/staff-augmentation') }}'>
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -186,23 +201,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             Our adept team of graphic designers specializes in crafting innovative and high-performance websites, irrespective of complexity. With a keen eye for design and a commitment to excellence.
                         </p>
-                        <a class='explore-btn' href='graphics.html'>
-                            Get Started 
-                            <span class="ms-2">
-                                <i class="fa-solid fa-arrow-right"></i> 
-                            </span>
-                        </a>
-                    </div>
-
-                    <div class="hm2-service-box">
-                        <span class="icon-wrapper"> 
-                            <img src="assets/seo.png" alt="icon" class="img-fluid">
-                        </span>
-                        <h6 class="mt-32">SEO Optimization</h6>
-                        <p class="mb-32 mt-4 fw-medium">
-                            Supercharge your franchise marketing efforts with Apvr Infotech’s SEO services for multiple-location businesses. We publish geo-specific content, leverage Nextdoor advertising.
-                        </p>
-                        <a class='explore-btn' href='seo.html'>
+                        <a class='explore-btn' href='{{ url('/graphics') }}'>
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -218,89 +217,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             Our team of experienced marketers understands the intricacies of social media algorithms and consumer behavior, allowing us to craft campaigns that resonate with your target audience.
                         </p>
-                        <a class='explore-btn' href='digital.html'>
-                            Get Started 
-                            <span class="ms-2">
-                                <i class="fa-solid fa-arrow-right"></i> 
-                            </span>
-                        </a>
-                    </div>
-
-
-                    <div class="hm2-service-box">
-                        <span class="icon-wrapper"> 
-                            <img src="assets/digital.png" alt="icon" class="img-fluid">
-                        </span>
-                        <h6 class="mt-32">Hosting Services</h6>
-                        <p class="mb-32 mt-4 fw-medium">
-                            Our company offers comprehensive server hosting solutions, delivering secure, reliable, and scalable infrastructure tailored to meet the diverse needs of businesses.
-                        </p>
-                        <a class='explore-btn' href='server.html'>
-                            Get Started 
-                            <span class="ms-2">
-                                <i class="fa-solid fa-arrow-right"></i> 
-                            </span>
-                        </a>
-                    </div>
-
-                    <div class="hm2-service-box">
-                        <span class="icon-wrapper"> 
-                            <img src="assets/cloud.png" alt="icon" class="img-fluid">
-                        </span>
-                        <h6 class="mt-32">Cloud Whatsapp Solutions</h6>
-                        <p class="mb-32 mt-4 fw-medium">
-                            Ready to revolutionize your business communication with WhatsApp? We offer comprehensive WhatsApp solutions tailored to help your business thrive in the digital age.
-                        </p>
-                        <a class='explore-btn' href='cloud.html'>
-                            Get Started 
-                            <span class="ms-2">
-                                <i class="fa-solid fa-arrow-right"></i> 
-                            </span>
-                        </a>
-                    </div>
-
-                    <div class="hm2-service-box">
-                        <span class="icon-wrapper"> 
-                            <img src="assets/erp.png" alt="icon" class="img-fluid">
-                        </span>
-                        <h6 class="mt-32">ERP Solutions</h6>
-                        <p class="mb-32 mt-4 fw-medium">
-                            Ready to optimize your business processes with ERP solutions? We offer comprehensive Enterprise Resource Planning (ERP) solutions tailored to meet the unique needs of your organization.
-                        </p>
-                        <a class='explore-btn' href='erp.html'>
-                            Get Started 
-                            <span class="ms-2">
-                                <i class="fa-solid fa-arrow-right"></i> 
-                            </span>
-                        </a>
-                    </div>
-
-
-                    <div class="hm2-service-box">
-                        <span class="icon-wrapper"> 
-                            <img src="assets/crm.png" alt="icon" class="img-fluid">
-                        </span>
-                        <h6 class="mt-32">CRM Solutions</h6>
-                        <p class="mb-32 mt-4 fw-medium">
-                            We offer comprehensive Customer Relationship Management (CRM) solutions tailored to meet the unique needs of your organization. From managing leads and contacts.
-                        </p>
-                        <a class='explore-btn' href='crm.html'>
-                            Get Started 
-                            <span class="ms-2">
-                                <i class="fa-solid fa-arrow-right"></i> 
-                            </span>
-                        </a>
-                    </div>
-
-                    <div class="hm2-service-box">
-                        <span class="icon-wrapper"> 
-                            <img src="assets/ivr.png" alt="icon" class="img-fluid">
-                        </span>
-                        <h6 class="mt-32">IVR Solutions</h6>
-                        <p class="mb-32 mt-4 fw-medium">
-                            Whether you operate in healthcare, finance, retail, or any other industry, our IVR solutions can help you reduce wait times, increase first-call resolution rates, and improve customer satisfaction.
-                        </p>
-                        <a class='explore-btn' href='ivr.html'>
+                        <a class='explore-btn' href='{{ url('/digital') }}'>
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -316,7 +233,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             With a focus on usability and performance, our ecommerce solutions are designed to deliver seamless shopping experiences across desktop and mobile devices. 
                         </p>
-                        <a class='explore-btn' href='ecom.html'>
+                        <a class='explore-btn' href='{{ url('/ecommerce') }}'>
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -334,7 +251,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             We provide customized and modernized website solutions that are tailored and designed for your services and products, to suit your needs and fulfil organizational objectives.
                         </p>
-                        <a class='explore-btn' href='ui.html'>
+                        <a class='explore-btn' href='{{ url('/ui') }}'>
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -349,7 +266,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             With over a decade in providing reliable web Development services, you can trust us to build a comprehensive web solution your business and we offer web application Development services.
                         </p>
-                        <a class='explore-btn' href='web.html'>
+                        <a class='explore-btn' href='{{ url('/web') }}'>
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -366,7 +283,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             Be it native or hybrid platform, we are a mobile app Development company that offers a complete cycle of mobile app design, integration, and Development services.
                         </p>
-                        <a class='explore-btn' href='app.html'>
+                        <a class='explore-btn' href='{{ url('/app') }}'>
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -383,7 +300,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             We leverage cutting-edge AI and machine learning technologies to automate processes, enhance decision-making, and deliver smarter digital experiences.
                         </p>
-                        <a class='explore-btn' href='ai-ml.html'>
+                        <a class='explore-btn' href='{{ url('/ai-ml') }}'>
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -400,7 +317,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             Our staff augmentation service provides highly skilled professionals who seamlessly integrate with your team to accelerate projects and boost productivity.
                         </p>
-                        <a class='explore-btn' href='staff.html'>
+                        <a class='explore-btn' href='{{ url('/staff-augmentation') }}'>
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -418,7 +335,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             Our adept team of graphic designers specializes in crafting innovative and high-performance websites, irrespective of complexity. With a keen eye for design and a commitment to excellence.
                         </p>
-                        <a class='explore-btn' href='graphics.html'>
+                        <a class='explore-btn' href='{{ url('/graphics') }}'>
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -436,7 +353,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             Our team of experienced marketers understands the intricacies of social media algorithms and consumer behavior, allowing us to craft campaigns that resonate with your target audience.
                         </p>
-                        <a class='explore-btn' href='digital.html'>
+                        <a class='explore-btn' href='{{ url('/digital') }}'>
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -452,7 +369,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                              Our tailored e-commerce solutions create seamless shopping experiences designed to boost conversions, improve engagement, and increase overall revenue.
                         </p>
-                        <a class='explore-btn' href='ecom.html'>
+                        <a class='explore-btn' href='{{ url('/ecommerce') }}'>
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -468,7 +385,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             Our comprehensive DevOps services integrate automation, proactive monitoring, and continuous deployment to improve reliability, boost performance, and reduce costly downtime.
                         </p>
-                        <a class='explore-btn' href='devops.html'>
+                        <a class='explore-btn' href='{{ url('/devops') }}'>
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -485,7 +402,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             We offer secure and highly scalable cloud computing solutions that enhance flexibility, reduce infrastructure costs, and improve overall business efficiency and performance.
                         </p>
-                        <a class='explore-btn' href='cloud.html'>
+                        <a class='explore-btn' href='{{ url('/cloud') }}'>
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -501,31 +418,14 @@
                         <p class="mb-32 mt-4 fw-medium">
                             Our comprehensive support & maintenance assistance delivers ongoing monitoring, effective troubleshooting, and consistent improvement for your business systems.
                         </p>
-                        <a class='explore-btn' href='support.html'>
+                        <a class='explore-btn' href='{{ url('/support') }}'>
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
                             </span>
                         </a>
                     </div>
-                    
-                     <div class="hm2-service-box">
-                        <span class="icon-wrapper"> 
-                            <img src="assets/quality.png" alt="icon" class="img-fluid">
-                        </span>     
-                        <h6 class="mt-32">Quality Assurance & Testing</h6>
-                        <p class="mb-32 mt-4 fw-medium">
-                            OOur comprehensive QA & testing solutions identify issues early, enhance product stability, and guarantee a smooth, error-free user experience.
-                        </p>
-                        <a class='explore-btn' href='support.html'>
-                            Get Started 
-                            <span class="ms-2">
-                                <i class="fa-solid fa-arrow-right"></i> 
-                            </span>
-                        </a>
-                    </div>
-                </div>
-                            
+                </div>  
             </div>
         </div>
     </section>
@@ -713,9 +613,9 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
                 </div>
             </div>
             <ul class="nav nav-tabs cr-about-tab-control">
-                <li><a href="#about" class="active" data-bs-toggle="tab">About Company</a></li>
-                <li><a href="#mission" data-bs-toggle="tab">Our Mission</a></li>
-                <li><a href="#vission" data-bs-toggle="tab">Our Vision</a></li>
+                <li><a href="#about" class="active" data-bs-toggle="tab" role="tabpanel" >About Company</a></li>
+                <li><a href="#mission" data-bs-toggle="tab" role="tabpanel" >Our Mission</a></li>
+                <li><a href="#vission" data-bs-toggle="tab" role="tabpanel" >Our Vision</a></li>
                
             </ul>
             <div class="tab-content mt-5">
@@ -734,22 +634,22 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
                                     At Apvr Infotech, we believe in driving excellence through innovation and technology. With our end-to-end 360° solutions, we help businesses build a strong digital presence, streamline operations, and achieve sustainable growth. Our focus is on delivering value-driven results and long-term success for our clients.
                                 </p>
                                 <div class="d-flex align-items-center gap-4 flex-wrap flex-sm-nowrap">
-                                    <a class='template-btn primary-btn' href='about.html'>Lear More</a>
-                                    <a href="tel:+91 99099971138" class="phone-btn">
+                                    <a class='template-btn primary-btn' href='{{ url('/about') }}'>Lear More</a>
+                                    <a href="tel:+91 8866848430" class="phone-btn">
                                         <span class="icon">
                                             <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M14.4985 12.1221C14.0014 12.1774 13.6423 12.6469 13.6699 13.1717C13.7251 13.6689 14.1671 14.0556 14.7195 14.0004C15.2719 13.9451 15.8244 14.1109 16.2111 14.4975C16.6254 14.9119 16.7911 15.4643 16.7359 16.0167C16.6806 16.5692 17.0673 17.0111 17.5645 17.0663C17.8683 17.094 18.1446 16.9835 18.3379 16.7901C18.476 16.652 18.5865 16.431 18.6141 16.2377C18.7246 15.0776 18.3379 13.9727 17.5369 13.1717C16.7635 12.3983 15.6586 12.0116 14.4985 12.1221ZM14.1395 8.39323C13.587 8.44847 13.228 8.91803 13.2832 9.41522C13.3108 9.94003 13.7804 10.2991 14.3052 10.2715C16.0177 10.1058 17.6474 10.6858 18.8351 11.8735C19.9952 13.0336 20.6029 14.6909 20.4371 16.4034C20.3819 16.9006 20.741 17.3702 21.2658 17.3978C21.5696 17.4254 21.8182 17.3425 22.0116 17.1492C22.1773 16.9835 22.2601 16.7901 22.3154 16.5692C22.564 14.3318 21.7906 12.1221 20.1885 10.5201C18.5865 8.91803 16.4044 8.17226 14.1395 8.39323ZM13.7804 4.66435C13.2556 4.69197 12.8965 5.16153 12.9241 5.68634C12.9794 6.18352 13.4213 6.57022 13.9461 6.5426C16.7635 6.26638 19.5256 7.20551 21.5144 9.19425C23.4755 11.1554 24.4422 13.9451 24.166 16.7625C24.1384 17.2873 24.5251 17.7292 25.0223 17.7845C25.3261 17.8121 25.6023 17.7016 25.7957 17.5083C25.9338 17.3702 26.0167 17.1768 26.0443 16.9282C26.4033 13.586 25.2433 10.2715 22.8402 7.86842C20.4095 5.43774 17.1502 4.33289 13.7804 4.66435ZM10.6316 15.6024C10.9354 15.3538 11.0735 14.8842 10.9078 14.4975L9.49908 11.2659C9.33335 10.8239 8.83617 10.6029 8.42184 10.6858L5.3835 11.404C4.96918 11.4868 4.66534 11.9011 4.66534 12.3431C4.66534 19.9113 10.8249 26.0709 18.3932 26.0709C18.8351 26.0709 19.2494 25.7671 19.3323 25.3527L20.0504 22.3144C20.1333 21.9001 19.9123 21.4029 19.4704 21.2372L16.2387 19.8285C15.852 19.6627 15.3824 19.8008 15.1338 20.1047L13.808 21.7067C11.7088 20.7124 10.0239 19.0275 9.02951 16.9282L10.6316 15.6024Z" fill="#1F1F1F"/>
                                             </svg>
                                         </span>
                                         <div>
-                                            <h5 class="mb-1 fw-semibold fs-20">+91 99099971138</h5>
+                                            <h5 class="mb-1 fw-semibold fs-20">+91 8866848430</h5>
                                             <span>For Any Question</span>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="d-flex align-items-center cr-tab-counter mt-40 flex-wrap flex-sm-nowrap">
                                     <div class="cr-tab-counter-single">
-                                        <h3 class="fw-semibold primary-text-color mb-0"><span class="counter">6</span><span>+</span></h3>
+                                        <h3 class="fw-semibold primary-text-color mb-0"><span class="counter">7</span><span>+</span></h3>
                                         <h6 class="fw-medium mb-0 fs-20">Years on the market</h6>    
                                     </div>
                                     <div class="cr-tab-counter-single">
@@ -776,7 +676,7 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
                                     Our mission is to deliver innovative and reliable solutions that address real-world challenges while creating long-term value. By combining creativity, technology, and strategic insight, the focus is on helping businesses grow, adapt, and succeed in a rapidly evolving digital era.
                                 </p>
                                 <div class="d-flex align-items-center gap-4 flex-wrap flex-sm-nowrap">
-                                    <a class='template-btn primary-btn' href='about.html'>More About Us</a>
+                                    <a class='template-btn primary-btn' href='{{ url('/about') }}'>More About Us</a>
                                    
                                 </div>
                                 <div class="d-flex align-items-center cr-tab-counter mt-40 flex-wrap flex-sm-nowrap">
@@ -849,7 +749,7 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
                             We focus on designing remarkable customer experiences by combining cutting-edge technology with a personalized approach. Our skilled team ensures every interaction is smooth, meaningful, and impactful, leaving a lasting impression. By prioritizing satisfaction and loyalty, we help businesses connect better with their customers and achieve sustained growth.
                         </p>
                         <div class="d-flex align-items-center gap-3 gap-sm-4 flex-wrap">
-                            <a class='template-btn outline-secondary wow fadeInUp' data-wow-delay='0.5s' href='contact.html'>Get Started <span class="ms-2"><i class="fas fa-arrow-right"></i></span></a>
+                            <a class='template-btn outline-secondary wow fadeInUp' data-wow-delay='0.5s' href='{{ url('/portfolio') }}'>Get Started <span class="ms-2"><i class="fas fa-arrow-right"></i></span></a>
                         </div>
                     </div>
                 </div>
@@ -868,7 +768,7 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
                         <p class="mb-0 lead">Have a project idea? Let's make it happen together! Reach out to us today.</p>
                     </div>
                 </div>
-                <a class='template-btn primary-btn' href='appointment.html'>Make an Appointment</a>
+                <a class='template-btn primary-btn' href='{{ url('/contact') }}'>Make an Appointment</a>
             </div>
         </div>
     </section>
@@ -882,7 +782,7 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
                     <div class="row">
                         <div class="col-xl-6 align-self-end order-2 order-xl-1">
                             <div class="position-relative z-1">
-                                <img src="assets/images/home-2/girl.png" alt="girl" class="img-fluid">
+                                <img src="assets/images/home-2/girl.webp" alt="girl" class="img-fluid">
                                 <img src="assets/images/shapes/cr-shape.png" alt="shape-image" class="position-absolute start-50 bottom-0 translate-middle-x z--1 img-fluid">
                             </div>
                         </div>
@@ -1102,13 +1002,13 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
                 <h4 class="mt-4 mb-32" style="text-align: center !important; color: #13114c !important;">Our Global Achievments</h4>
                 <div class="row">
                     <div class="col-12 col-md-4">
-                        <img src="assets/c01.png" class="mb-3 w-100" />
+                        <img src="assets/c01.png" class="mb-3 w-100" alt="achivement-image" />
                     </div>
                     <div class="col-12 col-md-4">
-                        <img src="assets/c02.png" class="mb-3 w-100" />
+                        <img src="assets/c02.png" class="mb-3 w-100" alt="achivement-image" />
                     </div>
                     <div class="col-12 col-md-4">
-                        <img src="assets/c04.png" class="mb-3 w-100" />
+                        <img src="assets/c04.png" class="mb-3 w-100" alt="achivement-image" />
                     </div>
                 </div>
             </div>
@@ -1123,13 +1023,19 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
                     <h4 class="mt-4 mb-32" style="text-align: center !important; color: #13114C !important;">Our Global Achievments</h4>
                 <div class="row">
                     <div class="col-12 col-md-4">
-                        <img src="assets/c01.png" class="mb-3 imas02">
+                        <div class="d-flex flex-row justify-content-center">
+                            <img src="assets/c01.png" class="mb-3 imas02" alt="achivement-image">
+                        </div>
                     </div>
                     <div class="col-12 col-md-4">
-                        <img src="assets/c02.png" class="mb-3 imas02">
+                         <div class="d-flex flex-row justify-content-center">
+                            <img src="assets/c02.png" class="mb-3 imas02" alt="achivement-image">
+                        </div>
                     </div>
                     <div class="col-12 col-md-4">
-                        <img src="assets/c04.png" class="mb-3 imas02">
+                         <div class="d-flex flex-row justify-content-center">
+                            <img src="assets/c04.png" class="mb-3 imas02" alt="achivement-image">
+                        </div>
                     </div>
                 </div>
             </div>
