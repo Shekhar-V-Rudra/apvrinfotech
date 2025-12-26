@@ -28,7 +28,7 @@
         <div class="row g-5 align-items-center">
             <div class="col-xl-6 col-lg-6">
                 <div class="image-wrapper">
-                    <img src="{{ asset('apvr/assets/crm.gif') }}" alt="about" class="image01">
+                    <img src="{{ asset('apvr/assets/support.gif') }}" alt="about" class="image01">
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6">
@@ -199,51 +199,5 @@
         </div>
     </div>
 </section>
-
-<!-- Global Achievements Section - Mobile -->
-<div class="d-block d-lg-none">
-    <div class="brands-container pt-5 pb-5">
-        <div class="container">
-            <h4 class="mt-4 mb-32" style="text-align: center !important; color: #13114C !important;">Our Global Achievements</h4>
-            <div class="row">
-                <div class="col-6 col-md-3">
-                    <img src="{{ asset('apvr/assets/c01.png') }}" class="mb-3 imas01">
-                </div>
-                <div class="col-6 col-md-3">
-                    <img src="{{ asset('apvr/assets/c02.png') }}" class="mb-3 imas01">
-                </div>
-                <div class="col-6 col-md-3">
-                    <img src="{{ asset('apvr/assets/c03.png') }}" class="mb-3 imas01">
-                </div>
-                <div class="col-6 col-md-3">
-                    <img src="{{ asset('apvr/assets/c04.png') }}" class="mb-3 imas01">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Global Achievements Section - Desktop -->
-<div class="d-lg-block d-none">
-    <div class="brands-container pt-5 pb-5">
-        <div class="container">
-            <h4 class="mt-4 mb-32" style="text-align: center !important; color: #13114C !important;">Our Global Achievements</h4>
-            <div class="row">
-                <div class="col-6 col-md-3">
-                    <img src="{{ asset('apvr/assets/c01.png') }}" class="mb-3 imas02">
-                </div>
-                <div class="col-6 col-md-3">
-                    <img src="{{ asset('apvr/assets/c02.png') }}" class="mb-3 imas02">
-                </div>
-                <div class="col-6 col-md-3">
-                    <img src="{{ asset('apvr/assets/c03.png') }}" class="mb-3 imas02">
-                </div>
-                <div class="col-6 col-md-3">
-                    <img src="{{ asset('apvr/assets/c04.png') }}" class="mb-3 imas02">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 @endsection

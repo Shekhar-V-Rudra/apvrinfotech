@@ -44,7 +44,7 @@
                                     <i class="fa-regular fa-address-book fa-3x primary-text-color"></i>
                                 </div>
                                 <h3 class="mb-4 fw-bold">Contact Number</h3>
-                                <p class="mb-0">+91 99099971138</p>
+                                <p class="mb-0">+91 8866848430</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
@@ -80,44 +80,28 @@
                                     <input type="text" id="name" name="name" placeholder="Enter your name" class="theme-input" value="{{ old('name') }}" required>
                                     <small id="name_error" class="text-danger d-block mt-1" style="display: none;"></small>
                                 </div>
+                                
+                                
                                 <div class="input-field position-relative width-half">
+                                    <label for="text" class="d-block mb-2 text-sm fw-semibold" style="color: #333;">
+                                        Contact Number <span class="text-danger">*</span>
+                                    </label>
+                                    <input type="text" id="text" name="text" placeholder="Enter your contcat number" class="theme-input" value="{{ old('phone') }}" required>
+                                    <small id="contact_error" class="text-danger d-block mt-1" style="display: none;"></small>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="mt-4">
                                     <label for="email" class="d-block mb-2 text-sm fw-semibold" style="color: #333;">
                                         Email Address <span class="text-danger">*</span>
                                     </label>
                                     <input type="email" id="email" name="email" placeholder="Enter your email" class="theme-input" value="{{ old('email') }}" required>
                                     <small id="email_error" class="text-danger d-block mt-1" style="display: none;"></small>
                                 </div>
-                            </div>
-                            <div class="mt-4">
-                                <label for="service" class="d-block mb-2 text-sm fw-semibold" style="color: #333;">
-                                    Select Desire Service <span class="text-danger">*</span>
-                                </label>
-                                <select id="service" class="nice_select" name="service" required>
-                                    <option value="others" {{ old('service') == 'others' ? 'selected' : '' }}>Others</option>
-                                    <option value="ui" {{ old('service') == 'ui' ? 'selected' : '' }}>UI/UX Design</option>
-                                    <option value="web" {{ old('service') == 'web' ? 'selected' : '' }}>Web Development</option>
-                                    <option value="app" {{ old('service') == 'app' ? 'selected' : '' }}>App Development</option>
-                                    <option value="mlm" {{ old('service') == 'mlm' ? 'selected' : '' }}>MLM Development</option>
-                                    <option value="game" {{ old('service') == 'game' ? 'selected' : '' }}>Game Development</option>
-                                    <option value="graphics" {{ old('service') == 'graphics' ? 'selected' : '' }}>Graphics Design</option>
-                                    <option value="seo" {{ old('service') == 'seo' ? 'selected' : '' }}>SEO Optimization</option>
-                                    <option value="digital" {{ old('service') == 'digital' ? 'selected' : '' }}>Digital Marketing</option>
-                                    <option value="cloud" {{ old('service') == 'cloud' ? 'selected' : '' }}>Cloud Whatsapp Solutions</option>
-                                    <option value="erp" {{ old('service') == 'erp' ? 'selected' : '' }}>ERP Solutions</option>
-                                    <option value="crm" {{ old('service') == 'crm' ? 'selected' : '' }}>CRM Solutions</option>
-                                    <option value="ivr" {{ old('service') == 'ivr' ? 'selected' : '' }}>IVR Solutions</option>
-                                    <option value="ecom" {{ old('service') == 'ecom' ? 'selected' : '' }}>E-Commerce Solutions</option>
-                                   
-                                </select>
-                                <small id="service_error" class="text-danger d-block mt-1" style="display: none;"></small>
-                            </div>
-                            <div id="othersServiceContainer" class="mt-4" style="display: none;">
-                                <label for="others_service" class="d-block mb-2 text-sm fw-semibold" style="color: #333;">
-                                    Please Specify Your Service <span class="text-danger">*</span>
-                                </label>
-                                <input type="text" id="others_service" name="others_service" placeholder="Enter your service" class="theme-input" value="{{ old('others_service') }}">
-                                <small id="others_service_error" class="text-danger d-block mt-1" style="display: none;"></small>
-                            </div>
+                            
+                            
+                           
                             <div class="mt-4">
                                 <label for="comment" class="d-block mb-2 text-sm fw-semibold" style="color: #333;">
                                     Type Your Message <span class="text-danger">*</span>
@@ -149,38 +133,45 @@
         </div>
     </section>
 
+    <!-- Global Achievements Section - Mobile -->
     <div class="d-block d-lg-none">
         <div class="brands-container pt-5 pb-5">
             <div class="container">
-                <h4 class="mt-4 mb-32" style="text-align: center !important; color: #13114C !important;">Our Global Achievments</h4>
+                <h4 class="mt-4 mb-32" style="text-align: center !important; color: #13114c !important;">Our Global Achievments</h4>
                 <div class="row">
                     <div class="col-12 col-md-4">
-                        <img src="assets/c01.png" class="mb-3 w-100">
+                        <img src="assets/c01.png" class="mb-3 w-100" />
                     </div>
                     <div class="col-12 col-md-4">
-                        <img src="assets/c02.png" class="mb-3 w-100">
+                        <img src="assets/c02.png" class="mb-3 w-100" />
                     </div>
                     <div class="col-12 col-md-4">
-                        <img src="assets/c04.png" class="mb-3 w-100">
+                        <img src="assets/c04.png" class="mb-3 w-100" />
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+    <!-- Global Achievements Section - Desktop -->
     <div class="d-lg-block d-none">
-        <div class="brands-container pt-5 pb-5">
-            <div class="container">
-                <h4 class="mt-4 mb-32" style="text-align: center !important; color: #13114C !important;">Our Global Achievments</h4>
+            <div class="brands-container pt-5 pb-5">
+                <div class="container">
+                    <h4 class="mt-4 mb-32" style="text-align: center !important; color: #13114C !important;">Our Global Achievments</h4>
                 <div class="row">
                     <div class="col-12 col-md-4">
-                        <img src="assets/c01.png" class="mb-3 imas02">
+                        <div class="d-flex flex-row justify-content-center">
+                            <img src="assets/c01.png" class="mb-3 imas02" alt="achivement-image">
+                        </div>
                     </div>
                     <div class="col-12 col-md-4">
-                        <img src="assets/c02.png" class="mb-3 imas02">
+                         <div class="d-flex flex-row justify-content-center">
+                            <img src="assets/c02.png" class="mb-3 imas02" alt="achivement-image">
+                        </div>
                     </div>
                     <div class="col-12 col-md-4">
-                        <img src="assets/c04.png" class="mb-3 imas02">
+                         <div class="d-flex flex-row justify-content-center">
+                            <img src="assets/c04.png" class="mb-3 imas02" alt="achivement-image">
+                        </div>
                     </div>
                 </div>
             </div>

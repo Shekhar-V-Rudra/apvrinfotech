@@ -30,6 +30,9 @@ Route::view('/devops', 'frontend.devops')->name('devops');
 Route::view('/cloud', 'frontend.cloud')->name('cloud');
 Route::view('/qa-testing', 'frontend.qa-testing')->name('qa-testing');
 Route::view('/support', 'frontend.support')->name('support');
+Route::view('/hire-dedicated-developers', 'frontend.hire-d-developer')->name('hire');
+Route::view('/privacy', 'frontend.privacy')->name('privacy');
+Route::view('/terms', 'frontend.terms')->name('terms');
 Route::get('/career', [FrontendCareerController::class, 'index'])->name('career');
 
 // Route alias for login (redirects to admin login)

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Transform your ideas into powerful digital experiences with our expert IT team. We build high-performance websites, intuitive mobile apps, and result-driven digital marketing solutions to accelerate your business growth.">
     <title>@yield('title', 'Apvr Infotech')</title>
     <base href="{{ asset('apvr') }}/">
     <link rel="stylesheet" href="assets/css/all.css">
@@ -43,10 +44,10 @@
                 <div class="row g-4 align-items-center justify-content-between">
                     <div class="col-xl-6 col-lg-7">
                         <div class="infobar-content d-flex align-items-center">
-                            <a href="tel:+91 99099971138" class="mb-0 fs-sm fw-semibold {{ request()->is('/') ? '' : 'text-white' }}"><span class="me-2"><i class="fa-solid fa-phone"></i></span>+91 99099971138</a>
+                            <a href="tel:+91 8866848430" class="mb-0 fs-sm fw-semibold {{ request()->is('/') ? '' : 'text-white' }}"><span class="me-2"><i class="fa-solid fa-phone"></i></span>+91 8866848430</a>
                             <p class="fs-sm mb-0 fw-semibold {{ request()->is('/') ? '' : 'text-white' }}"><span class="me-2"><i class="fa-solid fa-location-dot"></i></span>
                                  Surat</p>
-                            <a href="mailto:info@apvrinfotech.com" class="fw-semibold fs-sm {{ request()->is('/') ? '' : 'text-white' }}"><span class="me-2"><i class="fa-solid fa-envelope"></i></span>info@apvrinfotech.com</a>
+                            <a class="fw-semibold fs-sm {{ request()->is('/') ? '' : 'text-white' }}"><span class="me-2"><i class="fa-solid fa-envelope"></i></span>info@apvrinfotech.com</a>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-5">
@@ -56,11 +57,10 @@
                                 </select>
                             </div>
                             <div class="info-social border-left">
-                                <a href="https://www.facebook.com/Apvrinfotech" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                <a href="https://www.instagram.com/apvr_infotech" target="_blank"><i class="fab fa-instagram"></i></a>
-                                <a href="https://www.linkedin.com/company/apvrinfotech" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                <a href="https://www.linkedin.com/company/apvrinfotech" target="_blank"><i class="fa-solid fa-paper-plane"></i></a>
-                                <a href="https://x.com/Apvr_infotech" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/Apvrinfotech" target="_blank" aria-label="Visit APVR Infotech on Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/apvr_infotech" target="_blank" aria-label="Visit APVR Infotech on Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/company/apvrinfotech" target="_blank" aria-label="Visit APVR Infotech on LinkedIn"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://x.com/Apvr_infotech" target="_blank" aria-label="Visit APVR Infotech on X (Twitter)"><i class="fa-brands fa-twitter"></i></a>
                             </div>
                         </div>
                     </div>
@@ -83,7 +83,7 @@
                                     <a href='{{ url('/about') }}'>About Us</a>
                                 </li>
                                 <li class="has-submenu">
-                                    <a href="javascript:void(0)">Services</a>
+                                    <a>Services</a>
                                     <ul class="submenu-wrapper">
                                         <li><a href='{{ url('/ui') }}'>UI/UX Design</a></li>
                                         <li><a href='{{ url('/graphics') }}'>Graphics Design</a></li>
@@ -96,8 +96,8 @@
                                         <li><a href='{{ url('/cloud') }}'>Cloud Computing</a></li>
                                         <li><a href='{{ url('/qa-testing') }}'>QA & Testing</a></li>
                                         <li><a href='{{ url('/support') }}'>Support & Maintenance</a></li>
+                                        <li><a href='{{ url('/hire-dedicated-developers') }}'>Hire Dedicated Developers</a></li>  
                                     </ul>
-                                </li>
                                 <li><a href='{{ url('/portfolio') }}'>Our Portfolio</a></li>
                                 <li><a href='{{ url('/career') }}'>Career</a></li>
                                 <li><a href='{{ url('/contact') }}'>Contact Us</a></li>
@@ -107,7 +107,7 @@
                     <div class="col-xl-3 col-lg-1 col-6">
                         <div class="text-end d-flex align-items-center justify-content-end header-right gap-3">
                             <a class='template-btn primary-btn d-none d-sm-block d-lg-none d-xl-block text-center' href='{{ asset('apvr/assets/doc/Apvr-Infotech-Brochure.pdf') }}' target="_blank">Download Brochure <i class="fa-solid fa-download download-icon"></i></a>
-                            <button type="button" class="header-toggle mobile-menu-toggle d-lg-none">
+                            <button type="button" class="header-toggle mobile-menu-toggle d-lg-none" aria-label="Open mobile menu">
                                 <span></span>
                                 <span></span>
                                 <span></span>
@@ -120,13 +120,13 @@
     </header>
 
     <div class="mobile-menu">
-        <a href="javascript:void(0)" class="close"><i class="fas fa-xmark"></i></a>
+        <a href="#" class="close" aria-label="Menu Close"><i class="fas fa-xmark"></i></a>
         <a href='{{ url('/') }}'><img src="assets/header-logo.webp" alt="logo" class="img-fluid logo368"></a>
         <ul class="mobile-nav-menu">
             <li><a href='{{ url('/') }}'>Home</a></li>
             <li><a href='{{ url('/about') }}'>About Us</a></li>
                     <li class="has-submenu">
-                <a href="javascript:void(0)">Services</a>
+                <a href="#">Services</a>
                 <i class="fas fa-angle-down"></i>
                 <ul class="submenu-wrapper">
                     <li><a href='{{ url('/ui') }}'>UI/UX Design</a></li>
@@ -140,7 +140,7 @@
                     <li><a href='{{ url('/cloud') }}'>Cloud Computing</a></li>
                     <li><a href='{{ url('/qa-testing') }}'>QA & Testing</a></li>
                     <li><a href='{{ url('/support') }}'>Support & Maintenance</a></li>
-                    <li><a href="javascript:void(0)">Staff Augmentation</a></li>
+                    <li><a href='{{ url('/hire-dedicated-developers') }}'>Hire Dedicated Developers</a></li>  
                 </ul>
             </li>
             <li><a href='{{ url('/portfolio') }}'>Our Portfolio</a></li>
@@ -151,8 +151,8 @@
 
     @yield('content')
 
-    <a href="https://wa.me/message/KAWLLL72YC5EM1" target="_blank">
-        <img src="assets/whatsapp.png" class="whatsapp01">
+    <a href="https://wa.me/+918866848430?text=Hi%20!%20Welcome%20to%20APVR%20Infotech" target="_blank">
+        <img src="assets/whatsapp.png" class="whatsapp01" alt="whatsapp-icon">
     </a>
 
     <footer class="footer-style-2 overflow-hidden position-relative z-1">
@@ -168,10 +168,10 @@
                                 Explore our holistic approach for your business needs, covering strategy, implementation, and optimization for maximum impact.
                             </p>
                             <div class="footer-social">
-                                <a href="https://www.facebook.com/Apvrinfotech" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                <a href="https://x.com/Apvr_infotech" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                                <a href="https://www.linkedin.com/company/apvrinfotech" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                <a href="https://www.instagram.com/apvr_infotech"  target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/Apvrinfotech" target="_blank" aria-label="Visit APVR Infotech on Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://x.com/Apvr_infotech" target="_blank" aria-label="Visit APVR Infotech on Instagram"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                                <a href="https://www.linkedin.com/company/apvrinfotech" target="_blank"  aria-label="Visit APVR Infotech on LinkedIn"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://www.instagram.com/apvr_infotech"  target="_blank"  aria-label="Visit APVR Infotech on X (Twitter)"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -192,9 +192,9 @@
                                 <li><a href='{{ url('/ui') }}'>UI/UX Design</a></li>
                                 <li><a href='{{ url('/web') }}'>Web Development</a></li>
                                 <li><a href='{{ url('/app') }}'>App Development</a></li>
-                                <li><a href='javascript:void(0)'>E-Commerce</a></li>
+                                <li><a href='{{ url('/digital') }}'>E-Commerce</a></li>
                                 <li><a href='{{ url('/digital') }}'>Digital Marketing</a></li>
-                                <li><a href="javascript:void(0)">Staff Augmentation</a></li>
+                                <li><a href='{{ url('/hire-dedicated-developers') }}'>Hire Dedicated Developers</a></li>
                             </ul>
                         </div>
                     </div>
@@ -202,11 +202,11 @@
                         <div class="footer-widget nav-widget">
                             <h6 class="widget-title">Industries</h6>
                             <ul class="footer-links">
-                                <li><a href='javascript:void(0)'>Eduction</a></li>
-                                <li><a href='javascript:void(0)'>Healthcare</a></li>
-                                <li><a href='javascript:void(0)'>Membership</a></li>
-                                <li><a href='javascript:void(0)'>IVR Solutions</a></li>
-                                <li><a href='javascript:void(0)'>Social Networking</a></li>
+                                <li class="industry-link">Eduction</li>
+                                <li class="industry-link">Healthcare</li>
+                                <li class="industry-link">Banking</li>
+                                <li class="industry-link">Tours and Travels</li>
+                                <li class="industry-link">Social Networking</li>
                             </ul>
                         </div>
                     </div>
@@ -223,9 +223,8 @@
                     </div>
                     <div class="col-md-6">
                         <div class="copyright-links">
-                            <a href='javascript:void(0)'>Privacy & Policy</a>
-                            <a href='javascript:void(0)'>Terms & Services</a>
-                            <a href='javascript:void(0)'>Refund Policy</a>
+                            <a href='{{ url('/privacy') }}'>Privacy & Policy</a>
+                            <a href='{{ url('/terms') }}'>Terms & Services</a>
                         </div>
                     </div>
                 </div>
@@ -233,7 +232,7 @@
         </div>
     </footer>
 
-    <button type="button" class="scroll-top-btn"><i class="fa-solid fa-angle-up"></i></button>
+    <button type="button" class="scroll-top-btn" aria-label="Toggle mobile menu"><i class="fa-solid fa-angle-up"></i></button>
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
