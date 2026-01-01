@@ -1046,85 +1046,30 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
 @push('scripts')
 <script>
 (function($) {
-    // Counter animation fix - trigger when elements come into viewport
-    function initCounterAnimation() {
-        // Get all counter elements
-        const counters = document.querySelectorAll('.counter');
-        
-        // Check if Intersection Observer is supported
-        if ('IntersectionObserver' in window) {
-            const counterObserver = new IntersectionObserver(function(entries) {
-                entries.forEach(function(entry) {
-                    if (entry.isIntersecting) {
-                        const counterElement = entry.target;
-                        const targetValue = parseInt(counterElement.textContent);
-                        
-                        // Check if counter has already been animated
-                        if (!counterElement.hasAttribute('data-animated')) {
-                            counterElement.setAttribute('data-animated', 'true');
-                            
-                            // Animate counter
-                            animateCounter(counterElement, targetValue);
-                            
-                            // Stop observing this element
-                            counterObserver.unobserve(counterElement);
-                        }
-                    }
-                });
-            }, {
-                threshold: 0.5, // Trigger when 50% of element is visible
-                rootMargin: '0px 0px -50px 0px' // Start animation a bit before element is fully visible
-            });
-            
-            // Observe all counters
-            counters.forEach(function(counter) {
-                counterObserver.observe(counter);
-            });
-        } else {
-            // Fallback for browsers that don't support Intersection Observer
-            // Use the existing counterUp plugin
-            $('.counter').counterUp({
-                delay: 10,
-                time: 1000
-            });
-        }
-    }
+    'use strict';
     
-    // Counter animation function
-    function animateCounter(element, targetValue) {
-        let currentValue = 0;
-        const increment = targetValue / 50; // 50 steps for smooth animation
-        const duration = 1000; // 1 second
-        const stepTime = duration / 50;
-        
-        const timer = setInterval(function() {
-            currentValue += increment;
-            if (currentValue >= targetValue) {
-                element.textContent = targetValue;
-                clearInterval(timer);
-            } else {
-                element.textContent = Math.floor(currentValue);
-            }
-        }, stepTime);
-    }
-    
-    // Initialize on document ready
+    // Disable counterUp animation and keep fixed numbers
     $(document).ready(function() {
-        initCounterAnimation();
-    });
-    
-    // Re-initialize counters when tab is shown (for counters inside tabs)
-    $('a[data-bs-toggle="tab"]').on('shown.bs.tab', function (e) {
-        setTimeout(function() {
-            initCounterAnimation();
-        }, 100);
-    });
-    
-    // Also handle bootstrap 4 tabs if used
-    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-        setTimeout(function() {
-            initCounterAnimation();
-        }, 100);
+        // Prevent counterUp from being applied to counters
+        // Keep the numbers as fixed/static values
+        $('.counter').each(function() {
+            var $counter = $(this);
+            // Ensure the number stays as is (no animation)
+            var currentText = $counter.text().trim();
+            // Just make sure it displays the number properly
+            if (currentText === '0' || !currentText) {
+                // If somehow reset to 0, restore from data attribute or keep original
+                var originalValue = $counter.attr('data-original-value');
+                if (originalValue) {
+                    $counter.text(originalValue);
+                }
+            }
+        });
+        
+        // Remove any waypoint triggers that might reset counters
+        if (typeof $.fn.waypoint !== 'undefined') {
+            $('.counter').waypoint('destroy');
+        }
     });
     
 })(jQuery);
