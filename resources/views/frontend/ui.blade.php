@@ -13,7 +13,7 @@
                     <div class="breadcrumb-content">
                         <h1 class="text-white mb-3 display-2 fw-bold">Services</h1>
                         <ul>
-                            <li><a href='{{ url('/') }}'>Home</a></li>
+                            <li><a href="{{ url('/') }}">Home</a></li>
                             <li>UI/UX Design</li>
                         </ul>
                     </div>
@@ -38,7 +38,7 @@
                             UI (User Interface) and UX (User Experience) design are essential for creating impactful digital products and websites. By studying user behavior and preferences, we craft designs that are visually appealing and ensure smooth, intuitive interactions for a superior user experience.
                         </p>
                         <div class="d-flex align-items-center gap-3 gap-sm-4 flex-wrap">
-                            <a class='template-btn primary-btn' href='{{ url('/contact') }}'>Learn More</a>
+                            <a class='template-btn primary-btn' href="{{ url('/contact') }}">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -73,22 +73,22 @@
                     <div class="hm2-service-box">
                         <span class="icon-wrapper"><img src="assets/app.png" alt="icon" class="img-fluid"></span>
                         <h6 class="mt-32">Analysis</h6>
-                        <p class="mb-32 mt-4 fw-medium">In this phase, designers carefully analyze the insights gathered during research. They define user groups, outline key features, visualize the product’s final appearance, and map the business workflows to ensure a solid foundation.</p>
+                        <p class="mb-32 mt-4 fw-medium">In this phase, designers analyze research insights to define user groups, outline key features, visualize the product’s appearance, and map business workflows, ensuring a clear structure, better alignment, and a strong foundation for the next stages.</p>
                     </div>
                     <div class="hm2-service-box">
                         <span class="icon-wrapper"><img src="assets/graphic.png" alt="icon" class="img-fluid"></span>
                         <h6 class="mt-32">Design</h6>
-                        <p class="mb-32 mt-4 fw-medium">Designers begin creating components, from information architecture to the user interface and experience design. All stakeholders actively participate in sketching and developing wireframes.</p>
+                        <p class="mb-32 mt-4 fw-medium">Designers begin creating components, from information architecture to user interface and experience design. During this stage, stakeholders actively participate in brainstorming, sketching ideas, and developing wireframes to shape the product’s structure and flow.</p>
                     </div>
                     <div class="hm2-service-box">
                         <span class="icon-wrapper"><img src="assets/seo.png" alt="icon" class="img-fluid"></span>
                         <h6 class="mt-32">Validation or Testing</h6>
-                        <p class="mb-32 mt-4 fw-medium">Once the design is complete, every element undergoes thorough testing to verify it meets user needs. Insights from testers and end users are gathered to confirm the interface functions smoothly.</p>
+                        <p class="mb-32 mt-4 fw-medium">Once the design is complete, every element undergoes thorough testing to ensure it fully meets user needs and expectations. Feedback from testers and end users is carefully collected to confirm the interface functions smoothly and effectively.</p>
                     </div>
                     <div class="hm2-service-box">
                         <span class="icon-wrapper"><img src="assets/digital.png" alt="icon" class="img-fluid"></span>
                         <h6 class="mt-32">Launch</h6>
-                        <p class="mb-32 mt-4 fw-medium">After testing, the product is ready to hand over to development for full implementation, with continued validation to ensure a smooth launch.</p>
+                        <p class="mb-32 mt-4 fw-medium">After testing, the product is carefully handed over to the development team for full implementation, with continued validation, close collaboration, and ongoing quality checks to ensure a smooth, reliable, and successful product launch.</p>
                     </div>
                 </div>
             </div>

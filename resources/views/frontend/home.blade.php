@@ -23,7 +23,7 @@
                             Transform your ideas into powerful digital experiences with our expert team. We craft high-performance websites, intuitive mobile apps, and result-driven marketing strategies to help your business grow faster
                         </p>
                         <div class="d-flex align-items-center gap-4 flex-wrap">
-                            <a class='template-btn primary-btn wow fadeInUp' data-wow-delay='0.3s' href='{{ url('/contact')}}'>Get Started</a>
+                            <a class='template-btn primary-btn wow fadeInUp' data-wow-delay='0.3s' href="{{ url('/contact')}}">Get Started</a>
                         </div>
                     </div>
                 </div>
@@ -79,21 +79,21 @@
                     <div class="brand-image">
                         <img src="word.webp" alt="wordpress-logo" class="img-fluid">
                     </div>
-                     <div class="brand-image">
-                        <img src="android.webp" alt="android-logo" class="img-fluid">
-                    </div>
-                     <div class="brand-image">
-                        <img src="ios.webp" alt="ios-logo" class="img-fluid">
-                    </div>
-                     <div class="brand-image">
-                        <img src="react-native.webp" alt="react-native-logo" class="img-fluid">
-                    </div>
-                     <div class="brand-image">
-                        <img src="flutter.webp" alt="flutter-logo" class="img-fluid">
-                    </div>
-                     <div class="brand-image">
-                        <img src="magento.webp" alt="magento-logo" class="img-fluid">
-                    </div>
+                    <!-- <div class="brand-image">-->
+                    <!--    <img src="android.webp" alt="android-logo" class="img-fluid">-->
+                    <!--</div>-->
+                    <!-- <div class="brand-image">-->
+                    <!--    <img src="ios.webp" alt="ios-logo" class="img-fluid">-->
+                    <!--</div>-->
+                    <!-- <div class="brand-image">-->
+                    <!--    <img src="react-native.webp" alt="react-native-logo" class="img-fluid">-->
+                    <!--</div>-->
+                    <!-- <div class="brand-image">-->
+                    <!--    <img src="flutter.webp" alt="flutter-logo" class="img-fluid">-->
+                    <!--</div>-->
+                    <!-- <div class="brand-image">-->
+                    <!--    <img src="magento.webp" alt="magento-logo" class="img-fluid">-->
+                    <!--</div>-->
                 </div>
             </div>
         </div>
@@ -117,7 +117,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             We provide customized and modernized website solutions that are tailored and designed for your services and products, to suit your needs and fulfil organizational objectives.
                         </p>
-                        <a class='explore-btn' href='{{ url('/ui') }}'>
+                        <a class='explore-btn' href="{{ url('/ui') }}">
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -132,7 +132,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             With over a decade in providing reliable web Development services, you can trust us to build a comprehensive web solution your business and we offer web application Development services.
                         </p>
-                        <a class='explore-btn' href='{{ url('/web') }}'>
+                        <a class='explore-btn' href="{{ url('/web') }}">
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -149,7 +149,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             Be it native or hybrid platform, we are a mobile app Development company that offers a complete cycle of mobile app design, integration, and Development services.
                         </p>
-                        <a class='explore-btn' href='{{ url('/app') }}'>
+                        <a class='explore-btn' href="{{ url('/app') }}">
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -166,7 +166,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             Unlock unlimited earning potential through our innovative multilevel marketing platform, where you can build your own business while promoting high-quality products.
                         </p>
-                        <a class='explore-btn' href='{{ url('/ai-ml') }}'>
+                        <a class='explore-btn' href="{{ url('/ai-ml') }}">
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -183,7 +183,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             Transform your gaming vision into reality with our expert Staff Augmentation services, offering tailored solutions from concept to launch for captivating player experiences.
                         </p>
-                        <a class='explore-btn' href='{{ url('/staff-augmentation') }}'>
+                        <a class='explore-btn' href="{{ url('/hire-dedicated-developers') }}">
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -201,7 +201,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             Our adept team of graphic designers specializes in crafting innovative and high-performance websites, irrespective of complexity. With a keen eye for design and a commitment to excellence.
                         </p>
-                        <a class='explore-btn' href='{{ url('/graphics') }}'>
+                        <a class='explore-btn' href="{{ url('/graphics') }}">
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -217,7 +217,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             Our team of experienced marketers understands the intricacies of social media algorithms and consumer behavior, allowing us to craft campaigns that resonate with your target audience.
                         </p>
-                        <a class='explore-btn' href='{{ url('/digital') }}'>
+                        <a class='explore-btn' href="{{ url('/digital') }}">
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -233,7 +233,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             With a focus on usability and performance, our ecommerce solutions are designed to deliver seamless shopping experiences across desktop and mobile devices. 
                         </p>
-                        <a class='explore-btn' href='{{ url('/ecommerce') }}'>
+                        <a class='explore-btn' href="{{ url('/ecommerce') }}">
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -251,7 +251,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             We provide customized and modernized website solutions that are tailored and designed for your services and products, to suit your needs and fulfil organizational objectives.
                         </p>
-                        <a class='explore-btn' href='{{ url('/ui') }}'>
+                        <a class='explore-btn' href="{{ url('/ui') }}">
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -266,7 +266,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             With over a decade in providing reliable web Development services, you can trust us to build a comprehensive web solution your business and we offer web application Development services.
                         </p>
-                        <a class='explore-btn' href='{{ url('/web') }}'>
+                        <a class='explore-btn' href="{{ url('/web') }}">
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -283,7 +283,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             Be it native or hybrid platform, we are a mobile app Development company that offers a complete cycle of mobile app design, integration, and Development services.
                         </p>
-                        <a class='explore-btn' href='{{ url('/app') }}'>
+                        <a class='explore-btn' href="{{ url('/app') }}">
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -300,7 +300,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             We leverage cutting-edge AI and machine learning technologies to automate processes, enhance decision-making, and deliver smarter digital experiences.
                         </p>
-                        <a class='explore-btn' href='{{ url('/ai-ml') }}'>
+                        <a class='explore-btn' href="{{ url('/ai-ml') }}">
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -317,7 +317,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             Our staff augmentation service provides highly skilled professionals who seamlessly integrate with your team to accelerate projects and boost productivity.
                         </p>
-                        <a class='explore-btn' href='{{ url('/staff-augmentation') }}'>
+                        <a class='explore-btn' href="{{ url('/hire-dedicated-developers') }}">
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -335,7 +335,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             Our adept team of graphic designers specializes in crafting innovative and high-performance websites, irrespective of complexity. With a keen eye for design and a commitment to excellence.
                         </p>
-                        <a class='explore-btn' href='{{ url('/graphics') }}'>
+                        <a class='explore-btn' href="{{ url('/graphics') }}">
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -353,7 +353,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             Our team of experienced marketers understands the intricacies of social media algorithms and consumer behavior, allowing us to craft campaigns that resonate with your target audience.
                         </p>
-                        <a class='explore-btn' href='{{ url('/digital') }}'>
+                        <a class='explore-btn' href="{{ url('/digital') }}">
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -369,7 +369,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                              Our tailored e-commerce solutions create seamless shopping experiences designed to boost conversions, improve engagement, and increase overall revenue.
                         </p>
-                        <a class='explore-btn' href='{{ url('/ecommerce') }}'>
+                        <a class='explore-btn' href="{{ url('/ecommerce') }}">
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -385,7 +385,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             Our comprehensive DevOps services integrate automation, proactive monitoring, and continuous deployment to improve reliability, boost performance, and reduce costly downtime.
                         </p>
-                        <a class='explore-btn' href='{{ url('/devops') }}'>
+                        <a class='explore-btn' href="{{ url('/devops') }}">
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -402,7 +402,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             We offer secure and highly scalable cloud computing solutions that enhance flexibility, reduce infrastructure costs, and improve overall business efficiency and performance.
                         </p>
-                        <a class='explore-btn' href='{{ url('/cloud') }}'>
+                        <a class='explore-btn' href="{{ url('/cloud') }}">
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -418,7 +418,7 @@
                         <p class="mb-32 mt-4 fw-medium">
                             Our comprehensive support & maintenance assistance delivers ongoing monitoring, effective troubleshooting, and consistent improvement for your business systems.
                         </p>
-                        <a class='explore-btn' href='{{ url('/support') }}'>
+                        <a class='explore-btn' href="{{ url('/support') }}">
                             Get Started 
                             <span class="ms-2">
                                 <i class="fa-solid fa-arrow-right"></i> 
@@ -634,7 +634,7 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
                                     At Apvr Infotech, we believe in driving excellence through innovation and technology. With our end-to-end 360° solutions, we help businesses build a strong digital presence, streamline operations, and achieve sustainable growth. Our focus is on delivering value-driven results and long-term success for our clients.
                                 </p>
                                 <div class="d-flex align-items-center gap-4 flex-wrap flex-sm-nowrap">
-                                    <a class='template-btn primary-btn' href='{{ url('/about') }}'>Lear More</a>
+                                    <a class='template-btn primary-btn' href="{{ url('/about') }}">Lear More</a>
                                     <a href="tel:+91 8866848430" class="phone-btn">
                                         <span class="icon">
                                             <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -676,7 +676,7 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
                                     Our mission is to deliver innovative and reliable solutions that address real-world challenges while creating long-term value. By combining creativity, technology, and strategic insight, the focus is on helping businesses grow, adapt, and succeed in a rapidly evolving digital era.
                                 </p>
                                 <div class="d-flex align-items-center gap-4 flex-wrap flex-sm-nowrap">
-                                    <a class='template-btn primary-btn' href='{{ url('/about') }}'>More About Us</a>
+                                    <a class='template-btn primary-btn' href="{{ url('/about') }}">More About Us</a>
                                    
                                 </div>
                                 <div class="d-flex align-items-center cr-tab-counter mt-40 flex-wrap flex-sm-nowrap">
@@ -749,7 +749,7 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
                             We focus on designing remarkable customer experiences by combining cutting-edge technology with a personalized approach. Our skilled team ensures every interaction is smooth, meaningful, and impactful, leaving a lasting impression. By prioritizing satisfaction and loyalty, we help businesses connect better with their customers and achieve sustained growth.
                         </p>
                         <div class="d-flex align-items-center gap-3 gap-sm-4 flex-wrap">
-                            <a class='template-btn outline-secondary wow fadeInUp' data-wow-delay='0.5s' href='{{ url('/portfolio') }}'>Get Started <span class="ms-2"><i class="fas fa-arrow-right"></i></span></a>
+                            <a class='template-btn outline-secondary wow fadeInUp' data-wow-delay='0.5s' href="{{ url('/portfolio') }}">Get Started <span class="ms-2"><i class="fas fa-arrow-right"></i></span></a>
                         </div>
                     </div>
                 </div>
@@ -768,7 +768,7 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
                         <p class="mb-0 lead">Have a project idea? Let's make it happen together! Reach out to us today.</p>
                     </div>
                 </div>
-                <a class='template-btn primary-btn' href='{{ url('/contact') }}'>Make an Appointment</a>
+                <a class='template-btn primary-btn' href="{{ url('/contact') }}">Make an Appointment</a>
             </div>
         </div>
     </section>
@@ -888,112 +888,112 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
         </div>
     </section>
     
-    <section class="cr2-feedback-section overflow-hidden">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6">
-                    <div class="cr2-feedback-left ptb-100">
-                        <span class="cr-subtitle position-relative text-white fw-semibold">Customer Testimonial</span>
-                         <h2 class="mt-4 mb-32 text-white">What our customers have to say</h2>
-                         <p class="mb-60 text-white mx-470 fw-medium">
-                            Here's what our satisfied customers have shared about their experiences.
-                        </p>
-                        <div class="d-flex align-items-center cr2-feedback-counter">
-                            <div>
-                                <h3 class="mb-1 text-white fs-40"><span class="counter">1200</span><span>+</span></h3>
-                                <span class="text-white fw-medium">Full 5 Star review</span>
-                            </div>
-                            <div>
-                                <h3 class="mb-1 text-white fs-40">4.8</h3>
-                                <span class="text-white fw-medium">Out of 5 average rating</span>
-                            </div>
-                        </div>    
-                    </div>
-                </div>
-                <div class="col-xl-6">
-                    <div class="cr2-feedback-vertical-slider">
-                        <div class="cr2-feedback-slider">
-                            <div class="cr2-feedback-single">
-                                <p class="mb-0 fw-medium">“
-                                    The team was clear about how the system worked, Apvr Infotech team did what was agreed. Completing agreed work on time and within budget can definitely attest to. Very professional and courteous and responsive nevertheless.”</p>
-                                <span class="spacer"></span>
-                                <div class="d-flex align-items-center justify-content-between">
-                                    <div class="clients_info d-flex align-items-center gap-4 flex-wrap">
-                                        <img src="assets/pr01.png" alt="client" class="img-fluid rounded-circle" style="width:60px !important;">
-                                        <div>
-                                            <h5 class="mb-0 fw-semibold">Sahil Khanna</h5>
-                                            <span class="fw-medium fs-sm">Founder of Lapaas</span>
-                                        </div> 
-                                    </div>
-                                    <img src="assets/images/icons/quote.svg" alt="quote" class="img-fluid">
-                                </div>
-                            </div>
-                            <div class="cr2-feedback-single">
-                                <p class="mb-0 fw-medium">“Thanks to Apvr Infotech efforts, the application's users doubled because of the Android version. The team primarily communicates through Slack and manages the process using the Kanban board. Moreover, they are efficient in producing a high-quality product and responsive in fixing bugs.”</p>
-                                <span class="spacer"></span>
-                                <div class="d-flex align-items-center justify-content-between">
-                                    <div class="clients_info d-flex align-items-center gap-4 flex-wrap">
-                                        <img src="assets/pr02.png" alt="client" class="img-fluid rounded-circle" style="width:60px !important;">
-                                        <div>
-                                            <h5 class="mb-0 fw-semibold">Adil Qadri</h5>
-                                            <span class="fw-medium fs-sm">Founder & CEO of adilqadri Luxury perfume Brand</span>
-                                        </div> 
-                                    </div>
-                                    <img src="assets/images/icons/quote.svg" alt="quote" class="img-fluid">
-                                </div>
-                            </div>
-                            <div class="cr2-feedback-single">
-                                <p class="mb-0 fw-medium">“
-                                    Apvr Infotech was clear with their offering. They delivered their work in a structured format. They worked well together with impressive skills in backend Development, which resulted in a high-performing iOS app. Most of all, delays were worth the wait for the quality they were able to provide.
-                                    ”</p>
-                                <span class="spacer"></span>
-                                <div class="d-flex align-items-center justify-content-between">
-                                    <div class="clients_info d-flex align-items-center gap-4 flex-wrap">
-                                        <img src="assets/images/client/client-1.png" alt="client" class="img-fluid rounded-circle">
-                                        <div>
-                                            <h5 class="mb-0 fw-semibold">Ravi Kumar</h5>
-                                            <span class="fw-medium fs-sm">Customer</span>
-                                        </div> 
-                                    </div>
-                                    <img src="assets/images/icons/quote.svg" alt="quote" class="img-fluid">
-                                </div>
-                            </div>
-                            <div class="cr2-feedback-single">
-                                <p class="mb-0 fw-medium">“Apvr Infotech created an app for a sports social networking platform. The platform aimed to have the sports community come together and track their training.”</p>
-                                <span class="spacer"></span>
-                                <div class="d-flex align-items-center justify-content-between">
-                                    <div class="clients_info d-flex align-items-center gap-4 flex-wrap">
-                                        <img src="assets/images/client/client-1.png" alt="client" class="img-fluid rounded-circle">
-                                        <div>
-                                            <h5 class="mb-0 fw-semibold">Nandha Kumar</h5>
-                                            <span class="fw-medium fs-sm">Businessman</span>
-                                        </div> 
-                                    </div>
-                                    <img src="assets/images/icons/quote.svg" alt="quote" class="img-fluid">
-                                </div>
-                            </div>
+    <!--<section class="cr2-feedback-section overflow-hidden">-->
+    <!--    <div class="container">-->
+    <!--        <div class="row">-->
+    <!--            <div class="col-xl-6">-->
+    <!--                <div class="cr2-feedback-left ptb-100">-->
+    <!--                    <span class="cr-subtitle position-relative text-white fw-semibold">Customer Testimonial</span>-->
+    <!--                     <h2 class="mt-4 mb-32 text-white">What our customers have to say</h2>-->
+    <!--                     <p class="mb-60 text-white mx-470 fw-medium">-->
+    <!--                        Here's what our satisfied customers have shared about their experiences.-->
+    <!--                    </p>-->
+    <!--                    <div class="d-flex align-items-center cr2-feedback-counter">-->
+    <!--                        <div>-->
+    <!--                            <h3 class="mb-1 text-white fs-40"><span class="counter">1200</span><span>+</span></h3>-->
+    <!--                            <span class="text-white fw-medium">Full 5 Star review</span>-->
+    <!--                        </div>-->
+    <!--                        <div>-->
+    <!--                            <h3 class="mb-1 text-white fs-40">4.8</h3>-->
+    <!--                            <span class="text-white fw-medium">Out of 5 average rating</span>-->
+    <!--                        </div>-->
+    <!--                    </div>    -->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <div class="col-xl-6">-->
+    <!--                <div class="cr2-feedback-vertical-slider">-->
+    <!--                    <div class="cr2-feedback-slider">-->
+    <!--                        <div class="cr2-feedback-single">-->
+    <!--                            <p class="mb-0 fw-medium">“-->
+    <!--                                The team was clear about how the system worked, Apvr Infotech team did what was agreed. Completing agreed work on time and within budget can definitely attest to. Very professional and courteous and responsive nevertheless.”</p>-->
+    <!--                            <span class="spacer"></span>-->
+    <!--                            <div class="d-flex align-items-center justify-content-between">-->
+    <!--                                <div class="clients_info d-flex align-items-center gap-4 flex-wrap">-->
+    <!--                                    <img src="assets/pr01.png" alt="client" class="img-fluid rounded-circle" style="width:60px !important;">-->
+    <!--                                    <div>-->
+    <!--                                        <h5 class="mb-0 fw-semibold">Sahil Khanna</h5>-->
+    <!--                                        <span class="fw-medium fs-sm">Founder of Lapaas</span>-->
+    <!--                                    </div> -->
+    <!--                                </div>-->
+    <!--                                <img src="assets/images/icons/quote.svg" alt="quote" class="img-fluid">-->
+    <!--                            </div>-->
+    <!--                        </div>-->
+    <!--                        <div class="cr2-feedback-single">-->
+    <!--                            <p class="mb-0 fw-medium">“Thanks to Apvr Infotech efforts, the application's users doubled because of the Android version. The team primarily communicates through Slack and manages the process using the Kanban board. Moreover, they are efficient in producing a high-quality product and responsive in fixing bugs.”</p>-->
+    <!--                            <span class="spacer"></span>-->
+    <!--                            <div class="d-flex align-items-center justify-content-between">-->
+    <!--                                <div class="clients_info d-flex align-items-center gap-4 flex-wrap">-->
+    <!--                                    <img src="assets/pr02.png" alt="client" class="img-fluid rounded-circle" style="width:60px !important;">-->
+    <!--                                    <div>-->
+    <!--                                        <h5 class="mb-0 fw-semibold">Adil Qadri</h5>-->
+    <!--                                        <span class="fw-medium fs-sm">Founder & CEO of adilqadri Luxury perfume Brand</span>-->
+    <!--                                    </div> -->
+    <!--                                </div>-->
+    <!--                                <img src="assets/images/icons/quote.svg" alt="quote" class="img-fluid">-->
+    <!--                            </div>-->
+    <!--                        </div>-->
+    <!--                        <div class="cr2-feedback-single">-->
+    <!--                            <p class="mb-0 fw-medium">“-->
+    <!--                                Apvr Infotech was clear with their offering. They delivered their work in a structured format. They worked well together with impressive skills in backend Development, which resulted in a high-performing iOS app. Most of all, delays were worth the wait for the quality they were able to provide.-->
+    <!--                                ”</p>-->
+    <!--                            <span class="spacer"></span>-->
+    <!--                            <div class="d-flex align-items-center justify-content-between">-->
+    <!--                                <div class="clients_info d-flex align-items-center gap-4 flex-wrap">-->
+    <!--                                    <img src="assets/images/client/client-1.png" alt="client" class="img-fluid rounded-circle">-->
+    <!--                                    <div>-->
+    <!--                                        <h5 class="mb-0 fw-semibold">Ravi Kumar</h5>-->
+    <!--                                        <span class="fw-medium fs-sm">Customer</span>-->
+    <!--                                    </div> -->
+    <!--                                </div>-->
+    <!--                                <img src="assets/images/icons/quote.svg" alt="quote" class="img-fluid">-->
+    <!--                            </div>-->
+    <!--                        </div>-->
+    <!--                        <div class="cr2-feedback-single">-->
+    <!--                            <p class="mb-0 fw-medium">“Apvr Infotech created an app for a sports social networking platform. The platform aimed to have the sports community come together and track their training.”</p>-->
+    <!--                            <span class="spacer"></span>-->
+    <!--                            <div class="d-flex align-items-center justify-content-between">-->
+    <!--                                <div class="clients_info d-flex align-items-center gap-4 flex-wrap">-->
+    <!--                                    <img src="assets/images/client/client-1.png" alt="client" class="img-fluid rounded-circle">-->
+    <!--                                    <div>-->
+    <!--                                        <h5 class="mb-0 fw-semibold">Nandha Kumar</h5>-->
+    <!--                                        <span class="fw-medium fs-sm">Businessman</span>-->
+    <!--                                    </div> -->
+    <!--                                </div>-->
+    <!--                                <img src="assets/images/icons/quote.svg" alt="quote" class="img-fluid">-->
+    <!--                            </div>-->
+    <!--                        </div>-->
                            
-                            <div class="cr2-feedback-single">
-                                <p class="mb-0 fw-medium">“Apvr Infotech developed an Android app for an AI/ML robotics company. The team was tasked with delivering a platform that's compatible with handheld devices such as a tablet and an Envipro Mini.”</p>
-                                <span class="spacer"></span>
-                                <div class="d-flex align-items-center justify-content-between">
-                                    <div class="clients_info d-flex align-items-center gap-4 flex-wrap">
-                                        <img src="assets/images/client/client-1.png" alt="client" class="img-fluid rounded-circle">
-                                        <div>
-                                            <h5 class="mb-0 fw-semibold">Sai Kumar</h5>
-                                            <span class="fw-medium fs-sm">ActivScout</span>
-                                        </div> 
-                                    </div>
-                                    <img src="assets/images/icons/quote.svg" alt="quote" class="img-fluid">
-                                </div>
-                            </div>
+    <!--                        <div class="cr2-feedback-single">-->
+    <!--                            <p class="mb-0 fw-medium">“Apvr Infotech developed an Android app for an AI/ML robotics company. The team was tasked with delivering a platform that's compatible with handheld devices such as a tablet and an Envipro Mini.”</p>-->
+    <!--                            <span class="spacer"></span>-->
+    <!--                            <div class="d-flex align-items-center justify-content-between">-->
+    <!--                                <div class="clients_info d-flex align-items-center gap-4 flex-wrap">-->
+    <!--                                    <img src="assets/images/client/client-1.png" alt="client" class="img-fluid rounded-circle">-->
+    <!--                                    <div>-->
+    <!--                                        <h5 class="mb-0 fw-semibold">Sai Kumar</h5>-->
+    <!--                                        <span class="fw-medium fs-sm">ActivScout</span>-->
+    <!--                                    </div> -->
+    <!--                                </div>-->
+    <!--                                <img src="assets/images/icons/quote.svg" alt="quote" class="img-fluid">-->
+    <!--                            </div>-->
+    <!--                        </div>-->
                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--</section>-->
     
 
     <div class="d-block d-lg-none">

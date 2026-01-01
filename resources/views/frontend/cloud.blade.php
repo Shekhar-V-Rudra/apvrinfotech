@@ -65,7 +65,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/ecr.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/cloud.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">CloudInfinit Services</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -76,7 +76,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.1s">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/ean.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/hyper.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">Hyperscale Partner Cloud Services</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -87,7 +87,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.2s">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/reporting.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/content.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">Content Delivery Services</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -98,7 +98,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.3s">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/hs.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/migration.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">Advisory & Migration Services</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -109,7 +109,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.4s">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/ac.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/multi-cloud.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">Multi Cloud Management Services</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -120,7 +120,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.5s">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/dl.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/hybrid.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">Hybrid Cloud Managed Security Services</h6>
                     <p class="mb-32 mt-4 fw-medium">

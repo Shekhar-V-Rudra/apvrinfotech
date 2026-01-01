@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" href="assets/images/favicon.webp">
-    <script src="../kit.fontawesome.com/021c70449c.js" crossorigin="anonymous"></script>
+    <script src="assets/js/kit-fontawesome.js" crossorigin="anonymous"></script>
     @stack('head')
 </head>
 <body>
@@ -70,37 +70,37 @@
                 <div class="row align-items-center">
                     <div class="col-lg-2 col-6">
                         <div class="logo-wrapper">
-                            <a href='{{ url('/') }}'><img src="assets/header-logo.webp" alt="logo" class="img-fluid logo368"></a>
+                            <a href="{{ url('/') }}"><img src="assets/header-logo.webp" alt="logo" class="img-fluid logo368"></a>
                         </div>
                     </div>
                     <div class="col-xl-7 col-lg-9 d-none d-lg-block">
                         <nav class="crete-navmenu text-center ps-xl-5">
                             <ul>
                                 <li>
-                                    <a href='{{ url('/') }}'>Home</a>
+                                    <a href="{{ url('/') }}">Home</a>
                                 </li>
                                 <li>
-                                    <a href='{{ url('/about') }}'>About Us</a>
+                                    <a href="{{ url('/about') }}">About Us</a>
                                 </li>
                                 <li class="has-submenu">
                                     <a>Services</a>
                                     <ul class="submenu-wrapper">
-                                        <li><a href='{{ url('/ui') }}'>UI/UX Design</a></li>
-                                        <li><a href='{{ url('/graphics') }}'>Graphics Design</a></li>
-                                        <li><a href='{{ url('/web') }}'>Web Development</a></li>
-                                        <li><a href='{{ url('/app') }}'>App Development</a></li>
-                                        <li><a href='{{ url('/ecommerce') }}'>E-Commerce Solutions</a></li>
-                                        <li><a href='{{ url('/digital') }}'>Digital Marketing</a></li>
-                                        <li><a href='{{ url('/ai-ml') }}'>AI & ML</a></li>
-                                        <li><a href='{{ url('/devops') }}'>DevOps Services</a></li>
-                                        <li><a href='{{ url('/cloud') }}'>Cloud Computing</a></li>
-                                        <li><a href='{{ url('/qa-testing') }}'>QA & Testing</a></li>
-                                        <li><a href='{{ url('/support') }}'>Support & Maintenance</a></li>
-                                        <li><a href='{{ url('/hire-dedicated-developers') }}'>Hire Dedicated Developers</a></li>  
+                                        <li><a href="{{ url('/ui') }}">UI/UX Design</a></li>
+                                        <li><a href="{{ url('/graphics') }}">Graphics Design</a></li>
+                                        <li><a href="{{ url('/web') }}">Web Development</a></li>
+                                        <li><a href="{{ url('/app') }}">App Development</a></li>
+                                        <li><a href="{{ url('/ecommerce') }}">E-Commerce Solutions</a></li>
+                                        <li><a href="{{ url('/digital') }}">Digital Marketing</a></li>
+                                        <li><a href="{{ url('/ai-ml') }}">AI & ML</a></li>
+                                        <li><a href="{{ url('/devops') }}">DevOps Services</a></li>
+                                        <li><a href="{{ url('/cloud') }}">Cloud Computing</a></li>
+                                        <li><a href="{{ url('/qa-testing') }}">QA & Testing</a></li>
+                                        <li><a href="{{ url('/support') }}">Support & Maintenance</a></li>
+                                        <li><a href="{{ url('/hire-dedicated-developers') }}">Hire Dedicated Developers</a></li>  
                                     </ul>
-                                <li><a href='{{ url('/portfolio') }}'>Our Portfolio</a></li>
-                                <li><a href='{{ url('/career') }}'>Career</a></li>
-                                <li><a href='{{ url('/contact') }}'>Contact Us</a></li>
+                                <li><a href="{{ url('/portfolio') }}">Our Portfolio</a></li>
+                                <li><a href="{{ url('/career') }}">Career</a></li>
+                                <li><a href="{{ url('/contact') }}">Contact Us</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -121,31 +121,31 @@
 
     <div class="mobile-menu">
         <a href="#" class="close" aria-label="Menu Close"><i class="fas fa-xmark"></i></a>
-        <a href='{{ url('/') }}'><img src="assets/header-logo.webp" alt="logo" class="img-fluid logo368"></a>
+        <a href="{{ url('/') }}"><img src="assets/header-logo.webp" alt="logo" class="img-fluid logo368"></a>
         <ul class="mobile-nav-menu">
-            <li><a href='{{ url('/') }}'>Home</a></li>
-            <li><a href='{{ url('/about') }}'>About Us</a></li>
+            <li><a href="{{ url('/') }}">Home</a></li>
+            <li><a href="{{ url('/about') }}">About Us</a></li>
                     <li class="has-submenu">
                 <a href="#">Services</a>
                 <i class="fas fa-angle-down"></i>
                 <ul class="submenu-wrapper">
-                    <li><a href='{{ url('/ui') }}'>UI/UX Design</a></li>
-                    <li><a href='{{ url('/graphics') }}'>Graphics Design</a></li>
-                    <li><a href='{{ url('/web') }}'>Web Development</a></li>
-                    <li><a href='{{ url('/app') }}'>App Development</a></li>
-                    <li><a href='{{ url('/services/ecommerce') }}'>E-Commerce Solutions</a></li>
-                    <li><a href='{{ url('/digital') }}'>Digital Marketing</a></li>
-                    <li><a href='{{ url('/ai-ml') }}'>AI & ML</a></li>
-                    <li><a href='{{ url('/devops') }}'>DevOps Services</a></li>
-                    <li><a href='{{ url('/cloud') }}'>Cloud Computing</a></li>
-                    <li><a href='{{ url('/qa-testing') }}'>QA & Testing</a></li>
-                    <li><a href='{{ url('/support') }}'>Support & Maintenance</a></li>
-                    <li><a href='{{ url('/hire-dedicated-developers') }}'>Hire Dedicated Developers</a></li>  
+                    <li><a href="{{ url('/ui') }}">UI/UX Design</a></li>
+                    <li><a href="{{ url('/graphics') }}">Graphics Design</a></li>
+                    <li><a href="{{ url('/web') }}">Web Development</a></li>
+                    <li><a href="{{ url('/app') }}">App Development</a></li>
+                    <li><a href="{{ url('/ecommerce') }}">E-Commerce Solutions</a></li>
+                    <li><a href="{{ url('/digital') }}">Digital Marketing</a></li>
+                    <li><a href="{{ url('/ai-ml') }}">AI & ML</a></li>
+                    <li><a href="{{ url('/devops') }}">DevOps Services</a></li>
+                    <li><a href="{{ url('/cloud') }}">Cloud Computing</a></li>
+                    <li><a href="{{ url('/qa-testing') }}">QA & Testing</a></li>
+                    <li><a href="{{ url('/support') }}">Support & Maintenance</a></li>
+                    <li><a href="{{ url('/hire-dedicated-developers') }}">Hire Dedicated Developers</a></li>  
                 </ul>
             </li>
-            <li><a href='{{ url('/portfolio') }}'>Our Portfolio</a></li>
-            <li><a href='{{ url('/career') }}'>Career</a></li>
-            <li><a href='{{ url('/contact') }}'>Contact Us</a></li>
+            <li><a href="{{ url('/portfolio') }}">Our Portfolio</a></li>
+            <li><a href="{{ url('/career') }}">Career</a></li>
+            <li><a href="{{ url('/contact') }}">Contact Us</a></li>
         </ul>
     </div>
 
@@ -179,9 +179,9 @@
                         <div class="footer-widget nav-widget">
                             <h6 class="widget-title">Quick Links</h6>
                             <ul class="footer-links">
-                                <li><a href='{{ url('/') }}'>Home</a></li>
-                                <li><a href='{{ url('/about') }}'>About Us</a></li>
-                                <li><a href='{{ url('/contact') }}'>Contact Us</a></li>
+                                <li><a href="{{ url('/') }}">Home</a></li>
+                                <li><a href="{{ url('/about') }}">About Us</a></li>
+                                <li><a href="{{ url('/contact') }}">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -189,12 +189,12 @@
                         <div class="footer-widget nav-widget">
                             <h6 class="widget-title">Services</h6>
                             <ul class="footer-links">
-                                <li><a href='{{ url('/ui') }}'>UI/UX Design</a></li>
-                                <li><a href='{{ url('/web') }}'>Web Development</a></li>
-                                <li><a href='{{ url('/app') }}'>App Development</a></li>
-                                <li><a href='{{ url('/digital') }}'>E-Commerce</a></li>
-                                <li><a href='{{ url('/digital') }}'>Digital Marketing</a></li>
-                                <li><a href='{{ url('/hire-dedicated-developers') }}'>Hire Dedicated Developers</a></li>
+                                <li><a href="{{ url('/ui') }}">UI/UX Design</a></li>
+                                <li><a href="{{ url('/web') }}">Web Development</a></li>
+                                <li><a href="{{ url('/app') }}">App Development</a></li>
+                                <li><a href="{{ url('/digital') }}">E-Commerce</a></li>
+                                <li><a href="{{ url('/digital') }}">Digital Marketing</a></li>
+                                <li><a href="{{ url('/hire-dedicated-developers') }}">Hire Dedicated Developers</a></li>
                             </ul>
                         </div>
                     </div>
@@ -223,8 +223,8 @@
                     </div>
                     <div class="col-md-6">
                         <div class="copyright-links">
-                            <a href='{{ url('/privacy') }}'>Privacy & Policy</a>
-                            <a href='{{ url('/terms') }}'>Terms & Services</a>
+                            <a href="{{ url('/privacy') }}">Privacy & Policy</a>
+                            <a href="{{ url('/terms') }}">Terms & Services</a>
                         </div>
                     </div>
                 </div>

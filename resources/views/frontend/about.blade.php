@@ -13,7 +13,7 @@
                     <div class="breadcrumb-content">
                         <h1 class="text-white mb-3 display-2 fw-bold">About Company</h1>
                         <ul>
-                            <li><a href='{{ url('/') }}'>Home</a></li>
+                            <li><a href="{{ url('/') }}">Home</a></li>
                             <li>About Us</li>
                         </ul>
                     </div>
@@ -52,7 +52,7 @@
                                 </div>
                             </div>
                             <div class="d-flex align-items-center gap-4 mt-40 flex-wrap">
-                                <a class='template-btn primary-btn' href='{{ url('/contact') }}'>Meet with Us</a>
+                                <a class='template-btn primary-btn' href="{{ url('/contact') }}">Meet with Us</a>
                                 <a href="tel:+918866848430">
                                     <div class="cta-call-btn d-flex align-items-center gap-2">
                                         <span class="icon-tel rounded-circle">
@@ -90,7 +90,7 @@
                             Our dedication to quality ensures that every client experiences outstanding service, with their needs fulfilled and expectations surpassed in every engagement.
                         </p>
                         <div class="d-flex align-items-center gap-3 gap-sm-4 flex-wrap">
-                            <a class='template-btn primary-btn' href='{{ url('/portfolio') }}'>View our works</a>
+                            <a class='template-btn primary-btn' href="{{ url('/portfolio') }}">View our works</a>
                         </div>
                     </div>
                 </div>

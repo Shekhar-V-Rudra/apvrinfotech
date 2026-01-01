@@ -59,6 +59,8 @@ select {
   border: 0;
 }
 
+
+
 a {
   text-decoration: none;
   -webkit-transition: var(--transition-base);
@@ -70,6 +72,11 @@ ul {
   list-style-type: none;
   padding: 0;
   margin-bottom: 0;
+}
+
+.rounded-4, .hero-man{
+    width: auto !important;
+    height: auto !important;
 }
 
 button {
@@ -1715,9 +1722,6 @@ p {
   transition: var(--transition-base);
 }
 
-.primary-btn:hover {
-  background-color: transparent;
-}
 
 .primary-btn:hover::before {
   top: -10px;
@@ -3535,6 +3539,10 @@ p {
   .hm2-hero-section {
     padding: 300px 0 0;
   }
+}
+
+.hero-shape{
+    width: auto;
 }
 
 /*************************** brand section start *******************************/
@@ -7951,6 +7959,7 @@ green .hm5-counter-column .icon-wrapper {
 
 .logo368{
     width: 120px;
+    height: auto !important;
 }
 
 @keyframes shake {
@@ -8071,4 +8080,12 @@ green .hm5-counter-column .icon-wrapper {
 }
 .job-details {
     min-height: 60px;
+}
+.industry-link {
+    color: #FFFFFF;
+}
+.brand-image{
+    width: 60px !important;
+    height: 60px !important;
+}
 }

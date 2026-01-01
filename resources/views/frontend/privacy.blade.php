@@ -13,7 +13,7 @@
                     <div class="breadcrumb-content">
                         <h1 class="text-white mb-3 display-2 fw-bold">Privacy Policy</h1>
                         <ul>
-                            <li><a href='{{ url('/') }}'>Home</a></li>
+                            <li><a href="{{ url('/') }}">Home</a></li>
                             <li>Privacy Policy</li>
                         </ul>
                     </div>
