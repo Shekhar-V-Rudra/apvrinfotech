@@ -28,7 +28,7 @@
         <div class="row g-5 align-items-center">
             <div class="col-xl-6 col-lg-6">
                 <div class="image-wrapper">
-                    <img src="{{ asset('apvr/assets/mlm.gif') }}" alt="about" class="image01">
+                    <img src="{{ asset('apvr/assets/ai-ml.gif') }}" alt="about" class="image01">
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6">
@@ -69,7 +69,7 @@
             <div class="hm2-service-slider slider-spacing mt-60">
                 <div class="hm2-service-box h-100">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/admin.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/ai-strategy.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">AI Strategy & Consulting</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -78,7 +78,7 @@
                 </div>
                 <div class="hm2-service-box h-100">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/staff.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/machine.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">Machine Learning Model Development</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -87,7 +87,7 @@
                 </div>
                 <div class="hm2-service-box h-100">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/email.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/predictive.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">Predictive Analytics & Forecasting</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -96,7 +96,7 @@
                 </div>
                 <div class="hm2-service-box h-100">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/mlmw.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/nlp.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">Natural Language Processing (NLP)</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -105,7 +105,7 @@
                 </div>
                 <div class="hm2-service-box h-100">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/pgi.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/cvision.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">Computer Vision</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -114,7 +114,7 @@
                 </div>
                 <div class="hm2-service-box h-100">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/amo.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/aib.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">AI for Business Process Automation</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -123,7 +123,7 @@
                 </div>
                 <div class="hm2-service-box h-100">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/tds.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/aic.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">AI on Cloud & Edge</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -132,7 +132,7 @@
                 </div>
                 <div class="hm2-service-box h-100">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/pls.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/air.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">AI Risk, Ethics & Compliance Consulting</h6>
                     <p class="mb-32 mt-4 fw-medium">

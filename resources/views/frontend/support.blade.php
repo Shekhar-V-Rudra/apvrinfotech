@@ -68,7 +68,7 @@
             <div class="hm2-service-slider slider-spacing mt-60">
                 <div class="hm2-service-box">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/cc.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/sla.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">SLA-Backed Resolution Timelines</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -77,7 +77,7 @@
                 </div>
                 <div class="hm2-service-box">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/sa.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/patch.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">Automated Updates & Patch Management</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -86,7 +86,7 @@
                 </div>
                 <div class="hm2-service-box">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/se.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/multi.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">Multi-Timezone Support Availability</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -95,7 +95,7 @@
                 </div>
                 <div class="hm2-service-box">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/co.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/custom.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">Custom Escalation Paths and Workflows</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -133,7 +133,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/sca.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/ongoing.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">Ongoing Technical Support</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -144,7 +144,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.1s">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/sec.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/release.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">Release & Deployment Management</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -155,7 +155,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.2s">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/gdpr.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/monitoring.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">Monitoring & Issue Tracking</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -166,7 +166,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.2s">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/gdpr.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/infrastructure.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">Infrastructure & DevOps Support</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -177,7 +177,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.2s">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/gdpr.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/compliance.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">Compliance & Documentation</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -188,7 +188,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.2s">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/gdpr.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/vendor.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">Vendor & Third-Party Coordination</h6>
                     <p class="mb-32 mt-4 fw-medium">

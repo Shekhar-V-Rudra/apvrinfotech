@@ -13,7 +13,7 @@
                     <div class="breadcrumb-content">
                         <h1 class="text-white mb-3 display-2 fw-bold">Services</h1>
                         <ul>
-                            <li><a href='{{ url('/') }}'>Home</a></li>
+                            <li><a href="{{ url('/') }}">Home</a></li>
                             <li>Graphics Designing</li>
                         </ul>
                     </div>
@@ -36,7 +36,7 @@
                         <h2 class="mt-4 mb-3 man001"> Bring Your Website to Life with Expert <span class="primary-bg-light primary-text-color">Graphics Design</span></h2>
                         <p class="mb-40">Our expert graphic design services transform your website into a visually engaging and impactful experience. We ensure your brand message is communicated clearly and your online presence stands out.</p>
                         <div class="d-flex align-items-center gap-3 gap-sm-4 flex-wrap">
-                            <a class='template-btn primary-btn' href='{{ url('/contact') }}'>Know More</a>
+                            <a class='template-btn primary-btn' href="{{ url('/contact') }}">Know More</a>
                         </div>
                     </div>
                 </div>

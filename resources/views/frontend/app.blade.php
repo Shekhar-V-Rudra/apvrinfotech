@@ -13,7 +13,7 @@
                     <div class="breadcrumb-content">
                         <h1 class="text-white mb-3 display-2 fw-bold">Services</h1>
                         <ul>
-                            <li><a href='{{ url('/') }}'>Home</a></li>
+                            <li><a href="{{ url('/') }}">Home</a></li>
                             <li>App Development</li>
                         </ul>
                     </div>
@@ -36,7 +36,7 @@
                         <h2 class="mt-4 mb-3 man001"> <span class="primary-bg-light primary-text-color"> Mobile App Development </span> for Your Business?</h2>
                         <p class="mb-40">We guide businesses through native and hybrid app development with end-to-end design, integration, and development services focused on scalability and performance.</p>
                         <div class="d-flex align-items-center gap-3 gap-sm-4 flex-wrap">
-                            <a class='template-btn primary-btn' href='{{ url('/contact') }}'>Learn More</a>
+                            <a class='template-btn primary-btn' href="{{ url('/contact') }}">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                     <div class="hm2-service-box h-100">
                         <span class="icon-wrapper"><img src="assets/java.png" alt="icon" class="img-fluid"></span>
                         <h6 class="mt-32">Java</h6>
-                        <p class="mb-32 mt-4 fw-medium">Develop web, mobile, and enterprise applications with robust, feature-rich Java.</p>
+                        <p class="mb-32 mt-4 fw-medium">Develop web, mobile, and enterprise applications with feature-rich Java.</p>
                     </div>
                     <div class="hm2-service-box h-100">
                         <span class="icon-wrapper"><img src="assets/kotlin.png" alt="icon" class="img-fluid"></span>

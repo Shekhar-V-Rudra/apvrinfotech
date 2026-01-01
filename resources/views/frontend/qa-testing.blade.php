@@ -28,7 +28,7 @@
         <div class="row g-5 align-items-center">
             <div class="col-xl-6 col-lg-6">
                 <div class="image-wrapper">
-                    <img src="{{ asset('apvr/assets/ivr.gif') }}" alt="about" class="image01">
+                    <img src="{{ asset('apvr/assets/qa-testing.gif') }}" alt="about" class="image01">
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6">
@@ -73,7 +73,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100">
                         <span class="icon-wrapper">
-                            <img src="{{ asset('apvr/assets/sca.png') }}" alt="icon" class="img-fluid">
+                            <img src="{{ asset('apvr/assets/exploratory.webp') }}" alt="icon" class="img-fluid">
                         </span>
                         <h6 class="mt-32">Exploratory Testing</h6>
                         <p class="mb-32 mt-4 fw-medium">
@@ -84,7 +84,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.1s">
                         <span class="icon-wrapper">
-                            <img src="{{ asset('apvr/assets/sec.png') }}" alt="icon" class="img-fluid">
+                            <img src="{{ asset('apvr/assets/automated.webp') }}" alt="icon" class="img-fluid">
                         </span>
                         <h6 class="mt-32">Automation Testing</h6>
                         <p class="mb-32 mt-4 fw-medium">
@@ -95,7 +95,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.2s">
                         <span class="icon-wrapper">
-                            <img src="{{ asset('apvr/assets/gdpr.png') }}" alt="icon" class="img-fluid">
+                            <img src="{{ asset('apvr/assets/functional.webp') }}" alt="icon" class="img-fluid">
                         </span>
                         <h6 class="mt-32">Functional Testing</h6>
                         <p class="mb-32 mt-4 fw-medium">
@@ -106,7 +106,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.2s">
                         <span class="icon-wrapper">
-                            <img src="{{ asset('apvr/assets/gdpr.png') }}" alt="icon" class="img-fluid">
+                            <img src="{{ asset('apvr/assets/mobile-app.webp') }}" alt="icon" class="img-fluid">
                         </span>
                         <h6 class="mt-32">Mobile App Testing</h6>
                         <p class="mb-32 mt-4 fw-medium">
@@ -117,7 +117,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.2s">
                         <span class="icon-wrapper">
-                            <img src="{{ asset('apvr/assets/gdpr.png') }}" alt="icon" class="img-fluid">
+                            <img src="{{ asset('apvr/assets/ui-ux.webp') }}" alt="icon" class="img-fluid">
                         </span>
                         <h6 class="mt-32">UI/UX Testing</h6>
                         <p class="mb-32 mt-4 fw-medium">
@@ -128,7 +128,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.2s">
                         <span class="icon-wrapper">
-                            <img src="{{ asset('apvr/assets/gdpr.png') }}" alt="icon" class="img-fluid">
+                            <img src="{{ asset('apvr/assets/load.webp') }}" alt="icon" class="img-fluid">
                         </span>
                         <h6 class="mt-32">Performance/Load Testing</h6>
                         <p class="mb-32 mt-4 fw-medium">
@@ -139,7 +139,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.2s">
                         <span class="icon-wrapper">
-                            <img src="{{ asset('apvr/assets/gdpr.png') }}" alt="icon" class="img-fluid">
+                            <img src="{{ asset('apvr/assets/uat.webp') }}" alt="icon" class="img-fluid">
                         </span>
                         <h6 class="mt-32">UAT/Release Auditing</h6>
                         <p class="mb-32 mt-4 fw-medium">
@@ -150,7 +150,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.2s">
                         <span class="icon-wrapper">
-                            <img src="{{ asset('apvr/assets/gdpr.png') }}" alt="icon" class="img-fluid">
+                            <img src="{{ asset('apvr/assets/ai-ml.webp') }}" alt="icon" class="img-fluid">
                         </span>
                         <h6 class="mt-32">AI/ML Testing</h6>
                         <p class="mb-32 mt-4 fw-medium">
@@ -161,7 +161,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.2s">
                         <span class="icon-wrapper">
-                            <img src="{{ asset('apvr/assets/gdpr.png') }}" alt="icon" class="img-fluid">
+                            <img src="{{ asset('apvr/assets/security.webp') }}" alt="icon" class="img-fluid">
                         </span>
                         <h6 class="mt-32">Security Testing</h6>
                         <p class="mb-32 mt-4 fw-medium">
@@ -172,7 +172,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.2s">
                         <span class="icon-wrapper">
-                            <img src="{{ asset('apvr/assets/gdpr.png') }}" alt="icon" class="img-fluid">
+                            <img src="{{ asset('apvr/assets/dfarms.webp') }}" alt="icon" class="img-fluid">
                         </span>
                         <h6 class="mt-32">Testing on Device Farms</h6>
                         <p class="mb-32 mt-4 fw-medium">
@@ -183,7 +183,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.2s">
                         <span class="icon-wrapper">
-                            <img src="{{ asset('apvr/assets/gdpr.png') }}" alt="icon" class="img-fluid">
+                            <img src="{{ asset('apvr/assets/accessibility.webp') }}" alt="icon" class="img-fluid">
                         </span>
                         <h6 class="mt-32">Accessibility Testing</h6>
                         <p class="mb-32 mt-4 fw-medium">
@@ -194,7 +194,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.2s">
                         <span class="icon-wrapper">
-                            <img src="{{ asset('apvr/assets/gdpr.png') }}" alt="icon" class="img-fluid">
+                            <img src="{{ asset('apvr/assets/dfrag.webp') }}" alt="icon" class="img-fluid">
                         </span>
                         <h6 class="mt-32">Device Fragmentation Testing</h6>
                         <p class="mb-32 mt-4 fw-medium">
@@ -245,7 +245,7 @@
                 <div class="hm2-service-slider slider-spacing mt-60">
                     <div class="hm2-service-box">
                         <span class="icon-wrapper">
-                            <img src="{{ asset('apvr/assets/ii.png') }}" alt="icon" class="img-fluid">
+                            <img src="{{ asset('apvr/assets/pbased.webp') }}" alt="icon" class="img-fluid">
                         </span>
                         <h6 class="mt-32">Project-Based Testing</h6>
                         <p class="mb-32 mt-4 fw-medium">
@@ -254,7 +254,7 @@
                     </div>
                     <div class="hm2-service-box">
                         <span class="icon-wrapper">
-                            <img src="{{ asset('apvr/assets/pc.png') }}" alt="icon" class="img-fluid">
+                            <img src="{{ asset('apvr/assets/mtesting.webp') }}" alt="icon" class="img-fluid">
                         </span>
                         <h6 class="mt-32">Managed Testing</h6>
                         <p class="mb-32 mt-4 fw-medium">
@@ -263,7 +263,7 @@
                     </div>
                     <div class="hm2-service-box">
                         <span class="icon-wrapper">
-                            <img src="{{ asset('apvr/assets/cd.png') }}" alt="icon" class="img-fluid">
+                            <img src="{{ asset('apvr/assets/product-testing.webp') }}" alt="icon" class="img-fluid">
                         </span>
                         <h6 class="mt-32">Products in Testing</h6>
                         <p class="mb-32 mt-4 fw-medium">
@@ -272,7 +272,7 @@
                     </div>
                     <div class="hm2-service-box">
                         <span class="icon-wrapper">
-                            <img src="{{ asset('apvr/assets/ryb.png') }}" alt="icon" class="img-fluid">
+                            <img src="{{ asset('apvr/assets/advisory.webp') }}" alt="icon" class="img-fluid">
                         </span>
                         <h6 class="mt-32">Advisory & Consulting</h6>
                         <p class="mb-32 mt-4 fw-medium">

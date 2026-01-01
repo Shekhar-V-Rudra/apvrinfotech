@@ -13,7 +13,7 @@
                     <div class="breadcrumb-content">
                         <h1 class="text-white mb-3 display-2 fw-bold">Services</h1>
                         <ul>
-                            <li><a href='{{ url('/') }}'>Home</a></li>
+                            <li><a href="{{ url('/') }}">Home</a></li>
                             <li>Staff Augmentation</li>
 
                         </ul>
@@ -49,7 +49,7 @@ Staff augmentation is a flexible hiring strategy that provides you with skilled 
                         </p>
 
                         <div class="d-flex align-items-center gap-3 gap-sm-4 flex-wrap">
-                            <a class='template-btn primary-btn' href='{{ url('/contact') }}'>Get a Free Demo</a>
+                            <a class='template-btn primary-btn' href="{{ url('/contact') }}">Get a Free Demo</a>
 
                         </div>
                     </div>

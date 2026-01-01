@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="breadcrumb-content">
-                    <h1 class="text-white mb-3 display-2 fw-bold">Digital Products</h1>
+                    <h1 class="text-white mb-3 display-2 fw-bold">Services</h1>
                     <ul>
                         <li><a href="{{ url('/') }}">Home</a></li>
                         <li>DevOps Services</li>
@@ -28,7 +28,7 @@
         <div class="row g-5 align-items-center">
             <div class="col-xl-6 col-lg-6">
                 <div class="image-wrapper">
-                    <img src="{{ asset('apvr/assets/erp.gif') }}" alt="about" class="image01">
+                    <img src="{{ asset('apvr/assets/devops.gif') }}" alt="about" class="image01">
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6">
@@ -71,7 +71,7 @@
             <div class="hm2-service-slider slider-spacing mt-60">
                 <div class="hm2-service-box">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/ecs.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/cdevops.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">DevOps Consulting Services</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -80,7 +80,7 @@
                 </div>
                 <div class="hm2-service-box">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/ces.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/idevops.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">DevOps Implementation Services</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -89,7 +89,7 @@
                 </div>
                 <div class="hm2-service-box">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/eis.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/adevops.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">DevOps Automation Services</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -98,7 +98,7 @@
                 </div>
                 <div class="hm2-service-box">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/ead.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/mdevops.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">DevOps Managed Services</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -134,7 +134,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/cwd.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/assessment.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">Assessment</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -145,7 +145,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.1s">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/cb.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/strategy.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">Strategy</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -156,7 +156,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.2s">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/wf.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/implementation.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">Implementation</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -167,7 +167,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.3s">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/mad.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/automation.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">Automation</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -178,7 +178,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.4s">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/wad.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/monitor.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">Monitoring</h6>
                     <p class="mb-32 mt-4 fw-medium">
@@ -189,7 +189,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="hm2-service-box text-center text-lg-start wow fadeInUp h-100" data-wow-delay="0.5s">
                     <span class="icon-wrapper">
-                        <img src="{{ asset('apvr/assets/pd.png') }}" alt="icon" class="img-fluid">
+                        <img src="{{ asset('apvr/assets/optimization.webp') }}" alt="icon" class="img-fluid">
                     </span>
                     <h6 class="mt-32">Optimization</h6>
                     <p class="mb-32 mt-4 fw-medium">

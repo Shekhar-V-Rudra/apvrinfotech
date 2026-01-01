@@ -13,7 +13,7 @@
                     <div class="breadcrumb-content">
                         <h1 class="text-white mb-3 display-2 fw-bold">Services</h1>
                         <ul>
-                            <li><a href='{{ url('/') }}'>Home</a></li>
+                            <li><a href="{{ url('/') }}">Home</a></li>
                             <li>Digital Marketing</li>
                         </ul>
                     </div>
@@ -37,7 +37,7 @@
                         <p class="mb-20">We focus on measurable results through SEO and digital marketing strategies that drive new customers to your website.</p>
                         <p class="mb-40">We work across industries and sizes, offering custom website development and comprehensive digital marketing strategies to expand reach and achieve growth.</p>
                         <div class="d-flex align-items-center gap-3 gap-sm-4 flex-wrap">
-                            <a class='template-btn primary-btn' href='{{ url('/contact') }}'>Know More</a>
+                            <a class='template-btn primary-btn' href="{{ url('/contact') }}">Know More</a>
                         </div>
                     </div>
                 </div>
