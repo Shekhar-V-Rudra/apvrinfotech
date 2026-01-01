@@ -61,63 +61,140 @@
             </section>
     </div>
 
-    <section class="contact-form-area ptb-100 bg-light-white position-relative">
+    <section class="contact-form-area pt-20 pb-20 bg-light-white position-relative">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="ct-left">
                         <span class="cr-subtitle position-relative fw-semibold primary-text-color">Get In Touch</span>
                         <h2 class="mt-4 mb-5">You can connect with us when need help!</h2>
-                        <form id="contactForm" class="ct-contact-form" action="{{ route('contact.submit') }}" method="post" enctype="multipart/form-data">
+                        <form id="contactForm" class="ct-contact-form" action="{{ route('contact.submit') }}" method="post" enctype="multipart/form-data" style="background: white; padding: 2rem; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
                             @csrf
                             
-                            <div id="formMessages"></div>
-                            <div class="d-flex align-items-center gap-3">
-                                <div class="input-field position-relative width-half">
-                                    <label for="name" class="d-block mb-2 text-sm fw-semibold" style="color: #333;">
-                                        Your Name <span class="text-danger">*</span>
-                                    </label>
-                                    <input type="text" id="name" name="name" placeholder="Enter your name" class="theme-input" value="{{ old('name') }}" required>
-                                    <small id="name_error" class="text-danger d-block mt-1" style="display: none;"></small>
-                                </div>
-                                
-                                
-                                <div class="input-field position-relative width-half">
-                                    <label for="text" class="d-block mb-2 text-sm fw-semibold" style="color: #333;">
-                                        Contact Number <span class="text-danger">*</span>
-                                    </label>
-                                    <input type="text" id="text" name="text" placeholder="Enter your contcat number" class="theme-input" value="{{ old('phone') }}" required>
-                                    <small id="contact_error" class="text-danger d-block mt-1" style="display: none;"></small>
-                                </div>
-                            </div>
+                            <div id="formMessages" class="mb-4"></div>
                             
-                            
-                            <div class="mt-4">
-                                    <label for="email" class="d-block mb-2 text-sm fw-semibold" style="color: #333;">
-                                        Email Address <span class="text-danger">*</span>
-                                    </label>
-                                    <input type="email" id="email" name="email" placeholder="Enter your email" class="theme-input" value="{{ old('email') }}" required>
-                                    <small id="email_error" class="text-danger d-block mt-1" style="display: none;"></small>
-                                </div>
-                            
-                            
-                           
-                            <div class="mt-4">
-                                <label for="comment" class="d-block mb-2 text-sm fw-semibold" style="color: #333;">
-                                    Type Your Message <span class="text-danger">*</span>
+                            <!-- Name Field -->
+                            <div class="position-relative mb-4" style="position: relative; margin-bottom: 1.5rem;">
+                                <label id="name_label" class="contact-floating-label" style="position: absolute; top: -10px; left: 12px; padding: 0 4px; background: white; font-size: 0.875rem; font-weight: 500; color: #374151;">
+                                    Your Name <span style="color: #ef4444;">*</span>
                                 </label>
-                                <textarea id="comment" name="comment" placeholder="Enter your message" class="theme-input" rows="5" required>{{ old('comment') }}</textarea>
-                                <small id="comment_error" class="text-danger d-block mt-1" style="display: none;"></small>
+                                <input 
+                                    type="text" 
+                                    id="name" 
+                                    name="name" 
+                                    style="width: 100%; padding: 0.75rem 1rem; border: 1px solid #d1d5db; border-radius: 0.375rem; transition: all 0.2s; background: white; outline: none;"
+                                    placeholder=""
+                                    value="{{ old('name') }}" 
+                                    required
+                                    onfocus="this.style.borderColor='#2563eb'; this.style.boxShadow='0 0 0 3px rgba(37, 99, 235, 0.1)';"
+                                    onblur="if(!this.value) { this.style.borderColor='#d1d5db'; this.style.boxShadow='none'; }"
+                                />
+                                <small id="name_error" class="text-danger d-block mt-1" style="display: none; margin-top: 0.5rem;"></small>
                             </div>
-                            <div class="mt-4">
-                                <label for="attachment" class="d-block mb-2 text-sm text-gray-700">
-                                    <i class="fas fa-paperclip me-2 text-primary"></i>Attach File (Optional)
+                            
+                            <!-- Email Field -->
+                            <div class="position-relative mb-4" style="position: relative; margin-bottom: 1.5rem;">
+                                <label id="email_label" class="contact-floating-label" style="position: absolute; top: -10px; left: 12px; padding: 0 4px; background: white; font-size: 0.875rem; font-weight: 500; color: #374151;">
+                                    Email Address <span style="color: #ef4444;">*</span>
                                 </label>
-                                <input type="file" name="attachment" id="attachment" class="theme-input">
-                                <small class="d-block mt-1 text-muted">All file types allowed. Maximum size: 10MB</small>
-                                <small id="attachment_error" class="text-danger d-block mt-1" style="display: none;"></small>
+                                <input 
+                                    type="email" 
+                                    id="email" 
+                                    name="email" 
+                                    style="width: 100%; padding: 0.75rem 1rem; border: 1px solid #d1d5db; border-radius: 0.375rem; transition: all 0.2s; background: white; outline: none;"
+                                    placeholder=""
+                                    value="{{ old('email') }}" 
+                                    required
+                                    onfocus="this.style.borderColor='#2563eb'; this.style.boxShadow='0 0 0 3px rgba(37, 99, 235, 0.1)';"
+                                    onblur="if(!this.value) { this.style.borderColor='#d1d5db'; this.style.boxShadow='none'; }"
+                                />
+                                <small id="email_error" class="text-danger d-block mt-1" style="display: none; margin-top: 0.5rem;"></small>
                             </div>
-                            <button type="submit" id="submitBtn" class="template-btn primary-btn mt-4">
+
+                            <!-- Service Field -->
+                            <div class="position-relative mb-4" style="position: relative; margin-bottom: 1.5rem;">
+                                <label id="service_label" class="contact-floating-label" style="position: absolute; top: -10px; left: 12px; padding: 0 4px; background: white; font-size: 0.875rem; font-weight: 500; color: #374151;">
+                                    Service <span style="color: #ef4444;">*</span>
+                                </label>
+                                <select 
+                                    id="service" 
+                                    name="service" 
+                                    style="width: 100%; padding: 0.75rem 1rem; padding-right: 2.5rem; border: 1px solid #d1d5db; border-radius: 0.375rem; transition: all 0.2s; background: white; outline: none; appearance: none; background-image: url('data:image/svg+xml,%3csvg xmlns=\'http://www.w3.org/2000/svg\' fill=\'none\' viewBox=\'0 0 20 20\'%3e%3cpath stroke=\'%236b7280\' stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'1.5\' d=\'M6 8l4 4 4-4\'/%3e%3c/svg%3e'); background-position: right 0.5rem center; background-repeat: no-repeat; background-size: 1.5em 1.5em;"
+                                    required
+                                    onfocus="this.style.borderColor='#2563eb'; this.style.boxShadow='0 0 0 3px rgba(37, 99, 235, 0.1)';"
+                                    onblur="this.style.borderColor='#d1d5db'; this.style.boxShadow='none';"
+                                >
+                                    <option value="">Select a service</option>
+                                    <option value="UI/UX Design" {{ old('service') == 'UI/UX Design' ? 'selected' : '' }}>UI/UX Design</option>
+                                    <option value="Web Development" {{ old('service') == 'Web Development' ? 'selected' : '' }}>Web Development</option>
+                                    <option value="App Development" {{ old('service') == 'App Development' ? 'selected' : '' }}>App Development</option>
+                                    <option value="Graphics Design" {{ old('service') == 'Graphics Design' ? 'selected' : '' }}>Graphics Design</option>
+                                    <option value="Digital Marketing" {{ old('service') == 'Digital Marketing' ? 'selected' : '' }}>Digital Marketing</option>
+                                    <option value="SEO Optimization" {{ old('service') == 'SEO Optimization' ? 'selected' : '' }}>SEO Optimization</option>
+                                    <option value="E-Commerce Solutions" {{ old('service') == 'E-Commerce Solutions' ? 'selected' : '' }}>E-Commerce Solutions</option>
+                                    <option value="ERP Solutions" {{ old('service') == 'ERP Solutions' ? 'selected' : '' }}>ERP Solutions</option>
+                                    <option value="CRM Solutions" {{ old('service') == 'CRM Solutions' ? 'selected' : '' }}>CRM Solutions</option>
+                                    <option value="Cloud Solutions" {{ old('service') == 'Cloud Solutions' ? 'selected' : '' }}>Cloud Solutions</option>
+                                    <option value="others" {{ old('service') == 'others' ? 'selected' : '' }}>Others</option>
+                                </select>
+                                <small id="service_error" class="text-danger d-block mt-1" style="display: none; margin-top: 0.5rem;"></small>
+                            </div>
+
+                            <!-- Others Service Field (Conditional) -->
+                            <div id="othersServiceContainer" class="position-relative mb-4" style="position: relative; margin-bottom: 1.5rem; display: none;">
+                                <label id="others_service_label" class="contact-floating-label" style="position: absolute; top: -10px; left: 12px; padding: 0 4px; background: white; font-size: 0.875rem; font-weight: 500; color: #374151;">
+                                    Specify Service <span style="color: #ef4444;">*</span>
+                                </label>
+                                <input 
+                                    type="text" 
+                                    id="others_service" 
+                                    name="others_service" 
+                                    style="width: 100%; padding: 0.75rem 1rem; border: 1px solid #d1d5db; border-radius: 0.375rem; transition: all 0.2s; background: white; outline: none;"
+                                    placeholder=""
+                                    value="{{ old('others_service') }}"
+                                    onfocus="this.style.borderColor='#2563eb'; this.style.boxShadow='0 0 0 3px rgba(37, 99, 235, 0.1)';"
+                                    onblur="if(!this.value) { this.style.borderColor='#d1d5db'; this.style.boxShadow='none'; }"
+                                />
+                                <small id="others_service_error" class="text-danger d-block mt-1" style="display: none; margin-top: 0.5rem;"></small>
+                            </div>
+                            
+                            <!-- Message Field -->
+                            <div class="position-relative mb-4" style="position: relative; margin-bottom: 1.5rem;">
+                                <label id="comment_label" class="contact-floating-label" style="position: absolute; top: -10px; left: 12px; padding: 0 4px; background: white; font-size: 0.875rem; font-weight: 500; color: #374151;">
+                                    Your Message <span style="color: #ef4444;">*</span>
+                                </label>
+                                <textarea 
+                                    id="comment" 
+                                    name="comment" 
+                                    rows="5" 
+                                    style="width: 100%; padding: 0.75rem 1rem; border: 1px solid #d1d5db; border-radius: 0.375rem; transition: all 0.2s; background: white; resize: vertical; outline: none;"
+                                    placeholder=""
+                                    required
+                                    onfocus="this.style.borderColor='#2563eb'; this.style.boxShadow='0 0 0 3px rgba(37, 99, 235, 0.1)';"
+                                    onblur="if(!this.value) { this.style.borderColor='#d1d5db'; this.style.boxShadow='none'; }"
+                                >{{ old('comment') }}</textarea>
+                                <small id="comment_error" class="text-danger d-block mt-1" style="display: none; margin-top: 0.5rem;"></small>
+                            </div>
+
+                            <!-- Attachment Field -->
+                            <div class="position-relative mb-4" style="position: relative; margin-bottom: 1.5rem;">
+                                <label id="attachment_label" class="contact-floating-label" style="position: absolute; top: -10px; left: 12px; padding: 0 4px; background: white; font-size: 0.875rem; font-weight: 500; color: #6b7280;">
+                                    Attach File <span style="color: #9ca3af; font-size: 0.75rem;">(optional)</span>
+                                </label>
+                                <input 
+                                    type="file" 
+                                    name="attachment" 
+                                    id="attachment" 
+                                    style="width: 100%; padding: 0.75rem 1rem; border: 1px solid #d1d5db; border-radius: 0.375rem; transition: all 0.2s; background: white; outline: none;"
+                                    onfocus="this.style.borderColor='#2563eb'; this.style.boxShadow='0 0 0 3px rgba(37, 99, 235, 0.1)';"
+                                    onblur="this.style.borderColor='#d1d5db'; this.style.boxShadow='none';"
+                                />
+                                <small class="d-block mt-1 text-muted" style="margin-top: 0.5rem; font-size: 0.75rem; color: #6b7280;">All file types allowed. Maximum size: 10MB</small>
+                                <small id="attachment_error" class="text-danger d-block mt-1" style="display: none; margin-top: 0.5rem;"></small>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <button type="submit" id="submitBtn" class="w-100 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition font-medium" style="width: 100%; padding: 0.75rem 1rem; background: #2563eb; color: white; border-radius: 0.375rem; border: none; font-weight: 500; cursor: pointer; transition: all 0.2s;">
                                 <span id="submitText">Send Message Now</span>
                                 <span id="submitLoader" style="display: none;">
                                     <i class="fas fa-spinner fa-spin"></i> Sending...
@@ -128,7 +205,7 @@
                 </div>
             </div>
         </div>
-        <div class="google-map">
+        <div class="container google-map pt-20 pb-20 py-20">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1767.8670995295256!2d72.83914117840618!3d21.20065388520899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e57fadebedb%3A0x299a6196f6240624!2sJapan%20Market%2C%20Begampura%2C%20Surat%2C%20Gujarat%20395003!5e1!3m2!1sen!2sin!4v1760520653913!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
@@ -202,12 +279,17 @@ document.addEventListener('DOMContentLoaded', function() {
             othersServiceInput.value = '';
             // Clear error for others_service when hidden
             const errorElement = document.getElementById('others_service_error');
+            const labelElement = document.getElementById('others_service_label');
             if (errorElement) {
                 errorElement.style.display = 'none';
-                errorElement.textContent = '';
+                errorElement.innerHTML = '';
             }
-            othersServiceInput.style.borderColor = '';
-            othersServiceInput.style.borderWidth = '';
+            othersServiceInput.style.borderColor = '#d1d5db';
+            othersServiceInput.style.borderWidth = '1px';
+            othersServiceInput.style.boxShadow = 'none';
+            if (labelElement) {
+                labelElement.style.color = '#374151';
+            }
         }
     }
 
@@ -218,23 +300,23 @@ document.addEventListener('DOMContentLoaded', function() {
     serviceSelect.addEventListener('change', function() {
         toggleOthersService();
         // Clear service error when user selects a service
-        if (serviceSelect.value && serviceSelect.value !== '') {
+            if (serviceSelect.value && serviceSelect.value !== '') {
             const errorElement = document.getElementById('service_error');
-            const wrapper = serviceSelect.closest('.nice-select') || serviceSelect.parentElement;
+            const labelElement = document.getElementById('service_label');
             
             if (errorElement) {
                 errorElement.style.display = 'none';
-                errorElement.textContent = '';
+                errorElement.innerHTML = '';
             }
             
             if (serviceSelect) {
-                serviceSelect.style.borderColor = '';
-                serviceSelect.style.borderWidth = '';
+                serviceSelect.style.borderColor = '#d1d5db';
+                serviceSelect.style.borderWidth = '1px';
+                serviceSelect.style.boxShadow = 'none';
             }
             
-            if (wrapper && wrapper.classList.contains('nice-select')) {
-                wrapper.style.borderColor = '';
-                wrapper.style.borderWidth = '';
+            if (labelElement) {
+                labelElement.style.color = '#374151';
             }
         }
     });
@@ -244,20 +326,25 @@ document.addEventListener('DOMContentLoaded', function() {
         const errorElements = document.querySelectorAll('[id$="_error"]');
         errorElements.forEach(el => {
             el.style.display = 'none';
-            el.textContent = '';
+            el.innerHTML = '';
         });
         
-        const inputs = document.querySelectorAll('.theme-input, .nice_select');
+        const inputs = document.querySelectorAll('#name, #email, #service, #others_service, #comment, #attachment');
         inputs.forEach(input => {
-            input.style.borderColor = '';
-            input.style.borderWidth = '';
+            input.style.borderColor = '#d1d5db';
+            input.style.borderWidth = '1px';
+            input.style.boxShadow = 'none';
         });
         
-        // Also clear errors from nice-select wrappers
-        const niceSelectWrappers = document.querySelectorAll('.nice-select');
-        niceSelectWrappers.forEach(wrapper => {
-            wrapper.style.borderColor = '';
-            wrapper.style.borderWidth = '';
+        // Reset label colors
+        const labels = document.querySelectorAll('.contact-floating-label');
+        labels.forEach(label => {
+            const labelText = label.innerHTML;
+            if (labelText.includes('(optional)')) {
+                label.style.color = '#6b7280';
+            } else {
+                label.style.color = '#374151';
+            }
         });
     }
 
@@ -265,26 +352,30 @@ document.addEventListener('DOMContentLoaded', function() {
     function showError(fieldName, message) {
         const errorElement = document.getElementById(fieldName + '_error');
         const inputElement = document.getElementById(fieldName);
+        const labelElement = document.getElementById(fieldName + '_label');
         
         if (errorElement) {
-            errorElement.textContent = message;
+            errorElement.innerHTML = `
+                <div style="display: flex; align-items: center;">
+                    <svg style="width: 1rem; height: 1rem; color: #ef4444; margin-right: 0.5rem; flex-shrink: 0;" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/>
+                    </svg>
+                    <span style="color: #ef4444; font-size: 0.875rem;">${message}</span>
+                </div>
+            `;
             errorElement.style.display = 'block';
         }
         
         if (inputElement) {
             // Apply red border to the input/select element
-            inputElement.style.borderColor = '#dc3545';
-            inputElement.style.borderWidth = '2px';
-            
-            // For select fields, also try to style the wrapper if it exists (for nice_select plugin)
-            if (inputElement.tagName === 'SELECT') {
-                // Try to find the wrapper element
-                const wrapper = inputElement.closest('.nice-select') || inputElement.parentElement;
-                if (wrapper && wrapper.classList.contains('nice-select')) {
-                    wrapper.style.borderColor = '#dc3545';
-                    wrapper.style.borderWidth = '2px';
-                }
-            }
+            inputElement.style.borderColor = '#ef4444';
+            inputElement.style.borderWidth = '1px';
+            inputElement.style.boxShadow = 'none';
+        }
+        
+        // Update label color to red
+        if (labelElement) {
+            labelElement.style.color = '#ef4444';
         }
     }
 
