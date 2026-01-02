@@ -879,7 +879,7 @@ As a trusted web development partner, we’ve helped numerous companies worldwid
                             </svg>  
                         </span>
                         <div class="cr-counter-circle">
-                            <h2 class="mb-3"><span class="counter">6</span>+</h2>
+                            <h2 class="mb-3"><span class="counter">7</span>+</h2>
                             <p class="mb-0">Years on the Market</p>
                         </div>
                     </div>

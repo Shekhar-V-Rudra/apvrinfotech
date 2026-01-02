@@ -43,7 +43,7 @@
                         @foreach($projectsAll as $project)
                             <div class="col-lg-3 col-sm-6">
                                 <div class="pp-project-card rounded-3 overflow-hidden position-relative z-1">
-                                    <img src="{{ $project->image }}" alt="project" class="img-fluid">
+                                    <img src="{{ $project->image_url }}" alt="project" class="img-fluid">
                                     @if($project->project_url)
                                         <a href="{{ $project->project_url }}" target="_blank" class="explore-btn"><i class="fas fa-eye"></i></a>
                                     @endif
@@ -62,7 +62,7 @@
                         @foreach($projectsWeb as $project)
                             <div class="col-lg-3 col-sm-6">
                                 <div class="pp-project-card rounded-3 overflow-hidden position-relative z-1">
-                                    <img src="{{ $project->image }}" alt="project" class="img-fluid">
+                                    <img src="{{ $project->image_url }}" alt="project" class="img-fluid">
                                     @if($project->project_url)
                                         <a href="{{ $project->project_url }}" target="_blank" class="explore-btn"><i class="fas fa-eye"></i></a>
                                     @endif
@@ -81,7 +81,7 @@
                         @foreach($projectsApp as $project)
                             <div class="col-lg-3 col-sm-6">
                                 <div class="pp-project-card rounded-3 overflow-hidden position-relative z-1">
-                                    <img src="{{ $project->image }}" alt="project" class="img-fluid">
+                                    <img src="{{ $project->image_url }}" alt="project" class="img-fluid">
                                     @if($project->project_url)
                                         <a href="{{ $project->project_url }}" target="_blank" class="explore-btn"><i class="fas fa-eye"></i></a>
                                     @endif
@@ -100,7 +100,7 @@
                         @foreach($projectsGraphics as $project)
                             <div class="col-lg-3 col-sm-6">
                                 <div class="pp-project-card rounded-3 overflow-hidden position-relative z-1">
-                                    <img src="{{ $project->image }}" alt="project" class="img-fluid">
+                                    <img src="{{ $project->image_url }}" alt="project" class="img-fluid">
                                     @if($project->project_url)
                                         <a href="{{ $project->project_url }}" target="_blank" class="explore-btn"><i class="fas fa-eye"></i></a>
                                     @endif
