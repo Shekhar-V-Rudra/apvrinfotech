@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Backend;
 use App\Http\Controllers\Controller;
 use App\Models\Portfolio;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Storage;
 
 class PortfolioController extends Controller
 {
@@ -51,7 +50,15 @@ class PortfolioController extends Controller
         if ($request->hasFile('image')) {
             $file = $request->file('image');
             $filename = time() . '_' . uniqid() . '_' . $file->getClientOriginalName();
-            $data['image'] = $file->storeAs('portfolios', $filename, 'public');
+            $destinationPath = public_path('apvr/assets/images/portfolio');
+            
+            // Create directory if it doesn't exist
+            if (!file_exists($destinationPath)) {
+                mkdir($destinationPath, 0755, true);
+            }
+            
+            $file->move($destinationPath, $filename);
+            $data['image'] = 'apvr/assets/images/portfolio/' . $filename;
         }
 
         $data['is_active'] = $request->boolean('is_active');
@@ -101,13 +108,24 @@ class PortfolioController extends Controller
         // Handle image upload if new image is provided
         if ($request->hasFile('image')) {
             // Delete old image if exists
-            if ($portfolio->image && Storage::disk('public')->exists($portfolio->image)) {
-                Storage::disk('public')->delete($portfolio->image);
+            if ($portfolio->image) {
+                $oldImagePath = public_path($portfolio->image);
+                if (file_exists($oldImagePath)) {
+                    unlink($oldImagePath);
+                }
             }
             
             $file = $request->file('image');
             $filename = time() . '_' . uniqid() . '_' . $file->getClientOriginalName();
-            $data['image'] = $file->storeAs('portfolios', $filename, 'public');
+            $destinationPath = public_path('apvr/assets/images/portfolio');
+            
+            // Create directory if it doesn't exist
+            if (!file_exists($destinationPath)) {
+                mkdir($destinationPath, 0755, true);
+            }
+            
+            $file->move($destinationPath, $filename);
+            $data['image'] = 'apvr/assets/images/portfolio/' . $filename;
         } else {
             // Keep existing image if no new image uploaded
             unset($data['image']);
@@ -130,8 +148,11 @@ class PortfolioController extends Controller
         $portfolio = Portfolio::findOrFail($id);
         
         // Delete the associated image if it exists
-        if ($portfolio->image && Storage::disk('public')->exists($portfolio->image)) {
-            Storage::disk('public')->delete($portfolio->image);
+        if ($portfolio->image) {
+            $imagePath = public_path($portfolio->image);
+            if (file_exists($imagePath)) {
+                unlink($imagePath);
+            }
         }
         
         $portfolio->delete();

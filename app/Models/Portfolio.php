@@ -3,7 +3,6 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\Storage;
 
 class Portfolio extends Model
 {
@@ -19,7 +18,7 @@ class Portfolio extends Model
     ];
 
     /**
-     * Get the image URL from storage.
+     * Get the image URL from public directory.
      */
     public function getImageUrlAttribute()
     {
@@ -32,8 +31,7 @@ class Portfolio extends Model
             return $this->image;
         }
 
-        // Otherwise, return the storage URL from public disk
-        $disk = Storage::disk('public');
-        return $disk->exists($this->image) ? asset('storage/' . $this->image) : null;
+        // Return the asset URL for public directory
+        return asset($this->image);
     }
 }
